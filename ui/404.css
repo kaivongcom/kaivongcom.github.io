@@ -1,0 +1,23 @@
+body {
+  background-color: #B81F1F;
+  /*background-color: #3B6ECE;*/
+  /*background-color: #CEC13B;*/
+  color: #fff;
+  font-size: 135%;
+}
+
+h1 {
+  border-bottom: 0.25em solid #fff;
+  border-top: 0.25em solid #fff;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  padding: 0.2em 0;
+  padding-left: 0.5em;
+}
+
+p {
+  padding-left: 2em;
+}
+
+ul {
+  padding-left: 3em;
+}

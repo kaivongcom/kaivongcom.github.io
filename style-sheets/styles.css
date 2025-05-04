@@ -1,0 +1,183 @@
+.emoji { font-variant-emoji: emoji; }
+.online-offline.alert-note {
+  background-color: #666;
+  color: #e3e3e3;
+  text-align: center;
+  font-family: arial;
+  padding: 41px;
+  margin-left: -13px;
+}.online-offline.alert-note a { color: orange; }
+.page-cover { background: rgba(0,0,0,0.25);
+  position: absolute;
+  height: 100%; width: 100%; }
+.html1999.html {
+  border-top: #E8582B 13px solid;
+  cursor: default;
+  font-family: Alegreya, Verdana;
+  max-width: 1012px;
+}
+.edited-social-colours {
+  height: 360px;
+  width: 360px;
+}
+.headline2 {
+  border-left: 10px solid red;
+  color: red;
+  font-family: arial;
+  margin-left: -13px;
+  padding-left: 40px;
+  text-transform: uppercase;
+}
+.headline2 .alt-text-color{ color: blue }
+.content .headline2 {
+  margin-left: -13px;
+  margin-left: -26px;
+  padding-left: 13px;
+}
+
+.html{}
+.screen.page-body {
+  background: #D0E0E1;
+  margin: 0;
+  padding: 0 13px;
+}
+.aside {
+  float: left;
+  margin: 0 13px 0 0;
+/*  overflow: hidden;*/
+}
+.monogram {
+   margin-left: -21px;
+}
+.aside:before {
+  background-image: url('../pictures/social/colours--hashtag-colors-kaivongcom-佳黃振-block.jpg');
+  background-size: 100%;
+  content: ' ';
+  display: block;
+  float: left;
+  height: 360px;
+  width: 360px; }
+.pic-lists {
+  background-color: #333;
+  border: 6px solid #111;
+  display: inline-block;
+  list-style-type: none;
+  padding: 10px 0 10px 20px;
+  width: 340px;
+}
+.pic-lists .item { display: inline-block; }
+.content {
+  background: #fff;
+  float: right;
+  max-width: 360px;
+  overflow: hidden;
+  padding: 26px 26px 0 26px;
+}
+.highlight1,
+.focus-highlightable:hover{
+  background-color: yellow;
+}
+.picture.image {
+  border: 3px solid silver;
+  display: block;
+}
+.caption {
+  background-color: #fff;
+  border-top: 0;
+  border: silver 3px solid;
+  margin: 0;
+  padding: 4px 0 4px 4px;
+  width: 416px;
+}
+.small-text.caption {
+  font-size: 13px;
+  margin-bottom: 24px;
+}
+.view-icons.content {
+  padding: 0;
+}
+.monocode {
+  font-family: monospace;
+  font-size: 11px;
+}
+.bootstrap-icons {
+  margin: 0;
+  padding: 0;
+}
+@charset "utf-8";@font-face {
+  font-family: "bootstrap-icons";
+  src: url("../fonts/bootstrap-1.11.0-icons.woff") format("woff2"),
+  url("../fonts/bootstrap-1.11.0-icons.woff") format("woff");
+}
+.javascript-required,
+#NavigationAtTop,
+#NavigationAtBottom,
+.off-page--HTML-only {
+  left: -9999px;
+  position: absolute;
+}
+.has-javascript .view-list#SMChannelsCompleteContent,
+.has-javascript .view-icons#SMChannelsCompleteContent {
+  padding-top: 0;
+}
+.view-list #linkedContent {
+  margin-left: -5px;
+  margin-top: 0;
+  padding-left: 0;
+}
+#SMChannelsCompleteContent.view-list #select-list-view .buttons-alt-looks,
+#SMChannelsCompleteContent.view-icons #select-icons-view .buttons-alt-looks {
+  background: #7F2F2B;
+  border-radius: 5px;
+  border: #333333 1px solid;
+  color: #fff;
+  cursor: default;
+  position: relative;
+  top: 4px;
+}
+#linkedContent .icon::after {
+  font-size: 21px;
+  margin-bottom: 18px;
+}
+#linkedContent .list-item.bi-instagram .icon:after {
+  content: "\f437";
+}
+#linkedContent .list-item.bi-facebook .icon:after {
+  content: "\f344";
+}
+#linkedContent .list-item.bi-github .icon:after {
+  content: "\f3ed";
+}
+#linkedContent .list-item.bi-linkedin .icon:after {
+  content: "\f472";
+  line-height: 1.5;
+  position: relative;
+}
+#linkedContent .list-item.bi-twitter-x .icon:after {
+  content: "\f8db";
+}
+#linkedContent .list-item .h-text {
+  display: inline-block;
+  overflow: hidden;
+  text-indent: -9999px;
+}
+.list-item .icon:after,
+.list-item:after {
+  display: inline-block;
+  font-family: bootstrap-icons;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1.5;
+  text-transform: none;
+}
+.list-item {
+  display: inline-block;
+}
+.sm-slot-hidden {
+  visibility: hidden;
+}
+.pic-images-instagram {
+  height: 160px;
+  width: 160px;
+}
