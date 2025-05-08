@@ -55,34 +55,3 @@ function toggle_views(){
 
 javascript_enabled_message = document.getElementById('off-page-markedup-lols2');
 javascript_enabled_message.setAttribute('class', 'off-page--HTML-only');
-
-var add = function(a,b){
-    return a + b;
-},
-
-quick_discovery = function(){
-    DISCOVERY = 'testing',
-    fun_with_wordsa_obj = {
-        "s": 'Potentially ',
-        "r_OR_p": "#{DISCOVERY}",
-        "j1": ' Jacques ',
-        "j2": ' Jill ',
-        "n": NaN,
-        "n_eq": 'Not-a-Number',
-        "p": '…',
-        "c": ',',
-        "o": 'OK'
-    },
-    fww = fun_with_wordsa_obj,
-    fww_j1 = fww['j1'],
-    fww_j2 = fww['j2'],
-    message_l0a = fww['s'],
-    message_l0d = fww['r_OR_p'],
-    message_l1 = add.apply(null,[fww_j1,fww_j2]),
-    message_l2 = fww['p'],
-    oh = message_l0a.concat(message_l0d).concat(message_l1).concat(message_l2);
-    //    console.log(oh);
-}
-
-//quick_discovery();
-
