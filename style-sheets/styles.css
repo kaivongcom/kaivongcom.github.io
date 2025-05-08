@@ -106,8 +106,8 @@
 }
 @charset "utf-8";@font-face {
   font-family: "bootstrap-icons";
-  src: url("../fonts/bootstrap-1.11.0-icons.woff") format("woff2"),
-  url("../fonts/bootstrap-1.11.0-icons.woff") format("woff");
+  src: url("../fonts/bootstrap-icons.woff") format("woff2"),
+  url("../fonts/bootstrap-icons.woff") format("woff");
 }
 .javascript-required,
 #NavigationAtTop,
