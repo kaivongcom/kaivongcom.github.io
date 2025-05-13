@@ -22,6 +22,7 @@
 }
 .headline2 {
   border-left: 10px solid red;
+  clear: both;
   color: red;
   font-family: arial;
   margin-left: -13px;
