@@ -1,15 +1,12 @@
 # Short Links
-* [https://kaichanvong.github.io/404](https://kaichanvong.github.io/404) -- 404 page not found (github.io)
+* [https://kaivongcom.github.io/404](https://kaivongcom.github.io/404) -- 404 page not found (github.io)
 * [http://kaivong.com/404](http://kaivong.com/404) -- the 404 page not found (domain)
-* [http://kaivong.com/shortlinks](https://github.com/kaichanvong/kaichanvong.github.io/blob/main/shortlinks.md) --current page --github.com hosting shortlinks.md page
+* [http://kaivong.com/shortlinks](https://github.com/kaivongcom/kaichanvong.github.io/blob/main/shortlinks.md) --current page --github.com hosting shortlinks.md page
 * [http://kaivong.com/dpi](https://www.dressipi.com) --dressipi.com
 * [http://kaivong.com/af](https://www.artfinder.com) --artfinder.com
 * [http://kaivong.com/jg](http://justgiving.com) --JustGiving
 * [http://kaivong.com/4ABV](https://www.instagram.com/kaivongcom) --instagram.com/kaivongCOM
 * [http://kaivong.com/4ABU](https://gravatar.com/kaivongcom) --gravatar.com/kaivongcom
-* [http://kaivong.com/4ABT](https://x.com/kaichanvong/status/1895100979168555348?s=61) -- twitter post for panel 1 meta avatar edited
-* [http://kaivong.com/4ABS](https://x.com/kaichanvong/status/1895117850806825035?s=61) -- twitter post for panel 2 meta avatar edited
-* [http://kaivong.com/4ABR](https://x.com/kaichanvong/status/1895121766961262867?s=61) -- twitter post for panel 3 meta avatar edited
 * [http://kaivong.com/4ABQ](https://www.github.com/kaivongcom) --github.com/kaivongcom
 * [http://kaivong.com/4ABP](https://www.x.com/kaivongcom) --x.com/kaivongcom
 * [http://kaivong.com/4AC2](https://uk.linkedin.com/in/kaichanvong) --uk.linkedin.com/in/kaichanvong
