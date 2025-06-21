@@ -1,5 +1,5 @@
 # Short Links
-short links moving, paused, however notes from June—Maytime. 
+short links paused, however notes from June—Maytime. 
 * [https://kaivongcom.github.io/404](https://kaivongcom.github.io/404) -- 404 page not found (github.io)
 * [http://kaivong.com/404](http://kaivong.com/404) -- the 404 page not found (domain)
 * [http://kaivong.com/shortlinks](https://github.com/kaivongcom/kaichanvong.github.io/blob/main/shortlinks.md) --current page --github.com hosting shortlinks.md page
