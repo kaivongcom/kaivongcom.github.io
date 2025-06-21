@@ -1,4 +1,5 @@
 # Short Links
+short links moving, paused, however notes from June—Maytime. 
 * [https://kaivongcom.github.io/404](https://kaivongcom.github.io/404) -- 404 page not found (github.io)
 * [http://kaivong.com/404](http://kaivong.com/404) -- the 404 page not found (domain)
 * [http://kaivong.com/shortlinks](https://github.com/kaivongcom/kaichanvong.github.io/blob/main/shortlinks.md) --current page --github.com hosting shortlinks.md page
@@ -15,7 +16,7 @@
 * [http://kaivong.com/4ABL](https://www.metacritic.com/tv/izombie/season-2/episode-4-even-cowgirls-get-the-black-and-blues) --izombie "even-cowgirls" link
 * [http://kaivong.com/4AC0](https://vimeo.com/kaichanvong) --vimeo.com/kaichanvong
 * [http://kaivong.com/4ABZ](https://www.instagram.com/crimsonkinda) --instagram.com/crimsonkinda
-* [http://kaivong.com/4ABY](https://x.com/crimsonkinda) --x.com/crimsonkinda
-* [http://kaivong.com/4ABX](https://x.com/kaivongcom) --x.com/kaivongcom
-* [http://kaivong.com/4ABW](https://www.twitch.tv/crimsonkinda) --twitch.tv/crimsonkinda
-* [http://kaivong.com/4AC1](https://youtu.be/xWS0aRqzP6E?si=Up3ayVEF8MdoCZGh) --youtu.be Lady Gaga - Zombieboy (Official Audio), MAYHEM OUT NOW (http://ladygaga.com) 
+* [http://kaivong.com/--](https://x.com/crimsonxkinda) --x.com/crimsonxkinda
+* [http://kaivong.com/--](https://x.com/kaivongcom) --x.com/kaivongcom
+* [http://kaivong.com/--](https://www.twitch.tv/crimsonkinda) --twitch.tv/crimsonkinda
+* [http://kaivong.com/--](https://youtu.be/xWS0aRqzP6E?si=Up3ayVEF8MdoCZGh) --youtu.be Lady Gaga - Zombieboy (Official Audio), MAYHEM OUT NOW (http://ladygaga.com) 
