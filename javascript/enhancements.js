@@ -4,16 +4,19 @@ var socialMediaChannelsToggleLink1 = document.getElementById('select-icons-view1
     linkedContent = document.getElementById('linkedContent'),
     socialMediaChannels = { 1: 'list' , 0: 'icons'},
     huh = "<li class=\"bi horizontal-placeholder\"><em>❓</em></li>",
-    instagram_huh = "<li class=\"list-item sm-slot bi bi-instagram\"><a href=\"http://kaivong.com/4ABV\" id=\"instagramLinkContent\" title=\"instagram of kai\" rel=\"me\"><span class=\"icon\"><strong class=\"h-text\">instagram</strong></span></a></li>",
+    instagram_huh = '<li class=\"list-item sm-slot bi bi-instagram\">',
     kaivong_com_objs = { socialMediaDiv: { views: ['view-icons','view-list'] }  },
-
-select_list_icons_view = '';
-select_list_icons_view += '<option value="select-icons-view">';
-select_list_icons_view += '<a href="#digitalIdentityContent" id="select-icons-view1" data-name="view-icons">icons</a>';
-select_list_icons_view += '</option>';
-select_list_icons_view += '<option value="select-list-view">';
-select_list_icons_view += '<a href="#digitalIdentityContent" id="select-list-view2" data-name="view-list">list</a>';
-select_list_icons_view += '</option>';
+    select_list_icons_view = '';
+    select_list_icons_view += '<option value="select-icons-view">';
+    select_list_icons_view += '<a href="#digitalIdentityContent" id="select-icons-view1" data-name="view-icons">icons</a>';
+    select_list_icons_view += '</option>';
+    select_list_icons_view += '<option value="select-list-view">';
+    select_list_icons_view += '<a href="#digitalIdentityContent" id="select-list-view2" data-name="view-list">list</a>';
+    select_list_icons_view += '</option>';
+    instagram_huh += '<a href=\"http://kaivong.com/4ABV\" id=\"instagramLinkContent\"'; 
+    instagram_huh += 'title=\"instagram of kai\" rel=\"me\">';
+    instagram_huh += '<img src=\"images/SMChannels/kaivongcom-on-instagramcom.png\" '; 
+    instagram_huh += 'alt=\"\" width=\"22\" height=\"22\"></a></li>';
 
 HTMLPageContentNode = document.getElementById('HTMLPageContent');
 previous_page_class_attrs = HTMLPageContentNode.getAttribute('class')
