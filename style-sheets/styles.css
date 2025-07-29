@@ -140,3 +140,5 @@
   height: 160px;
   width: 160px;
 }
+#footer { clear: both; color: gray; padding: 20px; margin: 20px 0 0; }
+
