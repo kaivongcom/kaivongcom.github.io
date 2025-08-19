@@ -21,9 +21,9 @@ h2.headline2 .highlight3 { background-color: #E9BDE2; color: #EA0EC6; }
   width: 360px;
 }
 .headline2 {
-  border-left: 10px solid red;
+  border-left: 10px solid #666666;
   clear: both;
-  color: red;
+  color: #666666;
   font-family: arial;
   margin-left: -26px;
   padding-left: 16px;
@@ -51,7 +51,7 @@ h2.headline2 .highlight3 { background-color: #E9BDE2; color: #EA0EC6; }
   margin: 0; 
   padding-top: 30px; 
   border-top: 2px solid gray;
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid #666;
   overflow: hidden;
   text-align: center;
 }
