@@ -1,3 +1,5 @@
+a:link { color: #E79423; }
+
 h2.headline2 .highlight1 { background-color: #FBEFDE; color: #E79423; }
 h2.headline2 .highlight2 { background-color: #F9E0E5; color: #DD3256; }
 h2.headline2 .highlight3 { background-color: #E9BDE2; color: #EA0EC6; }
@@ -27,7 +29,6 @@ h2.headline2 .highlight3 { background-color: #E9BDE2; color: #EA0EC6; }
   padding-left: 16px;
   text-transform: uppercase;
 }
-.headline2 .alt-text-color{ color: blue }
 .content .headline2 {
   margin-left: -13px;
   margin-left: -26px;
@@ -44,17 +45,19 @@ h2.headline2 .highlight3 { background-color: #E9BDE2; color: #EA0EC6; }
   margin: 0 13px 0 0;
 }
 .monogram { clear: both; }
-#links-onto-gravatar { clear: both; 
+#links-onto-gravatar { 
   float: right;
-  margin: 0 80px 0 0; 
-  padding: 0; 
-  border-top: 20px solid gray;
-  border-bottom: 20px solid red;
+  border-radius: 0 0 0 20px;
+  margin: 0; 
+  padding-top: 30px; 
+  border-top: 2px solid gray;
+  border-bottom: 2px solid red;
   overflow: hidden;
   text-align: center;
-  color: #D5957A;
 }
-#links-onto-gravatar img {border-radius: 50px; margin-top: -40px; }
+#links-onto-gravatar img {border-radius: 25px; margin-top: -40px; 
+  vertical-align: text-bottom; }
+#links-onto-gravatar .link-block:after { content: ' '; display: inline-block; }
 .pic-lists {
   background-color: #333;
   border: 6px solid #111;
@@ -64,11 +67,14 @@ h2.headline2 .highlight3 { background-color: #E9BDE2; color: #EA0EC6; }
   width: 340px;
 }
 .pic-lists .item { display: inline-block; }
+
+.aside,
+#links-onto-gravatar {
+  max-width: 180px;
+}
 .aside {
   background: #d1d1d1;
-  border-radius: 0 0 0 20px;
   float: right;
-  max-width: 360px;
   overflow: hidden;
   padding: 0 26px 20px 26px;
 }
