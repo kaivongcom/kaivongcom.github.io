@@ -43,6 +43,7 @@ h2.headline2 .highlight3 { background-color: #E9BDE2; color: #EA0EC6; }
 .content {
   float: left;
   margin: 0 13px 0 0;
+  max-width: 500px;
 }
 .monogram { clear: both; }
 #links-onto-gravatar { 
