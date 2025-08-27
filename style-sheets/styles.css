@@ -1,3 +1,9 @@
+.headline1 { font-size: smaller; }
+#about-kaivongdev { padding-top: 0; margin-top: 0; margin-bottom: 0; }
+.headline2 { margin-top: 50px; } 
+h1 { margin: 0; }
+.kinda-x-username { color: #bbb; font-size: 42px; margin: 0 0 0 -13px; padding: 0 13px 0 13px; }
+.bio-name { color: #333; display: block; font-weight: normal; font-size: 21px; }
 body { line-height: 1.5 } 
 a:link { color: #E79423; }
 
@@ -21,6 +27,7 @@ h2.headline2 .highlight3 { background-color: #E9BDE2; color: #EA0EC6; }
   height: 360px;
   width: 360px;
 }
+.headline1,
 .headline2 {
   border-left: 10px solid #666666;
   clear: both;
@@ -80,7 +87,7 @@ h2.headline2 .highlight3 { background-color: #E9BDE2; color: #EA0EC6; }
   overflow: hidden;
   padding: 0 26px 20px 26px;
 }
-.highlight1,
+
 .focus-highlightable:hover{
   background-color: yellow;
 }
