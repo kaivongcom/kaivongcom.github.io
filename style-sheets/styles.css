@@ -1,10 +1,11 @@
-.highlight5 { background-color: #eee; color: #bbb; padding-left: 5px; padding-right: 5px; text-align: center; }
+.hey-highlight { color: #3E3ECC;  }
+.highlight5 { background-color: #EEEEEE; color: #BBBBBB; padding-left: 5px; padding-right: 5px; text-align: center; }
 .headline1 { font-size: smaller; }
 #about-kaivongdev { padding-top: 0; margin-top: 0; margin-bottom: 0; }
 .headline2 { margin-top: 50px; } 
 h1 { margin: 0; }
-.kinda-x-username { color: #bbb; font-size: 42px; margin: 0 0 0 -13px; padding: 0 13px 0 13px; }
-.bio-name { color: #333; display: block; font-weight: normal; font-size: 21px; }
+.kinda-x-username { color: #BBBBBB; font-size: 42px; margin: 0 0 0 -13px; padding: 0 13px 0 13px; }
+.bio-name { color: #333333; display: block; font-weight: normal; font-size: 21px; }
 body { line-height: 1.5 } 
 a:link { color: #E79423; }
 
@@ -61,7 +62,7 @@ h2.headline2 .highlight3 { background-color: #E9BDE2; color: #EA0EC6; }
   margin: 0; 
   padding-top: 30px; 
   border-top: 2px solid gray;
-  border-bottom: 2px solid #666;
+  border-bottom: 2px solid #666666;
   overflow: hidden;
   text-align: center;
 }
@@ -69,8 +70,8 @@ h2.headline2 .highlight3 { background-color: #E9BDE2; color: #EA0EC6; }
   vertical-align: text-bottom; }
 #links-onto-gravatar .link-block:after { content: ' '; display: inline-block; }
 .pic-lists {
-  background-color: #333;
-  border: 6px solid #111;
+  background-color: #333333;
+  border: 6px solid #111111;
   display: inline-block;
   list-style-type: none;
   padding: 10px 0 10px 20px;
@@ -83,7 +84,7 @@ h2.headline2 .highlight3 { background-color: #E9BDE2; color: #EA0EC6; }
   max-width: 180px;
 }
 .aside {
-  background: #d1d1d1;
+  background: #D1D1D1;
   float: right;
   overflow: hidden;
   padding: 0 26px 20px 26px;
@@ -97,7 +98,7 @@ h2.headline2 .highlight3 { background-color: #E9BDE2; color: #EA0EC6; }
   display: block;
 }
 .caption {
-  background-color: #fff;
+  background-color: #FFFFFF;
   border-top: 0;
   border: silver 3px solid;
   margin: 0;
@@ -136,7 +137,7 @@ h2.headline2 .highlight3 { background-color: #E9BDE2; color: #EA0EC6; }
   background: #7F2F2B;
   border-radius: 5px;
   border: #333333 1px solid;
-  color: #fff;
+  color: #FFFFFF;
   cursor: default;
   position: relative;
   top: 4px;
@@ -162,4 +163,5 @@ h2.headline2 .highlight3 { background-color: #E9BDE2; color: #EA0EC6; }
   width: 160px;
 }
 #footer { clear: both; color: gray; padding: 20px; margin: 20px 0 0; }
+
 
