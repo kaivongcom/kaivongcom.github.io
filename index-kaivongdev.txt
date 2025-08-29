@@ -1,3 +1,7 @@
+# URL_1: http://kaivong.dev
+# URL_2: http://kaivong.com
+# URL_redirects: http://kaivongcom.github.io
+
 kaivong.dev—kaivong.com(kaivongcom.github.io)
 About
 
