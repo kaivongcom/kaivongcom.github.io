@@ -1,5 +1,8 @@
+.breaks-line { clear: both; }
+.image-iseries { float: right; border: 3px solid #bbb; }
 .i01 { border-bottom: 22px solid #666666; }
 .s02 { display: none; visibility: hidden; }
+.s03 { text-transform: lowercase; }
 .hey-highlight { color: #3E3ECC;  }
 .highlight5 { background-color: #EEEEEE; color: #BBBBBB; padding-left: 5px; padding-right: 5px; text-align: center; }
 .headline1 { font-size: smaller; }
