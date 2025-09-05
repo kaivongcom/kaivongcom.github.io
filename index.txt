@@ -14,13 +14,12 @@ Photography styles looking into
 - (B&W, https://kaivongcom.github.io/pictures/categories/never-white-on-scotch-water-information-sq100-bw.gif)[]
 
 /HYPER: LINKS…
-	1	A within, Google Arts & Culture ↥, artfinder ↥
-	2	Gamespot ↥, Nintendo ↥, The Microsoft Tetris ↥
-	3	W.W.W. ↥, Soccer ↥, style—look @ dressipi ↥
-	4	Big A, Little A (song discovery) ↥
-	5	Windows App Store ↥, macOS App Store ↥, JustGiving ↥
-	6	🥁 — World of Sounds, 🎧 (music—sounds) ↥
-	7	kaivong dot com shortlinks page ↥
+	1	A within, Google Arts & Culture ↥, artfinder ↥ (https://artsandculture.google.com/category/medium?tab=az&pr=A, https://www.artfinder.com, https://www.hey.com)
+	2	Gamespot ↥, Nintendo ↥, The Microsoft Tetris ↥ (https://www.gamespot.com, https://www.nintendo.com/en-gb, https://apps.microsoft.com/detail/9nccdgq9mnmh)
+	3	W.W.W. ↥, Soccer ↥, style—look @ dressipi ↥ (https://www.britannica.com/topic/World-Wide-Web, https://www.bbc.com/sport/football, https://www.dressipi.com)
+	4	Big A, Little A (song discovery) ↥ (https://www.youtube.com/results?search_query=%22big+a+little+a%22+song+%22jeffrey+lewis%22/ https://music.apple.com/gb/album/big-a-little-a/1726660354?i=1726660362)
+	5	Windows App Store ↥, macOS App Store ↥, JustGiving ↥ (https://apps.microsoft.com/apps?hl=en-uk&gl=UK, https://www.apple.com/uk/app-store, https://www.justgiving.com)
+	6	🥁 — World of Sounds, 🎧 (music—sounds) ↥ (https://www.billboard.com/c/music)
 
 FURTHER LINKS
 	1	(github, Image Link)[https://github.com/kaivongcom]
