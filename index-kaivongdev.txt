@@ -2,16 +2,23 @@
 # URL_2: http://kaivong.com
 # URL_redirects: http://kaivongcom.github.io
 
-kaivong.dev—kaivong.com(kaivongcom.github.io)
+kaivong.dev—kaivong.com(redirects: kaivongcom.github.io)
+
 About
+Hey! Right now you are getting a preview of the homepage 
+for kaivongdev, development of a web page kaivongcom
 
-Hey! Right now you are getting a preview of the homepage for kaivongdev, development of a web page kaivongcom
-Photography styles looking into
+What is CRiMiSoN
+kai vong medal iseries tournament I'm happy to see, glad perhaps, you ask. CRiMiSoN is the gamer name 
+(crimson,-kinda) played by Kai "CRiMiSoN" Vong online. Sometimes in different forms, abbreviated, to 
+read more casually. eSports is an area of casual competitive play that CRiMiSoN has played different 
+video-games. Such as Team Fortress Classic (T.F.C.), Counter Strike (CS 1.6 and more), Q3A (Quake 3
+ Arena) and more vid-games. Sometimes Final Fantasy, Tetris99 on the Nintendo gaming.
 
+Picture styles
 * abstract *aerial *festivals *animals *B&W: *black and white
 
 /Hyper: Links…
-
     A within, Google Arts & Culture ↥, artfinder ↥, HEY ↥
     Gamespot ↥, Nintendo ↥, The Microsoft Tetris ↥
     W.W.W. ↥, Soccer ↥, style—look @ dressipi ↥
@@ -23,11 +30,7 @@ Further Links
 		*github
 		*twitter now x.com
 		*linkedin
-
-    *ruby.social
-    *Mastodon.social
-    *indieweb.social
-
 “what is Linkedin?”
 
-a London based webpage, here's a picture of a snowman constructed: snowman picture GIF (graphic interchange format; a lossless format for images)
+a London based webpage, here's a picture of a snowman constructed: snowman picture GIF 
+(graphic interchange format; a lossless format for images)
