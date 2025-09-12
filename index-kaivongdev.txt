@@ -11,6 +11,12 @@ for kaivongdev, development of a web page kaivongcom
 Picture **Cat**egories
 * abstract *aerial *festivals *animals *B&W: *black and white
 
+AI Seen online–chatbot AI:
+    Apple Siri ↥, grok ↥, Microsoft Copilot ↥
+    Google Gemini ↥
+    Alexa (developer edition) ↥
+    Claude ↥ Qwen AI ↥, chat GPT-5 ↥
+
 /Hyper: Links…
 pages different from kaivong domain here, below:
     A within, Google Arts & Culture ↥, artfinder ↥, HEY ↥
