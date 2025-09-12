@@ -4,11 +4,11 @@ ABOUT
 Hey! Right now you are getting a preview of the homepage for kaivongdev, development of a web page kaivongcom
 
 Picture Categories
-- (Abstract, https://kaivongcom.github.io/pictures/categories/abstract-14358686874_da68a123d4_o-100square.gif)[]
-- (Aerial, https://kaivongcom.github.io/pictures/categories/aerial-and-more-sun_2698776807_o-100square.gif)[]
-- (Festivals, https://kaivongcom.github.io/pictures/categories/festival_2703521579_o.gif)[]
-- (Animals-picture, https://kaivongcom.github.io/pictures/categories/animals-11017652_401099086718726_1524685622_n_17841776914037719.gif)[]
-- (B&W, https://kaivongcom.github.io/pictures/categories/never-white-on-scotch-water-information-sq100-bw.gif)[]
+- (Abstract, https://kaivongcom.github.io/pictures/categories/abstract-14358686874_da68a123d4_o-100square.gif)
+- (Aerial, https://kaivongcom.github.io/pictures/categories/aerial-and-more-sun_2698776807_o-100square.gif)
+- (Festivals, https://kaivongcom.github.io/pictures/categories/festival_2703521579_o.gif)
+- (Animals-picture, https://kaivongcom.github.io/pictures/categories/animals-11017652_401099086718726_1524685622_n_17841776914037719.gif)
+- (B&W, https://kaivongcom.github.io/pictures/categories/never-white-on-scotch-water-information-sq100-bw.gif)
 
 AI Seen online–chatbot AI:
     1	Apple Siri ↥, grok ↥, Microsoft Copilot ↥
