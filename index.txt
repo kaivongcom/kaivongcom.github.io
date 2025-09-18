@@ -1,9 +1,12 @@
 kaivong.dev—kaivong.com(redirects: kaivongcom.github.io) 
 
 ABOUT
-Kai Vong is a London-based designer specialising in UI/visual design, product design, and web design. You can find his work and professional presence on various websites and social media platforms.
+Kai Vong, the London-based designer specialising in User-Interface/web-design/visual designs,
+product design. Page, professional presence available various websites
+(dribble.com for a selection of looks) ↥. (https://dribbble.com/kaichanvong) 
 
-Right now you are getting a preview of the homepage for kaivongdev, development of a web page kaivongcom
+Right now you are getting a preview of the homepage for kaivongdev,
+development of a web page kaivongcom. It's this, "izzy wizzy lets get busy!" ↥ (https://youtu.be/OnBy7R-kcos?feature=shared)
 
 Picture Categories
 - (Abstract, https://kaivongcom.github.io/pictures/categories/abstract-14358686874_da68a123d4_o-100square.gif)
