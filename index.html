@@ -14,7 +14,7 @@
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css?family=Alegreya:ital,wght@0,400..600;1,400..600" rel="stylesheet" type="text/css">            
 	 </head>
-	 <body id="body-level-layer1" class="screen page-body " onload="scriptEnhancements()">
+	 <body id="body-level-layer1" class="screen page-body " onload="onLoadDocumentWindowPage()">
           <div class="content">
             <h1 class="headline1"><span class="highlight1">kai</span><span class="highlight2">vong</span><span class="highlight3" title="`.dev`/`.com`">.dev</span>&mdash;<span class="highlight1">kai</span><span class="highlight2">vong</span><span class="highlight3" title="`.dev`/`.com`">.com</span><span class="highlight5">(<span class="s02">redirects: </span>kaivongcom.github.io)</span>
             </h1>
@@ -87,10 +87,15 @@
             </ol></div>
 
           <div class="aside">
-                <p id="look-linker-list"><b style="text-transform: uppercase; ">Styles:</b><br />
+                <p id="look-linker-list-info"><b style="text-transform: uppercase; ">Styles:</b><br />
+                <div id="off-javascript-enable-message">
+                  <p>Contemplate enabling <i>browser's</i> <b>javascript</b></p>
+                </div>
+                <div id="look-linker-list"  class="hide-content">
                 - <span onClick="load00Looks();" class="look-linkers-enhanced-dynamic-styles">defaults</span><br />
                 - <span onClick="load01Looks();" class="look-linkers-enhanced-dynamic-styles">green/dimed</span><br />
                 - <span onClick="load02Looks();" class="look-linkers-enhanced-dynamic-styles">yellow/dimmed</span>
+                </div>
                 </p>
                 <h2 class="headline2">Further Links</h2>
                 <div class="view-icons content" data-view="view-icons" id="SMChannelsCompleteContent">

@@ -2,19 +2,25 @@ window.onload="loadDefaultLooks()";
 
 var body_element = ' ',
     looksGreenAckClassName = 'green-black-01-look',
-    looksYellowAckClassName = 'yellow-black-02-look';
-
-console.log('ok');
+    looksYellowAckClassName = 'yellow-black-02-look',
+    looksListName ='look-linker-list',
+    javascript_info = 'off-javascript-enable-message';
 
 function getFirstBodyElement(){
   return document.getElementsByTagName('body')[0];
 } 
 
-function scriptEnhancements(){
+function onLoadDocumentWindowPage(){
   body_element = getFirstBodyElement();
   loadDefaultLooks(body_element);
   body_element.classList.remove(looksGreenAckClassName);
   body_element.classList.remove(looksYellowAckClassName);
+  hideJavascriptProgressiveEnhancementMessage();
+}
+
+function hideJavascriptProgressiveEnhancementMessage(){
+  document.getElementById(javascript_info).classList.add('hide-content');
+  document.getElementById(looksListName).classList.remove('hide-content'); 
 }
 
 function loadDefaultLooks(bodyHTML){

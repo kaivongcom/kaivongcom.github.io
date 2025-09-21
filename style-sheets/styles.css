@@ -200,8 +200,8 @@ h2.headline2 .highlight3 { background-color: #E9BDE2; color: #EA0EC6; }
 .list-item {
   display: inline-block;
 }
-.sm-slot-hidden {
-  visibility: hidden;
+.sm-slot-hidden, .hide-content {
+  visibility: hidden; display: none;
 }
 .pic-images-instagram {
   height: 160px;
