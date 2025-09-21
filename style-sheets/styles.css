@@ -1,4 +1,3 @@
-.html1999.html body {font-family: PingFang SC Regular;}
 :root {
   color-scheme: light dark;
   --page-headline-color: #666;
@@ -70,7 +69,7 @@ h2.headline2 .highlight3 { background-color: #E9BDE2; color: #EA0EC6; }
 .html1999.html {
   border-top: #E8582B 13px solid;
   cursor: default;
-  font-family: Alegreya, Verdana;
+  font-family: PingFang SC Regular, Alegreya, Verdana;
   max-width: 1012px;
 }
 .edited-social-colours {
