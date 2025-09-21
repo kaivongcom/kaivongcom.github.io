@@ -1,3 +1,35 @@
+:root {
+  color-scheme: light dark;
+  --page-headline-color: #666;
+  --page-txt-color: #333;
+  --page-aside-txt-color: #666;
+  --page-highlights: #F7C265;
+}
+
+@media (prefers-color-scheme: dark){
+  :root {
+    color-scheme: light dark;
+    --page-headline-color: #666;
+    --page-txt-color: #F7C265;
+    --page-aside-txt-color: #666;
+    --page-highlights: #fff;
+  }
+}
+
+.green-black-01-look { background-color: #3B2027; background-color: rgb(59,32, 32); color: #1ADC00; }
+.green-black-01-look #q-linkedin,
+.yellow-black-02-look #q-linkedin { color: #3B2027; }
+ #look-linker-list,
+.green-black-01-look b, .green-black-01-look #look-linker-list,
+.yellow-black-02-look b,.yellow-black-02-look #look-linker-list { color: #333; color: var(--page-aside-txt-color); }
+/* #1F5438 */ /* #297847 */  /* leans into rich-text color-group apple pixelmator colours */ 
+.green-black-01-look .aside { border: 2px solid #333; border-top: 3px solid #333; }
+.aside .look-linkers-enhanced-dynamic-styles,
+.defaults-00-look .aside .look-linkers-enhanced-dynamic-styles,
+.green-black-01-look .aside .look-linkers-enhanced-dynamic-styles,
+.yellow-black-02-look .aside .look-linkers-enhanced-dynamic-styles { cursor: pointer; }
+.yellow-black-02-look { background-color: #3B2027; background-color: rgb(59,32, 32); color: #F7C265; }
+.aside .look-linkers-enhanced-dynamic-styles:hover { text-decoration: underline; }
 .cat-cc { position: absolute; }
 #cat-wrapper-list { padding: 0; margin: 0; }
 .cat-wrapper { position: relative; display: inline-block; margin-left: 2px; }
@@ -18,7 +50,7 @@
 h1 { margin: 0; }
 .kinda-x-username { color: #BBBBBB; font-size: 42px; margin: 0 0 0 -13px; padding: 0 13px 0 13px; }
 .bio-name { color: #333333; display: block; font-weight: normal; font-size: 21px; }
-body { line-height: 1.5 } 
+body { line-height: 1.5; color: var(--page-txt-color)} 
 a:link { color: #E79423; }
 
 h2.headline2 .highlight1 { background-color: #FBEFDE; color: #E79423; }
@@ -100,6 +132,7 @@ h2.headline2 .highlight3 { background-color: #E9BDE2; color: #EA0EC6; }
   float: right;
   overflow: hidden;
   padding: 0 26px 20px 26px;
+  border: 2px solid #fff; border-top: 3px solid #333;
 }
 
 .focus-highlightable:hover{
