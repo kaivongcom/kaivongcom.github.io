@@ -1,3 +1,4 @@
+.html1999.html body {font-family: PingFang SC Regular;}
 :root {
   color-scheme: light dark;
   --page-headline-color: #666;
@@ -15,7 +16,10 @@
     --page-highlights: #fff;
   }
 }
-
+#look-linker-list-info #bold-headline { text-transform: uppercase; }
+#off-javascript-enable-message { color: var(--page-aside-txt-color);  }
+#look-linker-list-info #bold-headline, #what-is-linkedin { color: var(--page-aside-txt-color); font-weight: bold;}
+#what-is-linkedin { font-size: 80%; }
 .green-black-01-look { background-color: #3B2027; background-color: rgb(59,32, 32); color: #1ADC00; }
 .green-black-01-look #q-linkedin,
 .yellow-black-02-look #q-linkedin { color: #3B2027; }
