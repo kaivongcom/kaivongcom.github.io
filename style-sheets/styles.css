@@ -1,3 +1,8 @@
+.defaults-00-look #look-00,
+.green-black-01-look #look-01,
+.yellow-black-02-look #look-02 { font-weight: 700; }
+
+#cat-wrapper-list { min-width: 510px; }
 :root {
   color-scheme: light dark;
   --page-headline-color: #666;

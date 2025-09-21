@@ -1,10 +1,12 @@
 window.onload="loadDefaultLooks()";
 
 var body_element = ' ',
+    styled_looks = ['defaults-00-look', 'green-black-01-look', 'yellow-black-02-look'],
     looksGreenAckClassName = 'green-black-01-look',
     looksYellowAckClassName = 'yellow-black-02-look',
     looksListName ='look-linker-list',
-    javascript_info = 'off-javascript-enable-message';
+    javascript_info = 'off-javascript-enable-message',
+    bodyHTML_classList = '';
 
 function getFirstBodyElement(){
   return document.getElementsByTagName('body')[0];
@@ -12,9 +14,10 @@ function getFirstBodyElement(){
 
 function onLoadDocumentWindowPage(){
   body_element = getFirstBodyElement();
+  bodyHTML_classList = body_element.classList;
   loadDefaultLooks(body_element);
-  body_element.classList.remove(looksGreenAckClassName);
-  body_element.classList.remove(looksYellowAckClassName);
+  body_element.classList.remove(styled_looks[1]);
+  body_element.classList.remove(styled_looks[2]);
   hideJavascriptProgressiveEnhancementMessage();
 }
 
@@ -24,8 +27,9 @@ function hideJavascriptProgressiveEnhancementMessage(){
 }
 
 function loadDefaultLooks(bodyHTML){
-  bodyHTML.classList.remove(looksGreenAckClassName);
-  bodyHTML.classList.remove(looksYellowAckClassName);
+  bodyHTML_classList.add(styled_looks[0]);
+  bodyHTML_classList.remove(styled_looks[1]);
+  bodyHTML_classList.remove(styled_looks[2]);
 }
 
 function load00Looks(){
@@ -33,12 +37,13 @@ function load00Looks(){
 }
 
 function load01Looks(){
-  body_element.classList.remove(looksYellowAckClassName);
-  body_element.classList.add(looksGreenAckClassName);
+  bodyHTML_classList.remove(styled_looks[0]);
+  bodyHTML_classList.remove(styled_looks[2]);
+  bodyHTML_classList.add(styled_looks[1]);
 }
 
 function load02Looks(){
-  body_element.classList.remove(looksGreenAckClassName);
-  body_element.classList.add(looksYellowAckClassName);
+  bodyHTML_classList.remove(styled_looks[0]);
+  bodyHTML_classList.remove(styled_looks[1]);
+  bodyHTML_classList.add(styled_looks[2]);
 }
-
