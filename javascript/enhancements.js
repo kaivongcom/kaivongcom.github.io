@@ -1,7 +1,7 @@
 window.onload="loadDefaultLooks()";
 
 var body_element = ' ',
-    styled_looks = ['defaults-00-look', 'green-black-01-look', 'yellow-black-02-look'],
+    styled_looks = ['defaults-00-look', 'green-black-01-look', 'yellow-black-02-look', 'snowy-bluep-03-look'],
     looksGreenAckClassName = 'green-black-01-look',
     looksYellowAckClassName = 'yellow-black-02-look',
     looksListName ='look-linker-list',
@@ -18,6 +18,7 @@ function onLoadDocumentWindowPage(){
   loadDefaultLooks(body_element);
   body_element.classList.remove(styled_looks[1]);
   body_element.classList.remove(styled_looks[2]);
+  bodyHTML_classList.remove(styled_looks[3]);
   hideJavascriptProgressiveEnhancementMessage();
 }
 
@@ -30,6 +31,7 @@ function loadDefaultLooks(bodyHTML){
   bodyHTML_classList.add(styled_looks[0]);
   bodyHTML_classList.remove(styled_looks[1]);
   bodyHTML_classList.remove(styled_looks[2]);
+  bodyHTML_classList.remove(styled_looks[3]);
 }
 
 function load00Looks(){
@@ -39,6 +41,7 @@ function load00Looks(){
 function load01Looks(){
   bodyHTML_classList.remove(styled_looks[0]);
   bodyHTML_classList.remove(styled_looks[2]);
+  bodyHTML_classList.remove(styled_looks[3]);
   bodyHTML_classList.add(styled_looks[1]);
 }
 
@@ -46,4 +49,11 @@ function load02Looks(){
   bodyHTML_classList.remove(styled_looks[0]);
   bodyHTML_classList.remove(styled_looks[1]);
   bodyHTML_classList.add(styled_looks[2]);
+  bodyHTML_classList.remove(styled_looks[3]);
+}
+function load03Looks(){
+  bodyHTML_classList.remove(styled_looks[0]);
+  bodyHTML_classList.remove(styled_looks[1]);
+  bodyHTML_classList.remove(styled_looks[2]);
+  bodyHTML_classList.add(styled_looks[3]);
 }
