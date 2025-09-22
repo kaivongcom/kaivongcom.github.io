@@ -1,4 +1,7 @@
+.img-03 { display: none; }
 .snowy-bluep-03-look { background-color: #011993; color: #eee } .snowy-bluep-03-look .hey-highlight { color: orange; }
+.snowy-bluep-03-look .img-03 { display: inline-block; }
+.snowy-bluep-03-look .img-02 { display: none; }
 .defaults-00-look #look-00,
 .green-black-01-look #look-01,
 .yellow-black-02-look #look-02,.snowy-bluep-03-look #look-03 { background-color: #bbb; }
