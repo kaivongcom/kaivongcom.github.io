@@ -1,5 +1,7 @@
 .img-03 { display: none; }
-.snowy-bluep-03-look { background-color: #011993; color: #eee } .snowy-bluep-03-look .hey-highlight { color: orange; }
+.snowy-bluep-03-look #SMChannelsCompleteContent #linkedContent.bootstrap-icons,
+.snowy-bluep-03-look { background-color: #011993; color: #eee; float: none;  } 
+.snowy-bluep-03-look .hey-highlight { color: orange; }
 .snowy-bluep-03-look .img-03 { display: inline-block; }
 .snowy-bluep-03-look .img-02 { display: none; }
 .defaults-00-look #look-00,
@@ -195,9 +197,9 @@ h2.headline2 .highlight3 { background-color: #E9BDE2; color: #EA0EC6; }
   position: relative;
   top: 4px;
 }
-#SMChannelsCompleteContent { text-align: left; float: left; padding: 0; }
+#SMChannelsCompleteContent { text-align: left; padding: 0; }
 #SMChannelsCompleteContent #linkedContent,
-#q-linkedin { padding: 0 0 0 26px; }
+#q-linkedin { padding: 8px 26px 4px 26px; }
 #q-linkedin { vertical-align: bottom; }
 #previous-social-links { padding: 0 0 0 20px; clear: left; }
 #dev-email-hello-eh { width:20px; height:16px; top: 5px; position: relative; }
