@@ -1,7 +1,9 @@
 var body_element = ' ',
-    styled_looks = ['defaults-00-look', 'green-black-01-look', 'yellow-black-02-look', 'snowy-bluep-03-look'],
+    initial_look = 'defaults-00-look'
     looksGreenAckClassName = 'green-black-01-look',
     looksYellowAckClassName = 'yellow-black-02-look',
+    snow_on_blprnt = 'snowy-bluep-03-look'
+    styled_looks = [initial_look, looksGreenAckClassName, looksYellowAckClassName, snow_on_blprnt],
     looksListName ='look-linker-list',
     javascript_info = 'off-javascript-enable-message',
     bodyHTML_classList = '';
