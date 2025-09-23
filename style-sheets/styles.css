@@ -1,3 +1,6 @@
+.slime-04-look { background-color: #33CC33; }
+.redd-05-look { background-color: #DD736F }
+.clay-06-look { background-color: #85A0A0 }
 .img-03 { display: none; }
 .snowy-bluep-03-look #SMChannelsCompleteContent #linkedContent.bootstrap-icons,
 .snowy-bluep-03-look { background-color: #011993; color: #eee; float: none;  } 
@@ -7,9 +10,9 @@
 .defaults-00-look #look-00,
 .green-black-01-look #look-01,
 .yellow-black-02-look #look-02,.snowy-bluep-03-look #look-03 { background-color: #bbb; }
-#look-00, #look-01, #look-02,#look-03 {display: block; }
+#look-04,#look-05,#look-06,
 #look-00, #look-01, #look-02,#look-03,
-.aside #bold-headline { padding-left: 26px;  }
+.aside #bold-headline { padding-left: 26px; display: block; }
 .aside .headline2 { padding-left: 16px; margin-right: 18px; margin-left: 0;
                     border-left: 10px solid #666666; }
 
