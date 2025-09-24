@@ -30,6 +30,15 @@ pages different from kaivong domain here, below:
 	5	Windows App Store ↥, macOS App Store ↥, JustGiving ↥ (https://apps.microsoft.com/apps?hl=en-uk&gl=UK, https://www.apple.com/uk/app-store, https://www.justgiving.com)
 	6	🥁 — World of Sounds, 🎧 (music—sounds) ↥ (https://www.billboard.com/c/music)
 
+STYLES:
+- snowy blueprinted
+- defaults
+- dimmer green
+- yellow dimmer
+- slimer
+- redd focus
+- clay matte
+
 FURTHER LINKS
 	1	(github, Image Link)[https://github.com/kaivongcom]
 	2	(x-grok/twitter, Image Link) [https://x.com/kaivongdev]
