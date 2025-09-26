@@ -1,7 +1,10 @@
+.grapevine-08-look { background-color: #9A1861; color: #eee; }
+.grapevine-08-look .content .headline1,
+.grapevine-08-look .content .headline2 { color: #F7BA00; }
 #look-linker-form { padding: 0 0 0 10px; }
 .slime-05-look { background-color: #33CC33; }
-.redd-06-look { background-color: #DD736F }
-.clay-07-look { background-color: #85A0A0 }
+.redd-06-look { background-color: #ED2D3D; }
+.clay-07-look { background-color: #85A0A0; }
 .img-03 { display: none; }
 .snowy-bluep-01-look #SMChannelsCompleteContent #linkedContent.bootstrap-icons,
 .snowy-bluep-01-look { background-color: #011993; color: #eee; float: none;  } 
