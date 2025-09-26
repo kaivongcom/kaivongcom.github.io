@@ -10,12 +10,7 @@ function getFirstBodyElement(){
   return document.getElementsByTagName('body')[0];
 } 
 
-function onLoadDocumentWindowPage(){
-  body_element = getFirstBodyElement();
-  bodyHTML_classList = body_element.classList;
-  loadThisLooks(1);
-  hideJavascriptProgressiveEnhancementMessage();
-  
+function uriStyledLooks(){
   try {
     url_arr = window.document.URL.split('?')
     params = url_arr[1]
@@ -25,6 +20,14 @@ function onLoadDocumentWindowPage(){
       loadThisLooks(style_index);
     }
   } catch (error) { }
+}
+
+function onLoadDocumentWindowPage(){
+  body_element = getFirstBodyElement();
+  bodyHTML_classList = body_element.classList;
+  loadThisLooks(1);
+  hideJavascriptProgressiveEnhancementMessage();
+  uriStyledLooks();
 }
 
 function hideJavascriptProgressiveEnhancementMessage(){
