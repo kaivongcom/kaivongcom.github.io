@@ -13,7 +13,7 @@ function getFirstBodyElement(){
 function onLoadDocumentWindowPage(){
   body_element = getFirstBodyElement();
   bodyHTML_classList = body_element.classList;
-  loadThisLooks(0);
+  loadThisLooks(1);
   hideJavascriptProgressiveEnhancementMessage();
 }
 
@@ -22,15 +22,20 @@ function hideJavascriptProgressiveEnhancementMessage(){
   document.getElementById(looksListName).classList.remove('hide-content'); 
 }
 
+function loadListLooks(){
+  specific_look_integer = document.getElementById("look-linker-list").selectedIndex;
+  loadThisLooks(specific_look_integer);
+}
+
 function loadThisLooks(specific_look_integer){
-  
-  
+  console.log(specific_look_integer)
+//  console.log(1)
+//  console.log(1)
+
+
   for(look_integer=0; look_integer <= 6; look_integer+=1 ){
     bodyHTML_classList.remove(styled_looks[look_integer]);  
   }
-  specific_look_integer = document.getElementById("look-linker-list").selectedIndex;
-  console.log('oh..' + specific_look_integer);
   bodyHTML_classList.add(styled_looks[specific_look_integer]);
+
 }
-
-
