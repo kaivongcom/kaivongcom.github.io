@@ -24,9 +24,7 @@ function onLoadDocumentWindowPage(){
       style_index = params_arr[1];
       loadThisLooks(style_index);
     }
-  } catch (error) {
-//    console.error('possible url err');
-  }
+  } catch (error) { }
 }
 
 function hideJavascriptProgressiveEnhancementMessage(){
