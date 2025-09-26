@@ -1,4 +1,4 @@
-var body_element = ' ',
+var body_element = ' ', style_index=false, params_arr=[], url_arr=[],
     initial_look = 'defaults-02-look', looks1 = 'green-black-03-look',
     looks2 = 'yellow-black-04-look', looks6 = 'clay-07-look',
     looks5 = 'redd-06-look', looks4 = 'slime-05-look', snow_on_blprnt = 'snowy-bluep-01-look',
@@ -15,6 +15,18 @@ function onLoadDocumentWindowPage(){
   bodyHTML_classList = body_element.classList;
   loadThisLooks(1);
   hideJavascriptProgressiveEnhancementMessage();
+  
+  try {
+    url_arr = window.document.URL.split('?')
+    params = url_arr[1]
+    params_arr = params.split('=')
+    if(params_arr[0] == 'loadThisLooks' ){
+      style_index = params_arr[1];
+      loadThisLooks(style_index);
+    }
+  } catch (error) {
+//    console.error('possible url err');
+  }
 }
 
 function hideJavascriptProgressiveEnhancementMessage(){
@@ -29,13 +41,9 @@ function loadListLooks(){
 
 function loadThisLooks(specific_look_integer){
   console.log(specific_look_integer)
-//  console.log(1)
-//  console.log(1)
-
-
   for(look_integer=0; look_integer <= 6; look_integer+=1 ){
     bodyHTML_classList.remove(styled_looks[look_integer]);  
   }
   bodyHTML_classList.add(styled_looks[specific_look_integer]);
-
 }
+
