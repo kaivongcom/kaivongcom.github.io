@@ -8,7 +8,7 @@ var body_element = ' ', style_index=false, params_arr=[], url_arr=[],
 
 function getFirstBodyElement(){
   return document.getElementsByTagName('body')[0];
-} 
+}
 
 function uriStyledLooks(){
   try {
@@ -18,6 +18,7 @@ function uriStyledLooks(){
     if(params_arr[0] == 'loadThisLooks' ){
       style_index = params_arr[1];
       loadThisLooks(style_index);
+      document.getElementById(looksListName).selectedIndex = style_index;
     }
   } catch (error) { }
 }
@@ -43,7 +44,7 @@ function loadListLooks(){
 function loadThisLooks(specific_look_integer){
   console.log(specific_look_integer)
   for(look_integer=0; look_integer <= 6; look_integer+=1 ){
-    bodyHTML_classList.remove(styled_looks[look_integer]);  
+    bodyHTML_classList.remove(styled_looks[look_integer]);
   }
   bodyHTML_classList.add(styled_looks[specific_look_integer]);
 }
