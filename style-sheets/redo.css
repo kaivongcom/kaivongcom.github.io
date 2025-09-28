@@ -180,3 +180,4 @@ h2.headline2 .highlight3 { background-color: #E9BDE2; color: #EA0EC6; }
   display: inline-block;
 }
 #footer { clear: both; color: gray; padding: 20px; margin: 20px 0 0; }
+.hide-content { visibility: hidden; display: none;}
