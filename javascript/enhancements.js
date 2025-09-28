@@ -2,8 +2,8 @@ var body_element = ' ', style_index=false, params_arr=[], url_arr=[],
     initial_look = 'defaults-02-look', looks1 = 'green-black-03-look',
     looks2 = 'yellow-black-04-look', looks6 = 'clay-07-look',
     looks5 = 'redd-06-look', looks4 = 'slime-05-look', snow_on_blprnt = 'snowy-bluep-01-look',
-    looks7 = 'grapevine-08-look', 
-    styled_looks_arr = [snow_on_blprnt, initial_look, looks1, looks2, looks4, looks5, looks6, looks7],
+    looks7 = 'grapevine-08-look', l_9= 'leckiday-tesla-09-look', l10 = 'purpl-10-look',
+    styled_looks_arr = [snow_on_blprnt, initial_look, looks1, looks2, looks4, looks5, looks6, looks7, l_9,l10],
     looksListName ='look-linker-list',
     javascript_info = 'off-javascript-enable-message', bodyHTML_classList = '';
 
@@ -44,7 +44,7 @@ function loadListLooks(){
 
 function loadThisLooks(specific_look_integer){
   console.log(specific_look_integer)
-  for(look_integer=0; look_integer <= 7; look_integer+=1 ){
+  for(look_integer=0; look_integer <= 8; look_integer+=1 ){
     bodyHTML_classList.remove(styled_looks_arr[look_integer]);
   }
   bodyHTML_classList.add(styled_looks_arr[specific_look_integer]);
