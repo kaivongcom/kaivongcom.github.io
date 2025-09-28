@@ -130,7 +130,6 @@ h2.headline2 .highlight3 { background-color: #E9BDE2; color: #EA0EC6; }
   background: #D1D1D1;
   float: right;
   overflow: hidden;
-  padding: 0 0 20px;
   border: 2px solid #fff; border-top: 3px solid #333;
 }
 .focus-highlightable:hover{
