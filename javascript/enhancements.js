@@ -44,7 +44,7 @@ function loadListLooks(){
 
 function loadThisLooks(specific_look_integer){
   console.log(specific_look_integer)
-  for(look_integer=0; look_integer <= 8; look_integer+=1 ){
+  for(look_integer=0; look_integer <= 9; look_integer+=1 ){
     bodyHTML_classList.remove(styled_looks_arr[look_integer]);
   }
   bodyHTML_classList.add(styled_looks_arr[specific_look_integer]);
