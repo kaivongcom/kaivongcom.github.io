@@ -63,16 +63,13 @@ function loadThisLooks(specific_look_integer){
 }
 
 function updateLinkColoursParams(specific_look_integer=false){
-  console.log(links_domain_count);
   for(links_counter=0; links_counter <= links_domain_count; links_counter+=1){
     current_link_edit = links_domain[links_counter];
     current_link_node = document.getElementById('link-'+current_link_edit);
-    console.log(current_link_node);
     if (!specific_look_integer){
       specific_look_integer = uriStyledLooks();
     }
     if(current_link_node){
-      console.log(specific_look_integer);
       new_page_link = current_link_node.href.split('?')[0];
       new_link_edit = new_page_link + '?' + params_names[0] + '=' + specific_look_integer;
       current_link_node.href = new_link_edit; 
