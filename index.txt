@@ -39,6 +39,11 @@ STYLES:
 - redd focus
 - clay matte
 
+(Links) 
+* news(/news)
+* x-here(/x) 
+* twitter-here(/twitter)
+
 FURTHER LINKS
 	1	(github, Image Link)[https://github.com/kaivongcom]
 	2	(x-grok/twitter, Image Link) [https://x.com/kaivongdev]

@@ -33,6 +33,11 @@ pages different from kaivong domain here, below:
 Styles:
 - snowy blueprinted - defaults - dimmer grěěn - yellǒw dimměr - sliměr - rědd focus - clay mattë
 
+(Links) 
+* news
+* x-here
+* twitter-here
+
 Further Links
 		*github
 		*twitter now x.com
