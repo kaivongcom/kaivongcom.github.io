@@ -1,11 +1,9 @@
-
+.blue4-14-look { background-color: #033993; color: #fff; }
 .blue3-13-look { background-color: #35456F; color: #fff; }
 .blue2-12-look { background-color: #1155CC; color: #fff; }
 .blue2-12-look .content .headline1,
 .blue2-12-look .content .headline2 { color: #333; } 
 .blue1-11-look { background-color: #9FC5E8; color: #35456F; }
-
-
 .links-navigator { background-color: #fff; margin-top: 100px; padding: 10px; text-align: center; }
 .news-code-contact-space,
 #news-code-contact-space { background-color: #eee; color: #333;  padding: 4px;}
