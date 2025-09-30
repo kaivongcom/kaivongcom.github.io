@@ -1,11 +1,13 @@
-var body_element = ' ', 
+var specific_look_integer = false,
+    body_element = ' ',
+    update_link = '', 
     style_index = false, 
     params_arr = [false, false], 
     url_arr = [], 
     links_counter = false,
     current_link_edit = false, 
     new_page_link = false,
-    new_link_edit = false, 
+    new_link = false, 
     looks01 = 'snowy-bluep-01-look',
     looks02 = 'defaults-02-look',
     looks03 = 'green-black-03-look',     
@@ -86,9 +88,13 @@ function updateLinkColoursParams(specific_look_integer=false){
       specific_look_integer = uriStyledLooks();
     }
     if(current_link_node){
-      new_page_link = current_link_node.href.split('?')[0];
-      new_link_edit = new_page_link + '?' + params_names[0] + '=' + specific_look_integer;
-      current_link_node.href = new_link_edit; 
+        new_page_link = current_link_node.href.split('?')[0];
+        update_link = '';
+        if(Boolean(specific_look_integer) == false){  } else {
+          update_link = ('?' + params_names[0] + '=' + specific_look_integer);
+        }
+        new_link = new_page_link + update_link; 
+        current_link_node.href = new_link;
     }
     links_counter+=1;
   }  
