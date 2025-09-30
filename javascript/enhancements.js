@@ -18,7 +18,10 @@ var specific_look_integer = false,
     looks08 = 'grapevine-08-look', 
     looks09 = 'leckiday-tesla-09-look', 
     looks10 = 'purpl-10-look',
-    styled_looks_arr = [looks01,looks02,looks03,looks04,looks05,looks06,looks07,looks08,looks09,looks10],
+    looks11 = 'blue1-11-look',
+    looks12 = 'blue2-12-look',
+    looks13 = 'blue3-13-look',
+    styled_looks_arr = [looks01,looks02,looks03,looks04,looks05,looks06,looks07,looks08,looks09,looks10,looks11,looks12,looks13],
     looksListName ='look-linker-list', 
     javascript_info = 'off-javascript-enable-message', 
     bodyHTML_classList = '',      
@@ -72,7 +75,7 @@ function loadListLooks(){
 }
 
 function loadThisLooks(specific_look_integer){
-  for(look_integer=0; look_integer <= 10;look_integer){
+  for(look_integer=0; look_integer <= 13;look_integer){
     bodyHTML_classList.remove(styled_looks_arr[look_integer]);
     look_integer += 1;
   }
