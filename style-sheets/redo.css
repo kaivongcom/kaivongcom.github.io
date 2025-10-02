@@ -1,5 +1,12 @@
+#HTMLPageContent .screen{
+  border-top: #E8582B 13px solid;
+  cursor: default;
+  font-family: arial;
+  max-width: 1012px;
+}
 .light-crimson { background-color: #fff; color: #333; }
-#news {  }
+#news {}
+#HTMLPageContent .light-crimson { border-top-color: #C20097; border-top: #C20000 13px solid;  }
 .light-crimson .headline2 { color: #333; }
 .light-crimson #linkedinLinkContent,
 .light-crimson #twitterXLinkContent,
@@ -134,12 +141,6 @@ h2.headline2 .highlight3 { background-color: #E9BDE2; color: #EA0EC6; }
 .page-cover { background: rgba(0 0 0 / 0.25);
   position: absolute;
   height: 100%; width: 100%; }
-.html1999.html {
-  border-top: #E8582B 13px solid;
-  cursor: default;
-  font-family: arial;
-  max-width: 1012px;
-}
 .edited-social-colours {
   height: 360px;
   width: 360px;
