@@ -1,4 +1,24 @@
-
+.light-crimson { background-color: #fff; color: #333; }
+#news {  }
+.light-crimson .headline2 { color: #333; }
+.light-crimson #linkedinLinkContent,
+.light-crimson #twitterXLinkContent,
+.light-crimson #githubLinkContent { background-color: transparent;
+                                    background-size: 100%;
+                                    display: inline-block;
+                                    height: 22px;
+                                    width: 22px;
+                                     }
+.light-crimson #linkedinLinkContent { background-image: url(/images/SMChannels/kaivongcom-on-linkedincom-lc.png);}                                     
+.light-crimson #githubLinkContent   { background-image: url(/images/SMChannels/kaivongcom-on-githubcom-lc.png);}
+.light-crimson #twitterXLinkContent { background-image: url(/images/SMChannels/kaivongcom-on-xcom-lc.png);}
+.light-crimson #linkedinLinkContent img,
+.light-crimson #githubLinkContent img,
+.light-crimson #twitterXLinkContent img  { display: none; }
+.light-crimson .alt-link-text { background-color: #fff; }
+.light-crimson a:link { color: #C20000; }
+.light-crimson a:visited { color: #C20097; } 
+  
 .turquoise-midnight1-15-look { background-color: #1B6880; color: #fff; }
 .turquoise-mornings1-16-look { background-color: #0BFFDA; color: #333; }
 .red1-midnight  { background-color: #801B1B; color: #fff; }

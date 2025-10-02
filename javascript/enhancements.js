@@ -26,8 +26,9 @@ var specific_look_integer = false,
     looks16 = 'turquoise-mornings1-16-look',
     looks17 = 'red1-midnight',
     looks18 = 'midnight-gree7',
-    looks_available = 18,
-    styled_looks_arr = [looks01,looks02,looks03, looks04,looks05,looks06,looks07,looks08,looks09,looks10,looks11,looks12,looks13,looks14,looks15,looks16,looks17,looks18],
+    looks19 = 'light-crimson',
+    looks_available = 19,
+    styled_looks_arr = [looks01,looks02,looks03, looks04,looks05,looks06,looks07,looks08,looks09,looks10,looks11,looks12,looks13,looks14,looks15,looks16,looks17,looks18,looks19],
     looksListName ='look-linker-list', 
     javascript_info = 'off-javascript-enable-message', 
     bodyHTML_classList = '',      
@@ -86,7 +87,7 @@ function loadThisLooks(specific_look_integer){
     look_integer += 1;
   }
   bodyHTML_classList.add(styled_looks_arr[specific_look_integer]);
-  return false;  
+  return false;
 }
 
 function updateLinkColoursParams(specific_look_integer=false){
