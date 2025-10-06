@@ -31,7 +31,25 @@ pages different from kaivong domain here, below:
     🥁 — World of Sounds, 🎧 (music—sounds) ↥
 
 Styles:
-- snowy blueprinted - defaults - dimmer grěěn - yellǒw dimměr - sliměr - rědd focus - clay mattë
+* blu1-cyan, 11 
+* blu2-berry, 12 
+* blu3-nav, 13 
+* blu4-midnight, 14  
+* clay matte, 07 
+* defaults, 02  
+* dimmer green, 03 
+* grapevine one, 08 
+* leckiday-r tesla-nine, 09 
+* midnight-gree7, 18 
+* purple, 10 
+* red focus, 06    
+* red1-midnight, 17 
+* slimer, 05
+* snowyBlueprnt, 01
+* turquoise-midnight, 15 
+* turquoise-mornings, 16 
+* yellow dimmer, 04
+* VG-B-LC, 19
 
 (Links) 
 * news
