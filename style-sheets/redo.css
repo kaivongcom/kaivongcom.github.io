@@ -27,7 +27,11 @@
 .light-crimson a:visited { color: #C20097; } 
   
 .turquoise-midnight1-15-look { background-color: #1B6880; color: #fff; }
-.turquoise-mornings1-16-look { background-color: #0BFFDA; color: #333; }
+.turquoise-mornings1-16-look { background-color: #7FAAAA; color: #060000;  }
+.turquoise-mornings1-16-look .headline1,
+.turquoise-mornings1-16-look .headline2 { color: #060000;}
+.turquoise-mornings1-16-look .aside .headline2  { border-left: 10px solid #1CA258; }
+#HTMLPageContent .turquoise-mornings1-16-look { border-top-color: #1CA258; border-top: #1CA258 13px solid;  }
 .red1-midnight  { background-color: #801B1B; color: #fff; }
 .midnight-gree7 { background-color: #2B801B; color: #fff; }
 
