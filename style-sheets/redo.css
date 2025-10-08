@@ -25,9 +25,11 @@
 .light-crimson .alt-link-text { background-color: #fff; }
 .light-crimson a:link { color: #C20000; }
 .light-crimson a:visited { color: #C20097; } 
-  
-.turquoise-midnight1-15-look { background-color: #1B6880; color: #fff; }
+
+.turquoise-midnight1-15-look { background-color: #1B6880; color: #060000; }
 .turquoise-mornings1-16-look { background-color: #7FAAAA; color: #060000;  }
+.turquoise-midnight1-15-look .headline1,
+.turquoise-midnight1-15-look .headline2,
 .turquoise-mornings1-16-look .headline1,
 .turquoise-mornings1-16-look .headline2 { color: #060000;}
 .turquoise-mornings1-16-look .aside .headline2  { border-left: 10px solid #1CA258; }
