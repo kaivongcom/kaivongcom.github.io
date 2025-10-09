@@ -34,7 +34,7 @@ var specific_look_integer = false,
     looksListName ='look-linker-list', 
     javascript_info = 'off-javascript-enable-message', 
     bodyHTML_classList = '',      
-    links_domain = ['news-kaivong', 'x-kaivong',  'twitter-kaivong', 'homepage-back'],
+    links_domain = ['news-kaivong', 'x-kaivong', 'homepage-back'],
     links_domain_count = links_domain.length,
     params_names = ['loadThisLooks'];
 
