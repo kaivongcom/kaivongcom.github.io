@@ -3,6 +3,7 @@
   cursor: default;
   font-family: arial;
   max-width: 1012px;
+  max-width: 680px;
 }
 .light-crimson { background-color: #fff; color: #333; }
 #news {}
@@ -43,7 +44,7 @@
 .blue4-15-look { background-color: #033993; color: #fff; }
 
 .blue4-14-look { background-color: #033993; color: #fff; }
-.blue3-13-look { background-color: #35456F; color: #fff; }
+.blue3-13-look { background-color: #253150; color: #fff; }
 .blue2-12-look { background-color: #1155CC; color: #fff; }
 .blue2-12-look .content .headline1,
 .blue2-12-look .content .headline2 { color: #333; } 
@@ -82,7 +83,7 @@
                     margin-left: 0;
                     border-left: 10px solid #666666; 
                   }
-#cat-wrapper-list { min-width: 510px; }
+#cat-wrapper-list { min-width: 510px; z-index: 2; position: relative; }
 :root {
   color-scheme: light dark;
   --page-headline-color: #666;
@@ -181,7 +182,8 @@ h2.headline2 .highlight3 { background-color: #E9BDE2; color: #EA0EC6; }
   width: 232px;
   background: #D1D1D1;
   float: right;
-  overflow: hidden;
+  position: relative;
+/*  overflow: hidden;*/
   border: 2px solid #fff; border-top: 3px solid #333;
 }
 .focus-highlightable:hover{
@@ -250,3 +252,5 @@ h2.headline2 .highlight3 { background-color: #E9BDE2; color: #EA0EC6; }
     }
     img.i01 { width: 500px; height: 168px; }
 }
+.content { max-width: 430px; }
+#wf-themes-image { position: absolute; left: 0; bottom: -258px; }
