@@ -232,3 +232,20 @@ h2.headline2 .highlight3 { background-color: #E9BDE2; color: #EA0EC6; }
 }
 #footer { clear: both; color: gray; padding: 20px; margin: 20px 0 0; }
 .hide-content { visibility: hidden; display: none;}
+
+@media handheld {
+    .aside {
+        display: none;
+    }
+}
+
+@media tty {
+    h1 { border-bottom: 10px solid red; }
+}
+
+@media screen and (max-width:600px) {
+    .aside {
+        width: 100%;
+    }
+
+}
