@@ -245,9 +245,8 @@ h2.headline2 .highlight3 { background-color: #E9BDE2; color: #EA0EC6; }
 
 @media screen and (max-width:825px) {
     .aside {
+        background-color: rgba(208,208,208,0.75);
         width: 100%;
-        background-color: rgba(208,208,208,0.75)
     }
-    .i01 {width: 500px; height: 168px;}
-
+    img.i01 { width: 500px; height: 168px; }
 }
