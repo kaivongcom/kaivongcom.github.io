@@ -243,7 +243,7 @@ h2.headline2 .highlight3 { background-color: #E9BDE2; color: #EA0EC6; }
     h1 { border-bottom: 10px solid red; }
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:825px) {
     .aside {
         width: 100%;
     }
