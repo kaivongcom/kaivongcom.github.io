@@ -246,6 +246,7 @@ h2.headline2 .highlight3 { background-color: #E9BDE2; color: #EA0EC6; }
 @media screen and (max-width:825px) {
     .aside {
         width: 100%;
+        background-color: rgba(208,208,208,0.75)
     }
 
 }
