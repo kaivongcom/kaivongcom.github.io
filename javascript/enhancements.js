@@ -38,13 +38,21 @@ var specific_look_integer = false,
     links_domain_count = links_domain.length,
     params_names = ['loadThisLooks'];
 
+function kaivongcomLocalSwitcher(){
+    if (localStorage['kaivongcom'] == 'theme,true') {
+        document.getElementById('hidden-checkbox-theme').checked = true;
+        document.getElementById(looksListName).style.setProperty('display','inline-block');
+    }
+}
+
 function themeButtonHTMLdisplayer(){
-//    var = document.getElementById(looksListName),
     var hiddenCheckboxTheme = document.getElementById('hidden-checkbox-theme');
     if (hiddenCheckboxTheme.checked == true) {
         document.getElementById(looksListName).style.setProperty('display','inline-block');
+        localStorage['kaivongcom'] = [['theme',true]];
     } else {
         document.getElementById(looksListName).style.setProperty('display','none');
+        localStorage['kaivongcom'] = [['theme',false]];
     }
     return false;
 }
@@ -124,4 +132,6 @@ function updateLinkColoursParams(specific_look_integer=false){
   }  
 }
 
-
+window.addEventListener("load", (event) => {
+    kaivongcomLocalSwitcher();
+});
