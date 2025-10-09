@@ -7,7 +7,9 @@ var specific_look_integer = false,
     links_counter = false,
     current_link_edit = false, 
     new_page_link = false,
-    new_link = false, 
+    new_link = false,
+    hiddenCheckboxTheme = '',
+    themeButtonHTMLdisplayerID ="theme-button",
     looks01 = 'blue1-11-look',
     looks02 = 'blue2-12-look',
     looks03 = 'blue3-13-look',
@@ -35,6 +37,17 @@ var specific_look_integer = false,
     links_domain = ['news-kaivong', 'x-kaivong',  'twitter-kaivong', 'homepage-back'],
     links_domain_count = links_domain.length,
     params_names = ['loadThisLooks'];
+
+function themeButtonHTMLdisplayer(){
+//    var = document.getElementById(looksListName),
+    var hiddenCheckboxTheme = document.getElementById('hidden-checkbox-theme');
+    if (hiddenCheckboxTheme.checked == true) {
+        document.getElementById(looksListName).style.setProperty('display','inline-block');
+    } else {
+        document.getElementById(looksListName).style.setProperty('display','none');
+    }
+    return false;
+}
 
 function getFirstBodyElement(){
   return document.getElementsByTagName('body')[0];
@@ -75,6 +88,7 @@ function hideJavascriptProgressiveEnhancementMessage(){
 }
 
 function loadListLooks(){
+  themeButtonHTMLdisplayer();
   specific_look_integer = document.getElementById(looksListName).selectedIndex;
   loadThisLooks(specific_look_integer);
   updateLinkColoursParams(String(specific_look_integer));
@@ -109,3 +123,5 @@ function updateLinkColoursParams(specific_look_integer=false){
     links_counter+=1;
   }  
 }
+
+
