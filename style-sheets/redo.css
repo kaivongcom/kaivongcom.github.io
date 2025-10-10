@@ -259,5 +259,5 @@ h2.headline2 .highlight3 { background-color: #E9BDE2; color: #EA0EC6; }
 }
 .content { max-width: 400px; }
 #wf-themes-image { position: absolute; left: 0; bottom: -258px; }
-.wrapper:after { content: ' '; display: block; left: -208px; top: 0; position: absolute; z-index: -1;
+.wrapper:after { content: ' '; display: block; left: -208px; top: -13px; position: absolute; z-index: -1;
     width: 500px; height: 345px; Background: transparent url(../images/waterfall-themes2.gif) 0 0 ; }
