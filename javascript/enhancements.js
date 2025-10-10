@@ -40,21 +40,18 @@ var specific_look_integer = false,
 
 function kaivongcomLocalSwitcher(){
     if (localStorage['kaivongcom'] == 'theme,true') {
+        document.getElementById('HTMLPageContent').classList.add('themes-display');
         document.getElementById('hidden-checkbox-theme').checked = true;
-        document.getElementById(looksListName).style.setProperty('display','inline-block');
-        document.getElementById('wf-themes-image').style.setProperty('display','inline-block');
     }
 }
 
 function themeButtonHTMLdisplayer(){
     var hiddenCheckboxTheme = document.getElementById('hidden-checkbox-theme');
     if (hiddenCheckboxTheme.checked == true) {
-        document.getElementById(looksListName).style.setProperty('display','inline-block');
-        document.getElementById('wf-themes-image').style.setProperty('display','inline-block');
+        document.getElementById('HTMLPageContent').classList.add('themes-display');
         localStorage['kaivongcom'] = [['theme',true]];
     } else {
-        document.getElementById(looksListName).style.setProperty('display','none');
-        document.getElementById('wf-themes-image').style.setProperty('display','none');
+        document.getElementById('HTMLPageContent').classList.remove('themes-display');
         localStorage['kaivongcom'] = [['theme',false]];
     }
     return false;
