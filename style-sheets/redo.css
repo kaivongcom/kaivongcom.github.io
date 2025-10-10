@@ -84,7 +84,7 @@
                   }
 #wf-themes-image02 { position: absolute; bottom: 0; display: none; }
 #cat-wrapper-list { min-width: 510px; z-index: 2; position: relative; }
-.wrapper:after { content: ' '; display: block; left: -208px; top: -13px; position: absolute; z-index: -1;
+.display-themes .wrapper:after { content: ' '; display: block; left: -208px; top: -13px; position: absolute; z-index: -1;
     width: 500px; height: 345px; Background: transparent url(../images/waterfall-themes.gif) 0 0 ; }
 
 :root {
