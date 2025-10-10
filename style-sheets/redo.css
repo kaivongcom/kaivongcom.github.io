@@ -108,6 +108,7 @@
     #wf-themes-image01 { display: none; }
     #HTMLPageContent .screen .wrapper { background-color: #232323; }
     .themes-display .wrapper:after { Background: transparent url(../images/waterfall-themes2.gif) 0 0; }
+/*    #look-linker-list { color: var(--page-aside-txt-color); }*/
 }
 
 #look-linker-list-info { display: inline-block; }
@@ -120,9 +121,7 @@
 .yellow-black-04-look #q-linkedin { color: #3B2027; }
  #look-linker-list,
 #HTMLPageContent .green-black-03-look b,
-.green-black-03-look #look-linker-list,
-.yellow-black-04-look b,
-.yellow-black-04-look #look-linker-list { color: #333; color: var(--page-aside-txt-color); } 
+
 .green-black-03-look .aside { border: 2px solid #333; border-top: 3px solid #333; }
 .aside .look-linkers-enhanced-dynamic-styles,
 .defaults-02-look .aside .look-linkers-enhanced-dynamic-styles,
