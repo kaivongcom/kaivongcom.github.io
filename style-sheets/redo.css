@@ -107,7 +107,7 @@
     .themes-display #wf-themes-image02 { display: block; }
     #wf-themes-image01 { display: none; }
     #HTMLPageContent .screen .wrapper { background-color: #232323; }
-    .wrapper:after { Background: transparent url(../images/waterfall-themes2.gif) 0 0; }
+    .themes-display .wrapper:after { Background: transparent url(../images/waterfall-themes2.gif) 0 0; }
 }
 
 #look-linker-list-info { display: inline-block; }
