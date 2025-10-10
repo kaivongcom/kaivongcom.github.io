@@ -1,16 +1,16 @@
 .table-look thead tr td { background-color: #AAAAAA; }
-#HTMLPageContent .screen{
+#HTMLPageContent .screen {
   border-top: #E8582B 13px solid;
   cursor: default;
   font-family: arial;
   max-width: 1012px;
   max-width: 680px;
   margin: 0 auto;
-  background-color: #e5e5e5;
 }
 #HTMLPageContent .screen .wrapper { background-color: #fff; padding: 0 13px;
     z-index: auto; position: relative;
 }
+
 .light-crimson { background-color: #fff; color: #333; }
 #news {}
 #HTMLPageContent .light-crimson { border-top-color: #C20097; border-top: #C20000 13px solid;  }
@@ -73,7 +73,6 @@
 #HTMLPageContent .snowy-bluep-01-look .hey-highlight { color: orange; }
 #HTMLPageContent .snowy-bluep-01-look .img-03 { display: inline-block; }
 #HTMLPageContent .snowy-bluep-01-look .img-02 { display: none; }
-.defaults-02-look #look-02,
 .green-black-03-look #look-03,
 .yellow-black-04-look #look-03,
 .snowy-bluep-01-look #look-01 { background-color: #bbb; }
@@ -85,6 +84,9 @@
                   }
 #wf-themes-image02 { position: absolute; bottom: 0; display: none; }
 #cat-wrapper-list { min-width: 510px; z-index: 2; position: relative; }
+.wrapper:after { content: ' '; display: block; left: -208px; top: -13px; position: absolute; z-index: -1;
+    width: 500px; height: 345px; Background: transparent url(../images/waterfall-themes.gif) 0 0 ; }
+
 :root {
   color-scheme: light dark;
   --page-headline-color: #666;
@@ -103,6 +105,7 @@
     #wf-themes-image02 { display: block; }
     #wf-themes-image01 { display: none; }
     #HTMLPageContent .screen .wrapper { background-color: #232323; }
+    .wrapper:after { Background: transparent url(../images/waterfall-themes2.gif) 0 0; }
 }
 #look-linker-list-info { display: inline-block; }
 #look-linker-list-info #bold-headline { text-transform: uppercase;  }
@@ -259,5 +262,3 @@ h2.headline2 .highlight3 { background-color: #E9BDE2; color: #EA0EC6; }
 }
 .content { max-width: 400px; }
 #wf-themes-image { position: absolute; left: 0; bottom: -258px; }
-.wrapper:after { content: ' '; display: block; left: -208px; top: -13px; position: absolute; z-index: -1;
-    width: 500px; height: 345px; Background: transparent url(../images/waterfall-themes2.gif) 0 0 ; }
