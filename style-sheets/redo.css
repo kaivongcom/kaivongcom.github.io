@@ -78,8 +78,7 @@
 .yellow-black-04-look #look-03,
 .snowy-bluep-01-look #look-01 { background-color: #bbb; }
 #look-04,#look-05,#look-06,
-#look-00, #look-01, #look-02,#look-03,
-.aside #bold-headline { padding-left: 26px; display: block; }
+#look-00, #look-01, #look-02,#look-03 { padding-left: 26px; display: block; }
 .aside .headline2 { padding-left: 16px; margin-right: 18px; 
                     margin-left: 0;
                     border-left: 10px solid #666666; 
@@ -104,7 +103,8 @@
     #wf-themes-image02 { display: block; }
     #wf-themes-image01 { display: none; }
 }
-#look-linker-list-info #bold-headline { text-transform: uppercase; }
+#look-linker-list-info { display: inline-block; }
+#look-linker-list-info #bold-headline { text-transform: uppercase;  }
 #off-javascript-enable-message { color: var(--page-aside-txt-color);  }
 #look-linker-list-info #bold-headline, #what-is-linkedin { color: var(--page-aside-txt-color); font-weight: bold;}
 #what-is-linkedin { font-size: 80%; }
