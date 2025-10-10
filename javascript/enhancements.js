@@ -42,6 +42,7 @@ function kaivongcomLocalSwitcher(){
     if (localStorage['kaivongcom'] == 'theme,true') {
         document.getElementById('hidden-checkbox-theme').checked = true;
         document.getElementById(looksListName).style.setProperty('display','inline-block');
+        document.getElementById('wf-themes-image').style.setProperty('display','inline-block');
     }
 }
 
@@ -49,9 +50,11 @@ function themeButtonHTMLdisplayer(){
     var hiddenCheckboxTheme = document.getElementById('hidden-checkbox-theme');
     if (hiddenCheckboxTheme.checked == true) {
         document.getElementById(looksListName).style.setProperty('display','inline-block');
+        document.getElementById('wf-themes-image').style.setProperty('display','inline-block');
         localStorage['kaivongcom'] = [['theme',true]];
     } else {
         document.getElementById(looksListName).style.setProperty('display','none');
+        document.getElementById('wf-themes-image').style.setProperty('display','none');
         localStorage['kaivongcom'] = [['theme',false]];
     }
     return false;
