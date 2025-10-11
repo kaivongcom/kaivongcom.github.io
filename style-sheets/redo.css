@@ -88,7 +88,7 @@
     width: 500px; height: 345px; Background: transparent url(../images/waterfall-themes.gif) 0 0 ; }
 #look-linker-list { visibility: hidden; }
 .themes-display #look-linker-list { visibility: visible; }
-
+#wf-themes-image { display: none; } 
 :root {
   color-scheme: light dark;
   --page-headline-color: #666;
