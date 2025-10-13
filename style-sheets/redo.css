@@ -1,3 +1,7 @@
+
+#kaivongdev-news-happenings .wrapper { background-color: #fff ; }
+#kaivongdev-news-happenings .themes-display .wrapper:after { display: none; }
+
 .table-look thead tr td { background-color: #AAAAAA; }
 .paragraph-01 { margin-top: 0;  font-size: smaller; }
 .ordered-list { padding: 0 0 0 16px; }
@@ -110,7 +114,9 @@
     }
     .themes-display #wf-themes-image02 { display: block; }
     #wf-themes-image01 { display: none; }
+    #kaivongdev-news-happenings,
     #HTMLPageContent .screen .wrapper { background-color: #232323; }
+
     .themes-display .wrapper:after { Background: transparent url(../images/waterfall-themes2.gif) 0 0; }
 /*    #look-linker-list { color: var(--page-aside-txt-color); }*/
 }
