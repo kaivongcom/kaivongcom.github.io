@@ -1,6 +1,6 @@
 .table-look thead tr td { background-color: #AAAAAA; }
 .paragraph-01 { margin-top: 0;  font-size: smaller; }
-.ordered-list { padding: 0; }
+.ordered-list { padding: 0 0 0 16px; }
 .list-item { font-size: smaller; padding: 0;}
 .headline {font-size: small;}
 #HTMLPageContent .screen {
