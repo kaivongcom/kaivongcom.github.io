@@ -1,8 +1,13 @@
 .table-look thead tr td { background-color: #AAAAAA; }
+.paragraph-01 { margin-top: 0;  font-size: smaller; }
+.ordered-list { padding: 0; }
+.list-item { font-size: smaller; padding: 0;}
+.headline {font-size: small;}
 #HTMLPageContent .screen {
   border-top: #E8582B 13px solid;
   cursor: default;
   font-family: arial;
+  font-size: small;
   max-width: 1012px;
   max-width: 680px;
   margin: 0 auto;
@@ -10,7 +15,6 @@
 #HTMLPageContent .screen .wrapper { background-color: #fff; padding: 0 13px;
     z-index: auto; position: relative;
 }
-
 .light-crimson { background-color: #fff; color: #333; }
 #news {}
 #HTMLPageContent .light-crimson { border-top-color: #C20097; border-top: #C20000 13px solid;  }
@@ -147,8 +151,7 @@
 #about-kaivongdev { padding-top: 0; margin-bottom: 0; }
 .headline2 { margin-top: 50px; } 
 h1 { margin: 0; }
-.kinda-x-username { color: #BBBBBB; font-size: 42px; margin: 0 0 0 -13px; padding: 0 13px 0 13px; }
-.bio-name { color: #333333; display: block; font-weight: normal; font-size: 21px; }
+.bio-name { color: #333333; display: block; font-weight: normal; }
 body { line-height: 1.5; color: var(--page-txt-color)} 
 a:link { color: #E79423; }
 h2.headline2 .highlight1 { background-color: #FBEFDE; color: #E79423; }
