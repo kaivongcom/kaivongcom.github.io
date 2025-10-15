@@ -1,6 +1,9 @@
-#art-ascii-01 { display: none; }
-#art-ascii-wall-switcher:hover #art-ascii-01 { display: inline-block; }
-#art-ascii-wall-switcher:hover #art-ascii-02 { display: none; }
+#art-ascii-light2 { display: none; }
+#art-ascii-dark1 { display: none; }
+#art-ascii-dark2 { display: none; }
+#art-ascii-wall-switcher:hover #art-ascii-light2 { display: inline-block; }
+#art-ascii-wall-switcher:hover #art-ascii-light1 { display: none; }
+
 .yellow-black-04-look .lite-font-color,
 .red1-midnight .lite-font-color,
 .redd-06-look .lite-font-color { color: red; }
@@ -129,6 +132,14 @@
         --page-aside-txt-color: #666;
         --page-highlights: #fff;
     }
+    #art-ascii-light1 { display: none; }
+    #art-ascii-light2 { display: none; }
+    #art-ascii-dark1 { display: inline-block; }
+    #art-ascii-dark2 { display: none; }
+    #art-ascii-wall-switcher:hover #art-ascii-light1 { display: none; }
+    #art-ascii-wall-switcher:hover #art-ascii-light2 { display: none; }
+    #art-ascii-wall-switcher:hover #art-ascii-dark2 { display: inline-block; }
+    #art-ascii-wall-switcher:hover #art-ascii-dark1 { display: none; }
     .themes-display #wf-themes-image02 { display: block; }
     #wf-themes-image01 { display: none; }
     #kaivongdev-news-happenings,
