@@ -1,4 +1,17 @@
+.yellow-black-04-look .lite-font-color,
+.red1-midnight .lite-font-color,
+.redd-06-look .lite-font-color { color: red; }
+.leckiday-tesla-09-look .lite-font-color,
+.green-black-03-look .lite-font-color,
+.midnight-gree7 .lite-font-color,
+.slime-05-look .lite-font-color,
+.turquoise-mornings1-16-look .lite-font-color,
+.turquoise-midnight1-15-look .lite-font-color  { color: #047101; }
+.clay-07-look .lite-font-color  { color: #85A0A0; }
+.blue4-14-look .lite-font-color { color: #253150; }
+.blue3-13-look .lite-font-color { color: #253150; }
 .blue1-11-look .lite-font-color { color: #0376BB; }
+.blue2-12-look .lite-font-color { color: #004D81; }
 .kaivongdev-news-happenings.themes-display .wrapper:after { background: none; }
 #kaivongdev-news-happenings .wrapper { background-color: #fff ; }
 #kaivongdev-news-happenings .themes-display .wrapper:after { display: none; }
@@ -58,8 +71,8 @@
 #HTMLPageContent .blue4-14-look { background-color: #033993; }
 #HTMLPageContent .blue3-13-look { background-color: #253150; }
 #HTMLPageContent .blue2-12-look { background-color: #1155CC; }
-#HTMLPageContent .blue2-12-look .content .headline1,
-#HTMLPageContent .blue2-12-look .content .headline2 { color: #333; }
+/*#HTMLPageContent .blue2-12-look .content .headline1,*/
+/*#HTMLPageContent .blue2-12-look .content .headline2 { color: #333; }*/
 #HTMLPageContent .blue1-11-look { background-color: #9FC5E8; color: #35456F; }
 .links-navigator { background-color: #fff; margin-top: 100px; padding: 10px; text-align: center; }
 .news-code-contact-space,
