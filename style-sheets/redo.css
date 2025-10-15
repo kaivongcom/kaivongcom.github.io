@@ -1,6 +1,6 @@
-#art-ascii-02 { display: none; }
-#art-ascii-wall-switcher:hover #art-ascii-02 { display: inline-block; }
-#art-ascii-wall-switcher:hover #art-ascii-01 { display: none; }
+#art-ascii-01 { display: none; }
+#art-ascii-wall-switcher:hover #art-ascii-01 { display: inline-block; }
+#art-ascii-wall-switcher:hover #art-ascii-02 { display: none; }
 .yellow-black-04-look .lite-font-color,
 .red1-midnight .lite-font-color,
 .redd-06-look .lite-font-color { color: red; }
