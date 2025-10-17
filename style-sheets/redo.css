@@ -1,9 +1,15 @@
+#HTMLPageContent .look-01 { background-color: #FFFFFF; color: #FFFFFF; }
+#HTMLPageContent .look-02 { background-color: #CCCCCC; }
+#HTMLPageContent .look-03 { background-color: #A7A7A7; }
+#HTMLPageContent .look-04 { background-color: #787878; }
+#HTMLPageContent .look-05 { background-color: #444444; }
+#HTMLPageContent .look-06 { background-color: #000000; }
 #art-ascii-light2 { display: none; }
 #art-ascii-dark1 { display: none; }
 #art-ascii-dark2 { display: none; }
 #art-ascii-wall-switcher:hover #art-ascii-light2 { display: inline-block; }
 #art-ascii-wall-switcher:hover #art-ascii-light1 { display: none; }
-
+#HTMLPageContent .blue1-11-look { background-color: #282828; color: #FFFFFF; }
 .yellow-black-04-look .lite-font-color,
 .red1-midnight .lite-font-color,
 .redd-06-look .lite-font-color { color: red; }
@@ -18,10 +24,10 @@
 .blue3-13-look .lite-font-color { color: #253150; }
 .blue1-11-look .lite-font-color { color: #0376BB; }
 .blue2-12-look .lite-font-color { color: #004D81; }
+#HTMLPageContent .blue2-12-look { background-color: #979797; }
 .kaivongdev-news-happenings.themes-display .wrapper:after { background: none; }
 #kaivongdev-news-happenings .wrapper { background-color: #fff ; }
 #kaivongdev-news-happenings .themes-display .wrapper:after { display: none; }
-
 .table-look thead tr td { background-color: #AAAAAA; }
 .paragraph-01 { margin-top: 0;  font-size: smaller; }
 .ordered-list { padding: 0 0 0 16px; }
@@ -70,16 +76,6 @@
 #HTMLPageContent .turquoise-mornings1-16-look { border-top-color: #1CA258; border-top: #1CA258 13px solid;  }
 #HTMLPageContent .red1-midnight  { background-color: #801B1B; }
 #HTMLPageContent .midnight-gree7 { background-color: #2B801B; }
-#HTMLPageContent .blue4-18-look { background-color: #033993; }
-#HTMLPageContent .blue4-17-look { background-color: #033993; }
-#HTMLPageContent .blue4-16-look { background-color: #033993; }
-#HTMLPageContent .blue4-15-look { background-color: #033993; }
-#HTMLPageContent .blue4-14-look { background-color: #033993; }
-#HTMLPageContent .blue3-13-look { background-color: #253150; }
-#HTMLPageContent .blue2-12-look { background-color: #1155CC; }
-/*#HTMLPageContent .blue2-12-look .content .headline1,*/
-/*#HTMLPageContent .blue2-12-look .content .headline2 { color: #333; }*/
-#HTMLPageContent .blue1-11-look { background-color: #9FC5E8; color: #35456F; }
 .links-navigator { background-color: #fff; margin-top: 100px; padding: 10px; text-align: center; }
 .news-code-contact-space,
 #news-code-contact-space { background-color: #eee; color: #333;  padding: 4px;}
@@ -94,7 +90,7 @@
 #look-linker-form { padding: 0 0 0 10px; }
 #HTMLPageContent .slime-05-look { background-color: #33CC33; }
 #HTMLPageContent .redd-06-look { background-color: #ED2D3D; }
-#HTMLPageContent .clay-07-look { background-color: #85A0A0; }
+
 .img-03 { display: none; }
 #HTMLPageContent .snowy-bluep-01-look #SMChannelsCompleteContent #linkedContent.bootstrap-icons,
 #HTMLPageContent .snowy-bluep-01-look { background-color: #011993; float: none;  }
@@ -113,7 +109,7 @@
 #wf-themes-image02 { position: absolute; bottom: 0; display: none; }
 #cat-wrapper-list { min-width: 510px; z-index: 2; position: relative; }
 .themes-display .wrapper:after { content: ' '; display: block; left: -208px; top: -13px; position: absolute; z-index: -1;
-    width: 500px; height: 345px; Background: transparent url(../images/waterfall-themes3.gif) 0 0; }
+    width: 500px; height: 345px; Background: transparent url(../images/waterfall-themes5.gif) 0 0; }
 #look-linker-list { visibility: hidden; }
 .themes-display #look-linker-list { visibility: visible; }
 #wf-themes-image { display: none; } 
@@ -144,11 +140,8 @@
     #wf-themes-image01 { display: none; }
     #kaivongdev-news-happenings,
     #HTMLPageContent .screen .wrapper { background-color: #232323; }
-
-    .themes-display .wrapper:after { Background: transparent url(../images/waterfall-themes4.gif) 0 0; }
-/*    #look-linker-list { color: var(--page-aside-txt-color); }*/
+    .themes-display .wrapper:after { Background: transparent url(../images/waterfall-themes6.gif) 0 0; }
 }
-
 #look-linker-list-info { display: inline-block; }
 #look-linker-list-info #bold-headline { text-transform: uppercase;  }
 #off-javascript-enable-message { color: var(--page-aside-txt-color);  }
