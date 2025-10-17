@@ -3,7 +3,7 @@
 #HTMLPageContent .look-03 { background-color: #A7A7A7; }
 #HTMLPageContent .look-04 { background-color: #787878; }
 #HTMLPageContent .look-05 { background-color: #444444; }
-#HTMLPageContent .look-06 { background-color: #000000; }
+#HTMLPageContent .look-06 { background-color: #000000; color: #EEEEEE; }
 #art-ascii-light2 { display: none; }
 #art-ascii-dark1 { display: none; }
 #art-ascii-dark2 { display: none; }
@@ -140,7 +140,6 @@
     #wf-themes-image01 { display: none; }
     #kaivongdev-news-happenings,
     #HTMLPageContent .screen .wrapper { background-color: #232323; }
-    .themes-display .wrapper:after { Background: transparent url(../images/waterfall-themes6.gif) 0 0; }
 }
 #look-linker-list-info { display: inline-block; }
 #look-linker-list-info #bold-headline { text-transform: uppercase;  }
