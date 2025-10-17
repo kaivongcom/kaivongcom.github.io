@@ -1,4 +1,4 @@
-#HTMLPageContent .look-01 { background-color: #FFFFFF; color: #FFFFFF; }
+#HTMLPageContent .look-01 { background-color: #FFFFFF; color: #000000; }
 #HTMLPageContent .look-02 { background-color: #CCCCCC; }
 #HTMLPageContent .look-03 { background-color: #A7A7A7; }
 #HTMLPageContent .look-04 { background-color: #787878; }
@@ -127,6 +127,7 @@
         --page-aside-txt-color: #666;
         --page-highlights: #fff;
     }
+    #HTMLPageContent .look-01 { color: #FFFFFF; }
     #HTMLPageContent .look-06 { color: #EEEEEE; }
     #art-ascii-light1 { display: none; }
     #art-ascii-light2 { display: none; }
