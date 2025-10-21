@@ -116,6 +116,7 @@
 }
 @media (prefers-color-scheme: dark){
     :root {
+        color-scheme: light dark;
         --page-headline-color: #666;
         --page-txt-color: #F7C265;
         --page-aside-txt-color: #666;
