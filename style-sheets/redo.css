@@ -138,9 +138,10 @@
     #art-ascii-wall-switcher:hover #art-ascii-light2 { display: none; }
     #art-ascii-wall-switcher:hover #art-ascii-dark2 { display: inline-block; }
     #art-ascii-wall-switcher:hover #art-ascii-dark1 { display: none; }
-    #kaivongdev-news-happenings,
-    #HTMLPageContent .screen .wrapper { background-color: #232323; max-width: 561px; }
 }
+#kaivongdev-news-happenings,
+#HTMLPageContent .screen .wrapper { background-color: #232323; max-width: 561px; }
+
 #look-linker-list-info { display: inline-block; }
 #look-linker-list-info #bold-headline { text-transform: uppercase;  }
 #off-javascript-enable-message { color: var(--page-aside-txt-color);  }
