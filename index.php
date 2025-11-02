@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" id="HTMLPageContent" class="html1999 html">
+<head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-V8YSBK1HPR">
+</script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-V8YSBK1HPR');
+</script>
+<title><?php echo ('1'+'8') ?> kaivongcom homepage</title>
+<script src="/javascript/enhancements.js" type="application/javascript"></script>
+<meta charset="UTF-8">
+<meta name="author" content="@kaivongdev / @crimsonkinda">
+<meta name="description" content="page on kaivong.com, kaivong.dev, kaichanvong.github.io">
+<meta name="viewport" content="width=640, initial-scale=1" />
+<link href="/style-sheets/redo.css" rel="stylesheet" type="text/css">
+<link href="/images/favicon.png" rel="icon" type="image/x-icon">
+</head>
+<body id="body-level-layer1" class="screen page-body " onload="onLoadDocumentWindowPage()">
+<div class="wrapper">
+<div class="aside">
+<h2 class="headline headline2">Further Links</h2>
+<div class="view-icons" data-view="view-icons" id="SMChannelsCompleteContent">
+<ul id="linkedContent" class="bootstrap-icons">
+<li class="bi-github list-item">
+<a href="https://github.com/kaivongcom" id="githubLinkContent"
+title="personal developer platform on github of kai"
+rel="me">
+<img class="img-03" src="https://kaivongcom.github.io/images/SMChannels/kaivongcom-on-githubcom-bw.png" alt="" width="22" height="22"><img class="img-02" src="https://kaivongcom.github.io/images/SMChannels/kaivongcom-on-githubcom-o.gif" alt="" width="22" height="22"></a>
+</li>
+<li class="bi-twitter-x list-item">
+<a href="https://x.com/kaivongdev"
+id="twitterXLinkContent"
+title="seen Happenings on 🌐 𝕏? link for kaivongcom online happenings, more"
+rel="me">
+<img class="img-03" src="https://kaivongcom.github.io/images/SMChannels/kaivongcom-on-xcom-bw.png" alt="" width="22" height="22"><img class="img-02" src="https://kaivongcom.github.io/images/SMChannels/kaivongcom-on-xcom-o.gif" alt="" width="22" height="22"></a>
+</li>
+<li class="bi-linkedin list-item">
+<a href="http://linkedin.com/in/kaichanvong"
+id="linkedinLinkContent"
+title="professional networking on linkedin of kai"
+rel="me">
+<img class="img-03" src="https://kaivongcom.github.io/images/SMChannels/kaivongcom-on-linkedin-bw.png" alt="" width="22" height="22"><img class="img-02" src="https://kaivongcom.github.io/images/SMChannels/kaivongcom-on-linkedincom-o.gif" alt="" width="22" height="22"></a>
+</li>
+</ul>
+</div>
+<div id="off-javascript-enable-message">
+<p>Contemplate enabling <i>browser's</i> <b>javascript</b></p>
+</div>
+<form id="look-linker-form" onchange="loadListLooks();">
+<p>
+<label for="hidden-checkbox-theme"><svg style="position:relative; top:5px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+<path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+</svg></label><input type="checkbox" id="hidden-checkbox-theme" > <label for="look-linker-list" id="look-linker-list-info"><b id="bold-headline">Theme:</b></label></p>
+<select id="look-linker-list">
+<option id="look-01" class="look-linkers-enhanced-dynamic-styles">basic 1 white</option>
+<option id="look-02" class="look-linkers-enhanced-dynamic-styles">basic 2 (--greyer)</option>
+<option id="look-03" class="look-linkers-enhanced-dynamic-styles">basic 3 grey</option>
+<option id="look-04" class="look-linkers-enhanced-dynamic-styles">basic 4 charc.</option>
+<option id="look-05" class="look-linkers-enhanced-dynamic-styles">charcoal–tüngsten</option>
+<option id="look-06" selected="selected" class="look-linkers-enhanced-dynamic-styles">defaults (light + dark)</option>
+<option id="look-07" class="look-linkers-enhanced-dynamic-styles">deciever green purpL</option>
+<option id="look-08" class="look-linkers-enhanced-dynamic-styles">grapevine one </option>
+<option id="look-09" class="look-linkers-enhanced-dynamic-styles">leckiday-r tesla-nine </option>
+<option id="look-10" class="look-linkers-enhanced-dynamic-styles">midnight-gree7 </option>
+<option id="look-11" class="look-linkers-enhanced-dynamic-styles">purple </option>
+<option id="look-12" class="look-linkers-enhanced-dynamic-styles">red focus</option>
+<option id="look-13" class="look-linkers-enhanced-dynamic-styles">red1-midnight </option>
+<option id="look-14" class="look-linkers-enhanced-dynamic-styles">slimer</option>
+<option id="look-15" class="look-linkers-enhanced-dynamic-styles">snowyBlueprnt</option>
+<option id="look-16" class="look-linkers-enhanced-dynamic-styles">turquoise-midnight </option>
+<option id="look-17" class="look-linkers-enhanced-dynamic-styles">turquoise-mornings </option>
+<option id="look-18" class="look-linkers-enhanced-dynamic-styles">VG-B-LC</option>
+<option id="look-19" class="look-linkers-enhanced-dynamic-styles">yellow dimmer</option>
+</select>
+</form>
+<div id="wf-themes-image">
+<img src="/images/waterfall-themes6.gif" alt="img-waterfall-themes" width="548" height="218" id="wf-themes-image02">
+
+</div>
+<br class="breaks-line" />
+</div>
+<div class="content">
+<h1 class="headline headline1"><span class="highlight1">kai</span><span class="highlight2">v<strong>ong</strong></span><span class="highlight3" title="`.dev`/`.com`">.dev</span>&mdash;<span class="highlight1">kai</span><span class="highlight2">v<strong>ong</strong></span><span class="highlight3" title="`.dev`/`.com`">.com</span><span class="highlight5">(<span class="s02">redirects: </span>kaivongcom.github.io)</span></h1>
+<div id="art-ascii-wall-switcher">
+<img src="/images/art-ascii/kaivong--dark-b+w.gif"   alt="selfie look" width="400" height="267" id="art-ascii-dark1">
+<img src="/images/art-ascii/kaivong--dark.gif"   alt="selfie look" width="400" height="267" id="art-ascii-dark2">
+<img src="/images/art-ascii/kaivong--light-b+w.gif"  alt="selfie look" width="400" height="267" id="art-ascii-light1">
+<img src="/images/art-ascii/kaivong--light.gif"  alt="selfie look" width="400" height="267" id="art-ascii-light2">
+</div>
+
+<form action="link-request-post.php" method="post">
+<label>link request: </label>
+<input name="link details" id="consider-link" value="complete me (with a link)">
+<button>send</button>
+</form>
+<?php // if ($_SERVER['SERVER_NAME'] == 'localhost') ?>
+<?php // echo $_SERVER['SERVER_NAME'] ?>
+<?php // echo 'Hello ' . htmlspecialchars($_GET["name"]) . '!'; ?>
+
+<?php
+$number = cal_days_in_month(CAL_GREGORIAN, 10, 2025); // 31
+echo "There were {$number} days in October 2025";
+?>
+
+</div>
+
+
+</div>
+</body>
+</html>
