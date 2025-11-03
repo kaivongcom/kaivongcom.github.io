@@ -39,8 +39,7 @@
   cursor: default;
   font-family: arial;
   font-size: small;
-  max-width: 1012px;
-  max-width: 680px;
+  max-width: 580px;
   margin: 0 auto;
 }
 #HTMLPageContent .screen .wrapper { background-color: #fff; padding: 0;
