@@ -16,6 +16,7 @@ var specific_look_integer = false,
     looks04 = 'look-04',
     looks05 = 'look-05',
     looks06 = 'look-06',
+    looks_available = 6,
     styled_looks_arr = [looks01,looks02,looks03,looks04,looks05,looks06],
     looksListName ='look-linker-list', 
     javascript_info = 'off-javascript-enable-message', 
@@ -86,6 +87,7 @@ function loadListLooks(){
   specific_look_integer = document.getElementById(looksListName).selectedIndex;
   loadThisLooks(specific_look_integer);
   updateLinkColoursParams(String(specific_look_integer));
+
   return false;
 }
 
