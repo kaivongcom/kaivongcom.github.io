@@ -51,19 +51,20 @@
                 <div id="off-javascript-enable-message">
                     <p>Contemplate enabling <i>browser's</i> <b>javascript</b></p>
                 </div>
-                <form id="look-linker-form" onchange="loadListLooks();">
+                <form id="look-picker-form" onchange="loadRadioLooks();">
                     <p>
                     <label for="hidden-checkbox-theme"><svg style="position:relative; top:5px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
                     </svg></label><input type="checkbox" id="hidden-checkbox-theme" > <label for="look-linker-list" id="look-linker-list-info"><b id="bold-headline">Theme:</b></label></p>
-                        <select id="look-linker-list">
-                            <option id="look-01" class="look-linkers-enhanced-dynamic-styles">basic 1 white</option>
-                            <option id="look-02" class="look-linkers-enhanced-dynamic-styles">basic 2 (--greyer)</option>
-                            <option id="look-03" class="look-linkers-enhanced-dynamic-styles">basic 3 grey</option>
-                            <option id="look-04" class="look-linkers-enhanced-dynamic-styles">basic 4 charc.</option>
-                            <option id="look-05" class="look-linkers-enhanced-dynamic-styles">charcoal–tüngsten</option>
-                            <option id="look-06" selected="selected" class="look-linkers-enhanced-dynamic-styles">defaults (light + dark)</option>
-                        </select>
+<!--                        see different branch:main [link]()                       -->
+                        <div id="looks-picker">
+                            <input type=radio id="look-01" value=look-01 name=lookPicker class="look-linkers-enhanced-dynamic-styles"><label>basic 1 white</label><br />
+                            <input type=radio id="look-02" value=look-02 name=lookPicker class="look-linkers-enhanced-dynamic-styles"><label>basic 2 (--greyer)</label><br />
+                            <input type=radio id="look-03" value=look-03 name=lookPicker class="look-linkers-enhanced-dynamic-styles"><label>basic 3 grey</label><br />
+                            <input type=radio id="look-04" value=look-04 name=lookPicker class="look-linkers-enhanced-dynamic-styles"><label>basic 4 charc.</label><br />
+                            <input type=radio id="look-05" value=look-05 name=lookPicker class="look-linkers-enhanced-dynamic-styles"><label>charcoal–tüngsten</label><br />
+                            <input type=radio id="look-06" value=look-06 name=lookPicker checked class="look-linkers-enhanced-dynamic-styles"><label>defaults (light + dark)</label><br />
+                        </div>
                 </form>
                 <div id="wf-themes-image">
                     <img src="/images/themes6.gif" alt="img-waterfall-themes" width="162" height="109" id="wf-themes-image02">

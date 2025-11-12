@@ -19,7 +19,8 @@ var specific_look_integer = false,
     looks_available = 6,
     styled_looks_arr = [looks01,looks02,looks03,looks04,looks05,looks06],
     looksListName ='look-linker-list', 
-    javascript_info = 'off-javascript-enable-message', 
+    looksPickerName ='look-picker-list',
+    javascript_info = 'off-javascript-enable-message',
     bodyHTML_classList = '',      
     links_domain = ['news-kaivong', 'x-kaivong', 'homepage-back'],
     links_domain_count = links_domain.length,
@@ -78,8 +79,14 @@ function onLoadDocumentWindowPage(){
 function hideJavascriptProgressiveEnhancementMessage(){
   if (document.getElementById(javascript_info)){
     document.getElementById(javascript_info).classList.add('hide-content');
-    document.getElementById(looksListName).classList.remove('hide-content');
+    document.getElementById('looks-picker').classList.remove('hide-content');
   } 
+}
+
+function loadRadioLooks(){
+    console.log(document.getElementById('look-picker-form'));
+    specific_look_integer = Number(document.getElementById('look-picker-form').lookPicker.value.split('-')[1]) - 1;
+    loadThisLooks(specific_look_integer);
 }
 
 function loadListLooks(){
