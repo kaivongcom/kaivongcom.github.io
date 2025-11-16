@@ -1,5 +1,5 @@
 #! usr/bin/ python3 # 3.13
-#alt link: https://gist.github.com/kaivongcom/3d70084ebff0313a3cb7adede5a2ab8f
+#mirror link: https://gist.github.com/kaivongcom/3d70084ebff0313a3cb7adede5a2ab8f
 
 THE_100 = int(100)
 ZERO_0 = int(0)
