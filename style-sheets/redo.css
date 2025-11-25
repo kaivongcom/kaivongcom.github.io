@@ -1,3 +1,14 @@
+#wf-themes-image02 {
+    top: -111px;
+    position: relative;
+    right: 3px;
+}
+.no-javascript {}
+.content { width: 400px; }
+
+.content code { white-space: break-spaces; text-overflow: ellipsis; width: 320px;
+overflow: hidden; display: block; text-align: left;
+}
 #HTMLPageContent .look-01 { background-color: #FFFFFF; color: #000000; }
 #HTMLPageContent .look-02 { background-color: #CCCCCC; }
 #HTMLPageContent .look-03 { background-color: #A7A7A7; }
@@ -89,6 +100,7 @@
 #HTMLPageContent .grapevine-08-look { background-color: #9A1861;  }
 #HTMLPageContent .grapevine-08-look .content .headline1,
 #HTMLPageContent .grapevine-08-look .content .headline2 { color: #F7BA00; }
+.no-javascript #look-linker-form { visibility: hidden; }
 #look-linker-form { padding: 0 0 0 10px; }
 #HTMLPageContent .slime-05-look { background-color: #33CC33; }
 #HTMLPageContent .redd-06-look { background-color: #ED2D3D; }
@@ -138,7 +150,7 @@
 
 #look-linker-list-info { display: inline-block; }
 #look-linker-list-info #bold-headline { text-transform: uppercase;  }
-#off-javascript-enable-message { color: var(--page-aside-txt-color);  }
+#off-javascript-enable-message { color: var(--page-aside-txt-color); padding: 0 20px 0; }
 #look-linker-list-info #bold-headline, #what-is-linkedin { color: var(--page-aside-txt-color); font-weight: bold;}
 #what-is-linkedin { font-size: 80%; }
 #HTMLPageContent .green-black-03-look { background-color: #E00A9C; color: #1ADC00; }
@@ -207,6 +219,8 @@ h2.headline2 .highlight3 { background-color: #E9BDE2; color: #EA0EC6; }
 }
 .pic-lists .item { display: inline-block; }
 .aside {
+  max-width: 157px;
+  min-height: 280px;
   background: #D1D1D1;
   float: right;
   position: relative;
