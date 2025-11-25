@@ -1,4 +1,5 @@
-var specific_look_integer = false,
+var whenHasJavascript = 'no-javascript',
+    specific_look_integer = false,
     body_element = ' ',
     update_link = '', 
     style_index = false, 
@@ -73,7 +74,13 @@ function onLoadDocumentWindowPage(){
   hideJavascriptProgressiveEnhancementMessage();
   uriStyledLooks();
   updateLinkColoursParams();
+  enables_javascriptClass();
 }
+function enables_javascriptClass(){
+    bodyHTML_classList.remove(whenHasJavascript)
+    
+}
+
 
 function hideJavascriptProgressiveEnhancementMessage(){
   if (document.getElementById(javascript_info)){
