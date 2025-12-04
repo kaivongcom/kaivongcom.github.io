@@ -175,7 +175,8 @@ overflow: hidden; display: block; text-align: left;
 .s02 { display: none; visibility: hidden; }
 .s03 { text-transform: lowercase; }
 .hey-highlight { color: #3E3ECC;  }
-.highlight5 { background-color: #EEEEEE; color: #BBBBBB; padding-left: 5px; padding-right: 5px; text-align: center; }
+/*  // COLOUR-WHEEL Aluminium–S#63E5E7 */
+.highlight5 { background-color: #63E7E7; color:#EEEEEE; padding-left: 5px; padding-right: 5px; text-align: center; }
 .headline1 { font-size: smaller; }
 #about-kaivongdev { padding-top: 0; margin-bottom: 0; }
 h1 { margin: 0; }
@@ -198,7 +199,7 @@ h2.headline2 .highlight3 { background-color: #E9BDE2; color: #EA0EC6; }
   clear: both;
   color: #666666;
   font-family: arial;
-  margin-left: -3px;
+  padding: 13px 13px 13px 13px;
   text-transform: uppercase;
 }
 .screen.page-body {
