@@ -60,9 +60,8 @@ overflow: hidden; display: block; text-align: left;
 #HTMLPageContent .screen .wrapper { background-color: #fff; padding: 0;
     z-index: auto; position: relative;
 }
-.themes-display .wrapper:after { content: ' '; display: block; left: -96px; top: -13px; position: absolute; z-index: -1;
+.themes-display .wrapper:after { content: ' '; display: block; left: -128px; top: -13px; position: absolute; z-index: -1;
     width: 128px; height: 422px; Background: transparent url(../images/themes6.gif) 0 0; }
-.light-crimson { background-color: #fff; color: #333; }
 #news {}
 #HTMLPageContent .light-crimson { border-top-color: #C20097; border-top: #C20000 13px solid;  }
 .light-crimson .headline2 { color: #333; }
