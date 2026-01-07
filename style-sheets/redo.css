@@ -1,3 +1,4 @@
+.text-lower-paragraph { margin: 0 0 0 60px }
 #colours-looking-into div { width: 48px; height: 24px; float: left; }
 #red { background-color: red; /* alternates on that newline */
     background-color: #691616;
