@@ -115,12 +115,9 @@ overflow: hidden; display: block; text-align: left;
 #off-javascript-enable-message { color: var(--page-aside-txt-color); padding: 0 20px 0; }
 #look-linker-list-info #bold-headline, #what-is-linkedin { color: var(--page-aside-txt-color); font-weight: bold;}
 #what-is-linkedin { font-size: 80%; }
-#HTMLPageContent .green-black-03-look { background-color: #E00A9C; color: #1ADC00; }
-#HTMLPageContent .green-black-03-look #q-linkedin,
 .aside .look-linkers-enhanced-dynamic-styles,
 .defaults-02-look .aside .look-linkers-enhanced-dynamic-styles,
 .aside .look-linkers-enhanced-dynamic-styles:hover { text-decoration: underline; }
-.cat-cc { position: absolute; }
 #cat-wrapper-list { padding: 0; margin: 0; }
 .cat-wrapper { position: relative; display: inline-block; margin-left: 2px; }
 .breaks-line { clear: both; }
@@ -165,9 +162,7 @@ h2.headline2 .highlight3 { background-color: #E9BDE2; color: #EA0EC6; }
   border: 3px solid silver;
   display: block;
 }
-#SMChannelsCompleteContent #linkedContent,
-#q-linkedin { padding: 8px 26px 4px 26px; }
-#q-linkedin { vertical-align: bottom; }
+#SMChannelsCompleteContent #linkedContent  { padding: 8px 26px 4px 26px; }
 #previous-social-links { padding: 0 0 0 20px; clear: left; }
 #dev-email-hello-eh { width:20px; height:16px; top: 5px; position: relative; }
 #linkedContent .list-item .h-text {
