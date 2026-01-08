@@ -52,33 +52,12 @@ overflow: hidden; display: block; text-align: left;
     z-index: auto; position: relative;
 }
 #news {}
-#HTMLPageContent .light-crimson { border-top-color: #C20097; border-top: #C20000 13px solid;  }
-.light-crimson .headline2 { color: #333; }
-.light-crimson #linkedinLinkContent,
-.light-crimson #twitterXLinkContent,
-.light-crimson #githubLinkContent { background-color: transparent;
-                                    background-size: 100%;
-                                    display: inline-block;
-                                    height: 22px;
-                                    width: 22px;
-                                     }
-.light-crimson #linkedinLinkContent { background-image: url(/images/SMChannels/kaivongcom-on-linkedincom-lc.png);}                                     
-.light-crimson #githubLinkContent   { background-image: url(/images/SMChannels/kaivongcom-on-githubcom-lc.png);}
-.light-crimson #twitterXLinkContent { background-image: url(/images/SMChannels/kaivongcom-on-xcom-lc.png);}
-.light-crimson #linkedinLinkContent img,
-.light-crimson #githubLinkContent img,
-.light-crimson #twitterXLinkContent img  { display: none; }
-.light-crimson .alt-link-text { background-color: #fff; }
-.light-crimson a:link { color: #C20000; }
-.light-crimson a:visited { color: #C20097; }
 .links-navigator { background-color: #fff; margin-top: 100px; padding: 10px; text-align: center; }
 .news-code-contact-space,
 #news-code-contact-space { background-color: #eee; color: #333;  padding: 4px;}
 #HTMLPageContent .alt-link-text { background-color: #333; color: #eee; }
 .no-javascript #look-linker-form { visibility: hidden; }
 #look-linker-form { padding: 0 0 0 10px; }
-#HTMLPageContent .slime-05-look { background-color: #33CC33; }
-#HTMLPageContent .redd-06-look { background-color: #ED2D3D; }
 .img-03 { display: none; }
 #look-04,#look-05,#look-06,
 #look-00, #look-01, #look-02,#look-03 { padding-left: 26px; display: block; }
@@ -118,8 +97,6 @@ overflow: hidden; display: block; text-align: left;
 .aside .look-linkers-enhanced-dynamic-styles,
 .defaults-02-look .aside .look-linkers-enhanced-dynamic-styles,
 .aside .look-linkers-enhanced-dynamic-styles:hover { text-decoration: underline; }
-#cat-wrapper-list { padding: 0; margin: 0; }
-.cat-wrapper { position: relative; display: inline-block; margin-left: 2px; }
 .breaks-line { clear: both; }
 .hey-highlight { color: #3E3ECC; }
 .highlight5 { background-color: #63E7E7; color:#EEEEEE; padding-left: 5px; padding-right: 5px; text-align: center; }
