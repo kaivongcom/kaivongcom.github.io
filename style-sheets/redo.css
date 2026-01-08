@@ -90,8 +90,6 @@ overflow: hidden; display: block; text-align: left;
 #look-linker-list { visibility: hidden; }
 .themes-display #look-linker-list { visibility: visible; }
 #wf-themes-image { display: none; } 
-:root {
-}
 @media (prefers-color-scheme: dark){
     :root {
         color-scheme: light dark;
@@ -119,7 +117,6 @@ overflow: hidden; display: block; text-align: left;
 #what-is-linkedin { font-size: 80%; }
 #HTMLPageContent .green-black-03-look { background-color: #E00A9C; color: #1ADC00; }
 #HTMLPageContent .green-black-03-look #q-linkedin,
-.yellow-black-04-look #q-linkedin { color: #3B2027; }
 .aside .look-linkers-enhanced-dynamic-styles,
 .defaults-02-look .aside .look-linkers-enhanced-dynamic-styles,
 .aside .look-linkers-enhanced-dynamic-styles:hover { text-decoration: underline; }
@@ -197,7 +194,6 @@ h2.headline2 .highlight3 { background-color: #E9BDE2; color: #EA0EC6; }
     #linkedContent,
     .aside .headline2 { display: inline-block; vertical-align: top; }
     #linkedContent {margin-top: 6px; }
-
     #SMChannelsCompleteContent #linkedContent,
     #q-linkedin { padding: 0;
     }
