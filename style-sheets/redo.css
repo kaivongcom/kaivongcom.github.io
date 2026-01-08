@@ -1,3 +1,7 @@
+.screen.page-body {
+  margin: 0;
+  padding: 0;
+}
 .headline1.element2 { margin: 0; padding: 0 0 0 13px;}
 .headline1.element2 a { background-color: #bbb; color: #fff; text-decoration: none; padding: 6px 4px 0; line-height:1; }
 .text-lower-paragraph { margin: 0 0 0 13px }
@@ -50,22 +54,6 @@ overflow: hidden; display: block; text-align: left;
 #art-ascii-dark2 { display: none; }
 #art-ascii-wall-switcher:hover #art-ascii-light2 { display: inline-block; }
 #art-ascii-wall-switcher:hover #art-ascii-light1 { display: none; }
-#HTMLPageContent .blue1-11-look { background-color: #282828; color: #FFFFFF; }
-.yellow-black-04-look .lite-font-color,
-.red1-midnight .lite-font-color,
-.redd-06-look .lite-font-color { color: red; }
-.leckiday-tesla-09-look .lite-font-color,
-.green-black-03-look .lite-font-color,
-.midnight-gree7 .lite-font-color,
-.slime-05-look .lite-font-color,
-.turquoise-mornings1-16-look .lite-font-color,
-.turquoise-midnight1-15-look .lite-font-color  { color: #047101; }
-.clay-07-look .lite-font-color  { color: #85A0A0; }
-.blue4-14-look .lite-font-color { color: #253150; }
-.blue3-13-look .lite-font-color { color: #253150; }
-.blue1-11-look .lite-font-color { color: #0376BB; }
-.blue2-12-look .lite-font-color { color: #004D81; }
-#HTMLPageContent .blue2-12-look { background-color: #979797; }
 #kaivongdev-news-happenings .wrapper { background-color: #fff ; }
 .table-look thead tr td { background-color: #AAAAAA; }
 .paragraph-01 { margin-top: 0;  font-size: smaller; }
@@ -181,35 +169,21 @@ overflow: hidden; display: block; text-align: left;
 .yellow-black-04-look #q-linkedin { color: #3B2027; }
 .aside .look-linkers-enhanced-dynamic-styles,
 .defaults-02-look .aside .look-linkers-enhanced-dynamic-styles,
-.green-black-03-look .aside .look-linkers-enhanced-dynamic-styles,
-.yellow-black-04-look .aside .look-linkers-enhanced-dynamic-styles { cursor: pointer; }
-.yellow-black-04-look { background-color: #3B2027; background-color: rgb(59,32, 32); color: #F7C265; }
 .aside .look-linkers-enhanced-dynamic-styles:hover { text-decoration: underline; }
 .cat-cc { position: absolute; }
 #cat-wrapper-list { padding: 0; margin: 0; }
 .cat-wrapper { position: relative; display: inline-block; margin-left: 2px; }
-#cat-01 { top: 42px; left: 22px  }
-#cat-02 { top: 42px; left: 25px }
-#cat-05 { top: 42px; left: 64px  }
-.lite-font-color { color: pink; }
 .breaks-line { clear: both; }
-.image-iseries { float: right; border: 3px solid #bbb; }
-.i01 { border-bottom: 22px solid #666666; }
-.s02 { display: none; visibility: hidden; }
-.s03 { text-transform: lowercase; }
 .hey-highlight { color: #3E3ECC;  }
-/*  // COLOUR-WHEEL Aluminium–S#63E5E7 */
 .highlight5 { background-color: #63E7E7; color:#EEEEEE; padding-left: 5px; padding-right: 5px; text-align: center; }
 .headline1 { font-size: smaller; }
 #about-kaivongdev { padding-top: 0; margin-bottom: 0; }
-h1 { margin: 0; }
 .bio-name { color: #333333; display: block; font-weight: normal; }
 body { line-height: 1.5; color: var(--page-txt-color)} 
 a:link { color: #E79423; }
 h2.headline2 .highlight1 { background-color: #FBEFDE; color: #E79423; }
 h2.headline2 .highlight2 { background-color: #F9E0E5; color: #DD3256; }
 h2.headline2 .highlight3 { background-color: #E9BDE2; color: #EA0EC6; }
-
 .page-cover { background: rgba(0 0 0 / 0.25);
   position: absolute;
   height: 100%; width: 100%; }
@@ -225,23 +199,10 @@ h2.headline2 .highlight3 { background-color: #E9BDE2; color: #EA0EC6; }
   padding: 13px 13px 13px 13px;
   text-transform: uppercase;
 }
-.screen.page-body {
-  margin: 0;
-  padding: 0;
-}
 .content {
   float: left;
   margin: 0;
 }
-.pic-lists {
-  background-color: #333333;
-  border: 6px solid #111111;
-  display: inline-block;
-  list-style-type: none;
-  padding: 10px 0 10px 20px;
-  width: 340px;
-}
-.pic-lists .item { display: inline-block; }
 .aside {
   max-width: 157px;
   min-height: 392px;
@@ -250,38 +211,9 @@ h2.headline2 .highlight3 { background-color: #E9BDE2; color: #EA0EC6; }
   position: relative;
   border: 2px solid #fff; border-top: 3px solid #333;
   z-index: 2; position: relative; }
-.focus-highlightable:hover{
-  background-color: yellow;
-}
 .picture.image {
   border: 3px solid silver;
   display: block;
-}
-.caption {
-  background-color: #FFFFFF;
-  border-top: 0;
-  border: silver 3px solid;
-  margin: 0;
-  padding: 4px 0 4px 4px;
-  width: 416px;
-}
-.small-text.caption {
-  font-size: 13px;
-  margin-bottom: 24px;
-}
-.view-icons.content {
-  padding: 0;
-}
-.javascript-required,
-#NavigationAtTop,
-#NavigationAtBottom  {
-  left: -9999px;
-  position: absolute;
-}
-.view-list #linkedContent {
-  margin-left: -5px;
-  margin-top: 0;
-  padding-left: 0;
 }
 #SMChannelsCompleteContent #linkedContent,
 #q-linkedin { padding: 8px 26px 4px 26px; }
@@ -296,36 +228,25 @@ h2.headline2 .highlight3 { background-color: #E9BDE2; color: #EA0EC6; }
 .list-item {
   display: inline-block;
 }
-#footer { clear: both; color: gray; padding: 20px; margin: 20px 0 0; text-align: center; }
 .hide-content { visibility: hidden; display: none;}
 .themes-display #wf-themes-image { position: absolute; left: -2px; bottom: -116px; display: inline; }
-
-
 @media handheld {
-    .aside {
-        display: none;
-    }
+    .aside { display: none; }
 }
-
 @media tty {
     h1 { border-bottom: 10px solid red; }
 }
-
 @media screen and (max-width:394px) {
     .aside,
     .content { float: none; }
-    .themes-display #wf-themes-image { display: none; }
+    body.html1999.themes-display #wf-themes-image { display: none; }
     #SMChannelsCompleteContent,
     #linkedContent,
     .aside .headline2 { display: inline-block; vertical-align: top; }
-    .aside .headline2 {  }
     #linkedContent {margin-top: 6px; }
-    #SMChannelsCompleteContent #linkedContent, #q-linkedin { padding: 0; }
-}
 
-@media screen and (max-width:825px) {
-    .aside {
-        background-color: rgba(208,208,208,0.75);
+    #SMChannelsCompleteContent #linkedContent,
+    #q-linkedin { padding: 0;
     }
-    img.i01 { width: 500px; height: 168px; }
 }
+#footer { clear: both; color: gray; padding: 20px; margin: 20px 0 0; text-align: center; }
