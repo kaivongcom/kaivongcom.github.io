@@ -27,17 +27,12 @@
 #violet-block { background-color: violet;
        background-color: #DB00A7;
 }
-#post01,
-.post { padding: 0 13px; }
-
 #wf-themes-image02 {
     top: -109px;
     position: relative;
     right: 0;
 }
-.no-javascript {}
 .content { width: 400px; }
-
 .content code { white-space: break-spaces; text-overflow: ellipsis; width: 320px;
 overflow: hidden; display: block; text-align: left;
 }
@@ -46,10 +41,9 @@ overflow: hidden; display: block; text-align: left;
 #HTMLPageContent .look-03 { background-color: #A7A7A7; }
 #HTMLPageContent .look-04 { background-color: #787878; }
 #HTMLPageContent .look-05 { background-color: #444444; }
-
-#HTMLPageContent .look-06 { color: #000000; }
-#art-ascii-light2 { display: none; }
-#art-ascii-dark1 { display: none; }
+#HTMLPageContent .look-06 { color: #000; }
+#art-ascii-light2,
+#art-ascii-dark1,
 #art-ascii-dark2 { display: none; }
 #art-ascii-wall-switcher:hover #art-ascii-light2 { display: inline-block; }
 #art-ascii-wall-switcher:hover #art-ascii-light1 { display: none; }
