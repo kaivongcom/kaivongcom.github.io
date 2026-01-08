@@ -1,66 +1,21 @@
-kaivong.dev—kaivong.com(redirects: kaivongcom.github.io) 
+Social Links: Twitter, Github, Linkedin
 
-ABOUT (OMG, THE HOMEPAGE 🏡)
-Kai Vong, the London-based designer specialising in User-Interface/web-design/visual designs,
-product design. Page, professional presence available various websites
-(dribble.com for a selection of looks) ↥. (https://dribbble.com/kaichanvong) 
+This is KaiVongDev (kai vong development web page)
 
-Right now you are getting a preview of the homepage for kaivongdev,
-development of a web page kaivongcom.
+welcome to the homepage for @kaivongdev;
+this colorset generated with Greyscale filters
+Best way to contact me is via Twitter DM - let's chat :)
 
-Picture Categories
-- (Abstract, https://kaivongcom.github.io/pictures/categories/abstract-14358686874_da68a123d4_o-100square.gif)
-- (Aerial, https://kaivongcom.github.io/pictures/categories/aerial-and-more-sun_2698776807_o-100square.gif)
-- (Festivals, https://kaivongcom.github.io/pictures/categories/festival_2703521579_o.gif)
-- (Animals-picture, https://kaivongcom.github.io/pictures/categories/animals-11017652_401099086718726_1524685622_n_17841776914037719.gif)
-- (B&W, https://kaivongcom.github.io/pictures/categories/never-white-on-scotch-water-information-sq100-bw.gif)
-
-AI Seen online–chatbot AI:
-    1	Apple Siri ↥, grok ↥, Microsoft Copilot ↥
-    2	Google Gemini ↥
-    3	Alexa (developer edition) ↥
-    4	Claude ↥ Qwen AI ↥, chat GPT-5 ↥
-
-/HYPER: LINKS…
-pages different from kaivong domain here, below:
-	1	A within, Google Arts & Culture ↥, artfinder ↥ (https://artsandculture.google.com/category/medium?tab=az&pr=A, https://www.artfinder.com, https://www.hey.com)
-	2	Gamespot ↥, Nintendo ↥, The Microsoft Tetris ↥ (https://www.gamespot.com, https://www.nintendo.com/en-gb, https://apps.microsoft.com/detail/9nccdgq9mnmh)
-	3	W.W.W. ↥, Soccer ↥, style—look @ dressipi ↥ (https://www.britannica.com/topic/World-Wide-Web, https://www.bbc.com/sport/football, https://www.dressipi.com)
-	4	Big A, Little A (song discovery) ↥ (https://www.youtube.com/results?search_query=%22big+a+little+a%22+song+%22jeffrey+lewis%22/ https://music.apple.com/gb/album/big-a-little-a/1726660354?i=1726660362)
-	5	Windows App Store ↥, macOS App Store ↥, JustGiving ↥ (https://apps.microsoft.com/apps?hl=en-uk&gl=UK, https://www.apple.com/uk/app-store, https://www.justgiving.com)
-	6	🥁 — World of Sounds, 🎧 (music—sounds) ↥ (https://www.billboard.com/c/music)
-
-STYLES:
-– blu1-cyan 
-– blu2-berry 
-– blu3-nav 
-– blu4-midnight  
-– clay matte 
-– defaults  
-– dimmer green 
-– grapevine one 
-– leckiday-r tesla-nine 
-– midnight-gree7 
-– purple 
-– red focus    
-– red1-midnight 
-– slimer
-– snowyBlueprnt
-– turquoise-midnight 
-– turquoise-mornings 
-– yellow dimmer
-- VG-B-LC
-
-
-(Links) 
-* news(/news)
-* x-here(/x) 
-* twitter-here(/twitter)
 
 FURTHER LINKS
-	1	(github, Image Link)[https://github.com/kaivongcom]
-	2	(x-grok/twitter, Image Link) [https://x.com/kaivongdev]
+    1    (x-grok/twitter, Image Link) [https://x.com/kaivongdev]
+	2	(github, Image Link)[https://github.com/kaivongcom]
 	3	(linkedin, Image Link)[http://linkedin.com/in/kaichanvong]
-“what is Linkedin?”
 
-kaivong, has a London based webpage, here's a picture of a snowman constructed: snowman picture GIF [graphic interchange format; a lossless format for images](https://kaivongcom.github.io/pictures/snowday-feb-2009/snowman-picture.gif)
+STYLES:
+– 01 white
+– 02 greyer
+– 03 grey02
+– 04 charc.
+– 05 charcoal–tüngsten
+– defaults (light,dark, system modes)
