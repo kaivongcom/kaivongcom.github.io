@@ -1,7 +1,16 @@
-.header-level-2 { margin-bottom: 0; }
+#HTMLPageContent .screen .wrapper { overflow: hidden; }
+#HTMLPageContent .screen .wrapper,
+body {
+    min-height: 1024px;
+}
+body {
+    background: transparent url(/images/pattern/background-test-one@0.5x.jpg) repeat;
+}
+.header-level-2 { margin-bottom: 0; margin-left: 24px; }
 #past_page_kaivongcom {
     clear: both;
     border: 10px solid #FFF;
+    margin: 0 0 0 12px;
 }
 #origami-creature-pig-resized {
   float: right;
@@ -12,9 +21,9 @@
   margin: 0;
   padding: 0;
 }
-.headline1.element2 { margin: 0; padding: 0 0 0 13px;}
+.headline1.element2 { margin: 0; padding: 0 0 0 26px;}
 .headline1.element2 a { background-color: #bbb; color: #fff; text-decoration: none; padding: 6px 4px 0; line-height:1; }
-.text-lower-paragraph { margin: 0 0 0 13px }
+.text-lower-paragraph { margin: 0 0 0 26px }
 .page-body.look-02 .text-lower-paragraph { color: #333 }
 #wf-themes-image02 {
     top: -109px;
@@ -25,12 +34,12 @@
 .content code { white-space: break-spaces; text-overflow: ellipsis; width: 320px;
 overflow: hidden; display: block; text-align: left;
 }
-#HTMLPageContent .look-01 { background-color: #FFFFFF; color: #000000; }
-#HTMLPageContent .look-02 { background-color: #CCCCCC; }
-#HTMLPageContent .look-03 { background-color: #A7A7A7; }
-#HTMLPageContent .look-04 { background-color: #787878; }
-#HTMLPageContent .look-05 { background-color: #444444; }
-#HTMLPageContent .look-06 { color: #000; }
+#HTMLPageContent .screen.look-01 .wrapper { background-color: #FFFFFF; color: #000000; }
+#HTMLPageContent .screen.look-02 .wrapper  { background-color: #CCCCCC; }
+#HTMLPageContent .screen.look-03 .wrapper  { background-color: #A7A7A7; }
+#HTMLPageContent .screen.look-04 .wrapper  { background-color: #787878; }
+#HTMLPageContent .screen.look-05 .wrapper  { background-color: #444444; }
+#HTMLPageContent .screen.look-06 .wrapper  { color: #000; }
 #art-ascii-light2,
 #art-ascii-dark1,
 #art-ascii-dark2 { display: none; }
