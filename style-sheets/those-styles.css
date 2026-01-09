@@ -1,3 +1,4 @@
+.spaceless-break { margin: 0 0 18px; height: 2px; background-color: #333; z-index:1; position: relative; }
 .header-level-2 { margin-bottom: 0; }
 #past_page_kaivongcom {
     clear: both;
@@ -14,14 +15,14 @@
 }
 .headline1.element2 { margin: 0; padding: 0 0 0 13px;}
 .headline1.element2 a { background-color: #bbb; color: #fff; text-decoration: none; padding: 6px 4px 0; line-height:1; }
-.text-lower-paragraph { margin: 0 0 0 13px }
+.text-lower-paragraph { margin: 0 0 0 13px; line-height: 1.5; }
 .page-body.look-02 .text-lower-paragraph { color: #333 }
 #wf-themes-image02 {
     top: -109px;
     position: relative;
     right: 0;
 }
-.content { width: 400px; }
+.content { width: 400px; line-height: 1; }
 .content code { white-space: break-spaces; text-overflow: ellipsis; width: 320px;
 overflow: hidden; display: block; text-align: left;
 }
@@ -122,12 +123,11 @@ h2.headline2 .highlight3 { background-color: #E9BDE2; color: #EA0EC6; }
   clear: both;
   color: #666666;
   font-family: Kailasa,arial;
-  padding: 13px 13px 13px 13px;
   text-transform: uppercase;
 }
 .content {
   float: left;
-  margin: 0;
+  margin: -9px 0 0;
 }
 .aside {
   clear: both;
@@ -135,6 +135,7 @@ h2.headline2 .highlight3 { background-color: #E9BDE2; color: #EA0EC6; }
   min-height: 392px;
   background: #D1D1D1;
   float: right;
+  overflow: hidden;
   position: relative;
   border: 2px solid #fff; border-top: 3px solid #333;
   z-index: 2; position: relative; }
