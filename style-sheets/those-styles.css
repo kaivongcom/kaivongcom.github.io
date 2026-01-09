@@ -1,3 +1,8 @@
+#origami-creature-pig-resized {
+  float: right;
+  height: 40;
+  width: 78;
+}
 .screen.page-body {
   margin: 0;
   padding: 0;
@@ -120,6 +125,7 @@ h2.headline2 .highlight3 { background-color: #E9BDE2; color: #EA0EC6; }
   margin: 0;
 }
 .aside {
+  clear: both;
   max-width: 157px;
   min-height: 392px;
   background: #D1D1D1;
