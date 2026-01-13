@@ -24,7 +24,15 @@ var whenHasJavascript = 'no-javascript',
     bodyHTML_classList = '',      
     links_domain = ['news-kaivong', 'x-kaivong', 'homepage-back'],
     links_domain_count = links_domain.length,
-    params_names = ['loadThisLooks'];
+    params_names = ['loadThisLooks'],
+    page_text = "Welcome to the homepage for @kaivongdev; \
+    this colorset generated with Greyscale \
+    filters. Best way to contact me is via Twitter DM - let's chat :)",
+    enhancedTextElement = 'possibleText';
+
+function loadHTMLPageText(){
+    document.getElementById(enhancedTextElement).innerText = page_text;
+}
 
 function kaivongcomLocalSwitcher(){
     if (localStorage['kaivongcom'] == 'theme,true') {
@@ -75,6 +83,7 @@ function onLoadDocumentWindowPage(){
   uriStyledLooks();
   updateLinkColoursParams();
   enables_javascriptClass();
+  loadHTMLPageText();
 }
 function enables_javascriptClass(){
     bodyHTML_classList.remove(whenHasJavascript)

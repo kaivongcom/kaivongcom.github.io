@@ -1,10 +1,12 @@
+.no-javascript .headline1.element2,
+.no-javascript #origami-creature-resized { display: none; }
 .spaceless-break { margin: 0 0 18px; height: 2px; background-color: #333; z-index:1; position: relative; }
 .header-level-2 { margin-bottom: 0; }
 #past_page_kaivongcom {
     clear: both;
     border: 10px solid #FFF;
 }
-#origami-creature-pig-resized {
+#origami-creature-resized {
   float: right;
   height: 40;
   width: 78;
@@ -17,12 +19,7 @@
 .headline1.element2 a { background-color: #bbb; color: #fff; text-decoration: none; padding: 6px 4px 0; line-height:1; }
 .text-lower-paragraph { margin: 0 0 0 13px; line-height: 1.5; }
 .page-body.look-02 .text-lower-paragraph { color: #333 }
-#wf-themes-image02 {
-    top: -109px;
-    position: relative;
-    right: 0;
-}
-.content { width: 400px; line-height: 1; }
+.content { line-height: 1;   margin: -9px 200px 0 60px; border-left: 2px solid #222; min-height: 600px; }
 .content code { white-space: break-spaces; text-overflow: ellipsis; width: 320px;
 overflow: hidden; display: block; text-align: left;
 }
@@ -48,7 +45,6 @@ overflow: hidden; display: block; text-align: left;
   cursor: default;
   font-family: Kailasa, arial;
   font-size: small;
-  max-width: 580px;
   margin: 0 auto;
 }
 #HTMLPageContent .screen .wrapper { background-color: #fff; padding: 0;
@@ -125,25 +121,21 @@ h2.headline2 .highlight3 { background-color: #E9BDE2; color: #EA0EC6; }
   font-family: Kailasa,arial;
   text-transform: uppercase;
 }
-.content {
-  float: left;
-  margin: -9px 0 0;
-}
 .aside {
+  border: 2px solid #fff; border-top: 3px solid #333;
   clear: both;
   max-width: 157px;
-  min-height: 392px;
+  min-height: 600px;
   background: #D1D1D1;
-  float: right;
   overflow: hidden;
-  position: relative;
-  border: 2px solid #fff; border-top: 3px solid #333;
-  z-index: 2; position: relative; }
+  position: absolute;
+  right: 0;
+  top: 48px;
+  z-index: 2; }
 .picture.image {
   border: 3px solid silver;
   display: block;
 }
-#SMChannelsCompleteContent #linkedContent  { padding: 8px 26px 4px 26px; }
 #previous-social-links { padding: 0 0 0 20px; clear: left; }
 #dev-email-hello-eh { width:20px; height:16px; top: 5px; position: relative; }
 #linkedContent .list-item .h-text {
@@ -155,7 +147,16 @@ h2.headline2 .highlight3 { background-color: #E9BDE2; color: #EA0EC6; }
   display: inline-block;
 }
 .hide-content { visibility: hidden; display: none;}
-.themes-display #wf-themes-image { position: absolute; left: -2px; bottom: -116px; display: inline; }
+.themes-display #wf-themes-image {  display: block; margin: 20px 0 0; }
+#wf-themes-image02 { height: 600px; }
+/* position: absolute; left: -2px; top: 360px; */
+/*#wf-themes-image02 {*/
+/*    bottom: 0;*/
+/*    top: -109px;*/
+/*    position: relative;*/
+/*    right: 0;*/
+/*}*/
+
 @media handheld {
     .aside { display: none; }
 }
@@ -166,11 +167,9 @@ h2.headline2 .highlight3 { background-color: #E9BDE2; color: #EA0EC6; }
     .aside,
     .content { float: none; }
     body.html1999.themes-display #wf-themes-image { display: none; }
-    #SMChannelsCompleteContent,
     #linkedContent,
     .aside .headline2 { display: inline-block; vertical-align: top; }
     #linkedContent {margin-top: 6px; }
-    #SMChannelsCompleteContent #linkedContent,
     #q-linkedin { padding: 0;
     }
 }
