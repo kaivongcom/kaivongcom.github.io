@@ -2,6 +2,7 @@
 .no-javascript #origami-creature-resized { display: none; }
 .spaceless-break { margin: 0 0 18px; height: 2px; background-color: #333; z-index:1; position: relative; }
 .header-level-2 { margin-bottom: 0; }
+
 #past_page_kaivongcom {
     clear: both;
     border: 10px solid #FFF;
@@ -15,11 +16,11 @@
   margin: 0;
   padding: 0;
 }
-.headline1.element2 { margin: 0; padding: 24px 0 0 13px }
-.headline1.element2 a { background-color: #bbb; color: #fff; text-decoration: none; padding: 6px 4px 0; line-height:1; }
+.headline1.element2 { margin: 0; padding: 16px 0 0 13px }
+.headline1.element2 a { background-color: #bbb; color: #fff; text-decoration: none; padding: 6px 4px 0; line-height:1;
+                        display: inline-block; margin-top: 4px; }
 .text-lower-paragraph { margin: 0 0 0 13px; line-height: 1.5; }
 .page-body.look-02 .text-lower-paragraph { color: #333 }
-.content { line-height: 1;   margin: -9px 200px 0 60px; border-left: 2px solid #222; min-height: 600px; }
 .content code { white-space: break-spaces; text-overflow: ellipsis; width: 320px;
 overflow: hidden; display: block; text-align: left;
 }
@@ -166,6 +167,9 @@ h2.headline2 .highlight3 { background-color: #E9BDE2; color: #EA0EC6; }
 @media screen and (max-width:394px) {
     .aside,
     .content { float: none; }
+    .content {
+        min-width: 140px;
+    }
     body.html1999.themes-display #wf-themes-image { display: none; }
     #linkedContent,
     .aside .headline2 { display: inline-block; vertical-align: top; }
@@ -173,4 +177,7 @@ h2.headline2 .highlight3 { background-color: #E9BDE2; color: #EA0EC6; }
     #q-linkedin { padding: 0;
     }
 }
-#footer { clear: both; color: gray; padding: 20px; margin: 20px 0 0; text-align: center; }
+body    { min-width: 380px; }
+.content { line-height: 1;   margin: -9px 200px 0 60px;
+           border-left: 2px solid #222; min-height: 600px;
+}
