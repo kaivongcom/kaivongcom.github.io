@@ -15,7 +15,7 @@
   margin: 0;
   padding: 0;
 }
-.headline1.element2 { margin: 0; padding: 0 0 0 13px;}
+.headline1.element2 { margin: 0; padding: 24px 0 0 13px }
 .headline1.element2 a { background-color: #bbb; color: #fff; text-decoration: none; padding: 6px 4px 0; line-height:1; }
 .text-lower-paragraph { margin: 0 0 0 13px; line-height: 1.5; }
 .page-body.look-02 .text-lower-paragraph { color: #333 }
@@ -130,7 +130,7 @@ h2.headline2 .highlight3 { background-color: #E9BDE2; color: #EA0EC6; }
   overflow: hidden;
   position: absolute;
   right: 0;
-  top: 48px;
+  top: 34px;
   z-index: 2; }
 .picture.image {
   border: 3px solid silver;
