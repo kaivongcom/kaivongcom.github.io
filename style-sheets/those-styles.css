@@ -35,7 +35,6 @@ overflow: hidden; display: block; text-align: left;
 #art-ascii-dark2 { display: none; }
 #art-ascii-wall-switcher:hover #art-ascii-light2 { display: inline-block; }
 #art-ascii-wall-switcher:hover #art-ascii-light1 { display: none; }
-#kaivongdev-news-happenings .wrapper { background-color: #fff ; }
 .table-look thead tr td { background-color: #AAAAAA; }
 .paragraph-01 { margin-top: 0;  font-size: smaller; }
 .ordered-list { padding: 0 0 0 16px; }
@@ -48,8 +47,10 @@ overflow: hidden; display: block; text-align: left;
   font-size: small;
   margin: 0 auto;
 }
-#HTMLPageContent .screen .wrapper { background-color: #fff; padding: 0;
-    z-index: auto; position: relative;
+#HTMLPageContent .screen .wrapper {
+    padding: 0;
+    z-index: auto;
+    position: relative;
 }
 #news {}
 .links-navigator { background-color: #fff; margin-top: 100px; padding: 10px; text-align: center; }
