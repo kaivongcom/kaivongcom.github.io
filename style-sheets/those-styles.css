@@ -41,7 +41,7 @@ overflow: hidden; display: block; text-align: left;
 .list-item { font-size: smaller; padding: 0;}
 .headline {font-size: small;}
 #HTMLPageContent .screen {
-  border-top: #F09937 13px solid;
+  border-top: #333333 13px solid;
   cursor: default;
   font-family: Kailasa, arial;
   font-size: small;

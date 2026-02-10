@@ -27,7 +27,7 @@ var whenHasJavascript = 'no-javascript',
     params_names = ['loadThisLooks'],
     page_text = "Welcome to the homepage for @kaivongdev; \
     this colorset generated with Greyscale \
-    filters. Best way to contact me is via Twitter DM - let's chat :)",
+    filters. Best way to get in contact Gravatar profile, alternatively on Twitter Direct Message to chat",
     enhancedTextElement = 'possibleText';
 
 function loadHTMLPageText(){
