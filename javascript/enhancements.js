@@ -25,13 +25,17 @@ var whenHasJavascript = 'no-javascript',
     links_domain = ['news-kaivong', 'x-kaivong', 'homepage-back'],
     links_domain_count = links_domain.length,
     params_names = ['loadThisLooks'],
-    page_text = "Welcome to the homepage for @kaivongdev; \
-    this colorset generated with Greyscale \
-    filters. Best way to get in contact Gravatar profile, alternatively on Twitter Direct Message to chat",
+    page_text = "Welcome to the homepage for @kaivongdev; <br />\
+    this colorset generated with Greyscale filters.<br /><br /> \
+    ⇨ for business inquiries: <br />\
+    kai@kaivong.com / linkedin<br />\
+    ⇨ personal email: <br />kaivong@gmail.com / facebook / twitter<br /><br />\
+    ALL business inquiries sent to this email will be ignored, smiles. <br />\
+    Also, Gravatar profile, alternatively on twitter Direct Message to chat to me<br />",
     enhancedTextElement = 'possibleText';
 
 function loadHTMLPageText(){
-    document.getElementById(enhancedTextElement).innerText = page_text;
+    document.getElementById(enhancedTextElement).innerHTML = page_text;
 }
 
 function kaivongcomLocalSwitcher(){
