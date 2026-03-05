@@ -29,7 +29,7 @@ var whenHasJavascript = 'no-javascript',
                 this colorset generated with Greyscale filters.<br><br>\
                 <span class=business-inquiries>⇨ for your business inquiries: <br>-    Email Me / linkedin<br></span><br>\
                 ⇨ for your personal emails: <br>- Email my Public/Personal gmail<br>\
-                - google email (kaivong@) ? / facebook / twitter<br><br>\
+                - google email (kaivong@) ? / facebook / <a href=http://x.com/kaivongdev>twitter</a><br><br>\
                 ALL business inquiries sent to that email will be ignored, (please use email) <br>\
                 Also, Gravatar profile. Even on Twitter for direct message chat<br></pre>",
     enhancedTextElement = 'possibleText';
