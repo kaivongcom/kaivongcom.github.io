@@ -27,7 +27,7 @@ var whenHasJavascript = 'no-javascript',
     params_names = ['loadThisLooks'],
     page_text = "<strong>Hey</strong>, welcome <i>to</i> my homepage; <br />\
                 this colorset generated with Greyscale filters.<br><br>\
-                <font color=red>⇨ for your business inquiries: <br>-    Email Me / linkedin<br></font><br>\
+                <span class=business-inquiries>⇨ for your business inquiries: <br>-    Email Me / linkedin<br></span><br>\
                 ⇨ for your personal emails: <br>- Email my Public/Personal gmail<br>\
                 - google email (kaivong@) ? / facebook / twitter<br><br>\
                 ALL business inquiries sent to that email will be ignored, (please use email) <br>\
