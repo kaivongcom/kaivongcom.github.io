@@ -42,9 +42,7 @@ var whenHasJavascript = 'no-javascript',
 
 
 function loadHTMLPageText(){
-//part1
     document.getElementById(enhancedTextElement).innerHTML = page_text;
-//part2
     var url_arr = window.document.URL.split('?');
     if (url_arr[1] == 'quotation_marks=1') {
         document.getElementById(enhancedTextElement_joke).innerHTML = relaxed_text;
