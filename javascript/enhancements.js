@@ -32,11 +32,14 @@ var whenHasJavascript = 'no-javascript',
                 - google email (kaivong@) ? / facebook / <a href=http://x.com/kaivongdev>twitter</a><br><br>\
                 ALL business inquiries sent to that email will be ignored, (please use email) <br>\
                 Also, Gravatar profile. Even on Twitter for direct message chat<br></pre>",
+
     enhancedTextElement = 'possibleText';
+
 
 function loadHTMLPageText(){
     document.getElementById(enhancedTextElement).innerHTML = page_text;
 }
+
 
 function kaivongcomLocalSwitcher(){
     if (localStorage['kaivongcom'] == 'theme,true') {
@@ -44,6 +47,7 @@ function kaivongcomLocalSwitcher(){
         document.getElementById('hidden-checkbox-theme').checked = true;
     }
 }
+
 
 function themeButtonHTMLdisplayer(){
     var hiddenCheckboxTheme = document.getElementById('hidden-checkbox-theme');
@@ -57,14 +61,17 @@ function themeButtonHTMLdisplayer(){
     return false;
 }
 
+
 function getFirstBodyElement(){
   return document.getElementsByTagName('body')[0];
 }
+
 
 function urlStyledLooks(){
     var url_arr = window.document.URL.split('?');
     return url_arr;
 }
+
 
 function uriStyledLooks(){
   try {
@@ -79,6 +86,7 @@ function uriStyledLooks(){
   } catch (error) {  }
   return params_arr[1];
 }
+
 
 function onLoadDocumentWindowPage(){
   body_element = getFirstBodyElement();
@@ -102,14 +110,15 @@ function hideJavascriptProgressiveEnhancementMessage(){
   } 
 }
 
+
 function loadListLooks(){
   themeButtonHTMLdisplayer();
   specific_look_integer = document.getElementById(looksListName).selectedIndex;
   loadThisLooks(specific_look_integer);
   updateLinkColoursParams(String(specific_look_integer));
-
   return false;
 }
+
 
 function loadThisLooks(specific_look_integer){
   for(look_integer=0; look_integer <= looks_available;look_integer){
@@ -119,6 +128,7 @@ function loadThisLooks(specific_look_integer){
   bodyHTML_classList.add(styled_looks_arr[specific_look_integer]);
   return false;
 }
+
 
 function updateLinkColoursParams(specific_look_integer=false){
   for(links_counter=0; links_counter <= links_domain_count; links_counter){
@@ -139,6 +149,7 @@ function updateLinkColoursParams(specific_look_integer=false){
     links_counter+=1;
   }  
 }
+
 
 window.addEventListener("load", (event) => {
     kaivongcomLocalSwitcher();

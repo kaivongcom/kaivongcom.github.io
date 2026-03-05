@@ -187,4 +187,4 @@ body    { min-width: 380px; }
 }
 #wf-themes-image02 { min-height: 140px;  }
 .aside   { min-height: 140px;  }
-.content { min-height: 280px;  }
+.content { min-height: 280px; max-width: 600px; }
