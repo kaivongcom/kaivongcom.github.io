@@ -151,7 +151,6 @@ function updateLinkColoursParams(specific_look_integer=false){
         update_link = '';
         if(Boolean(specific_look_integer) == false){  } else {
           update_link = ('?' + params_names[0] + '=' + specific_look_integer);
-          console.log("selected: ?loadThisLooks=" + specific_look_integer);
         }
         new_link = new_page_link + update_link;
         current_link_node.href = new_link;
