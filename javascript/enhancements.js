@@ -34,7 +34,7 @@ var whenHasJavascript = 'no-javascript',
                 Also, Gravatar profile. Even on Twitter for direct message chat<br></pre>",
     relaxed_text = "<h2 class=q-m-header>a). quick-note: <span>interpreting Quotation-Marks</span></h2>\
 <span>quotation <i>of words</i> taken from a text <i>or</i> speech,<br />can be wrapped in:</span><br><br>\
-<span>1: <quote class=quotation-marks><b>&ldquo;</b><i>double quotation marks</i><b>&rdquo;</b></quote></span><br>\
+<span>1: <quote class=quotation-marks><b title=\"Left Curlii Double Quote\">&ldquo;</b><i>double quotation marks</i><b title=\"Right Curlii Double Quote\">&rdquo;</b></quote></span><br>\
 <span>2: <quote class=quotation-marks>emoji bunny <span title=\"bunny emoji\">🐰</span><i>quotation marks</i><b title=\"bunny emoji\">🐰</b></span><br>\
 <span>3: <quote class=quotation-marks>different emoji bunny: <span title=\"dancing people wearing bunny ears emoji\">👯</span><i>quotation marks</i><span title=\"dancing people wearing bunny ears emoji\">👯</span>, <span title=\"beer emoji\">🍺</span></span>",
     enhancedTextElement = 'possibleText',
