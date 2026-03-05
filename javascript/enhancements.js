@@ -32,12 +32,23 @@ var whenHasJavascript = 'no-javascript',
                 - google email (kaivong@) ? / facebook / <a href=http://x.com/kaivongdev>twitter</a><br><br>\
                 ALL business inquiries sent to that email will be ignored, (please use email) <br>\
                 Also, Gravatar profile. Even on Twitter for direct message chat<br></pre>",
-
-    enhancedTextElement = 'possibleText';
+    relaxed_text = "<h2 class=q-m-header>a). quick-note: <span>interpreting Quotation-Marks</span></h2>\
+<span>quotation <i>of words</i> taken from a text <i>or</i> speech,<br />can be wrapped in:</span><br><br>\
+<span>1: <quote class=quotation-marks><b>&ldquo;</b><i>double quotation marks</i><b>&rdquo;</b></quote></span><br>\
+<span>2: <quote class=quotation-marks>emoji bunny <span title=\"bunny emoji\">🐰</span><i>quotation marks</i><b title=\"bunny emoji\">🐰</b></span><br>\
+<span>3: <quote class=quotation-marks>different emoji bunny: <span title=\"dancing people wearing bunny ears emoji\">👯</span><i>quotation marks</i><span title=\"dancing people wearing bunny ears emoji\">👯</span>, <span title=\"beer emoji\">🍺</span></span>",
+    enhancedTextElement = 'possibleText',
+    enhancedTextElement_joke = 'humourText' ;
 
 
 function loadHTMLPageText(){
+//part1
     document.getElementById(enhancedTextElement).innerHTML = page_text;
+//part2
+    var url_arr = window.document.URL.split('?');
+    if (url_arr[1] == 'quotation_marks=1') {
+        document.getElementById(enhancedTextElement_joke).innerHTML = relaxed_text;
+    }
 }
 
 
@@ -126,6 +137,7 @@ function loadThisLooks(specific_look_integer){
     look_integer += 1;
   }
   bodyHTML_classList.add(styled_looks_arr[specific_look_integer]);
+  console.log("selected: ?loadThisLooks=" + specific_look_integer);
   return false;
 }
 
@@ -134,16 +146,14 @@ function updateLinkColoursParams(specific_look_integer=false){
   for(links_counter=0; links_counter <= links_domain_count; links_counter){
     current_link_edit = links_domain[links_counter];
     current_link_node = document.getElementById('link-'+current_link_edit);
-    if (!specific_look_integer){
-      specific_look_integer = uriStyledLooks();
-    }
     if(current_link_node){
         new_page_link = current_link_node.href.split('?')[0];
         update_link = '';
         if(Boolean(specific_look_integer) == false){  } else {
           update_link = ('?' + params_names[0] + '=' + specific_look_integer);
+          console.log("selected: ?loadThisLooks=" + specific_look_integer);
         }
-        new_link = new_page_link + update_link; 
+        new_link = new_page_link + update_link;
         current_link_node.href = new_link;
     }
     links_counter+=1;

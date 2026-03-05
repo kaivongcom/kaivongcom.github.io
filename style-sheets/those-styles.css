@@ -1,3 +1,13 @@
+.text-lower-paragraph {
+
+
+}
+
+h2.q-m-header span { visibility: hidden; }
+.quotation-marks {clear: both; background-color: #ddd; display: inline-block; }
+.quotation-marks b { color: #999; font-family: serif; }
+.qm-1 {}
+
 .business-inquiries { color: red; background-color: #eee; }
 #possibleText {
     white-space:
@@ -187,4 +197,4 @@ body    { min-width: 380px; }
 }
 #wf-themes-image02 { min-height: 140px;  }
 .aside   { min-height: 140px;  }
-.content { min-height: 280px; max-width: 600px; }
+.content { min-height: 280px; max-width: 353px; }
