@@ -68,14 +68,14 @@ overflow: hidden; display: block; text-align: left;
 .img-03 { display: none; }
 #look-04,#look-05,#look-06,
 #look-00, #look-01, #look-02,#look-03 { padding-left: 26px; display: block; }
-.aside .headline2 { padding-left: 16px; margin-right: 18px; 
+.aside .headline2 { padding-left: 16px; margin-right: 18px;
                     margin-left: 0;
-                    border-left: 10px solid #666666; 
+                    border-left: 10px solid #666666;
                   }
 #cat-wrapper-list { min-width: 510px; z-index: 2; position: relative; }
 #look-linker-list { visibility: hidden; }
 .themes-display #look-linker-list { visibility: visible; }
-#wf-themes-image { display: none; } 
+#wf-themes-image { display: none; }
 @media (prefers-color-scheme: dark){
     :root {
         color-scheme: light dark;
@@ -110,7 +110,7 @@ overflow: hidden; display: block; text-align: left;
 .headline1 { font-size: smaller; }
 #about-kaivongdev { padding-top: 0; margin-bottom: 0; }
 .bio-name { color: #333333; display: block; font-weight: normal; }
-body { line-height: 1.5; color: var(--page-txt-color)} 
+body { line-height: 1.5; color: var(--page-txt-color)}
 a:link { color: #E79423; }
 h2.headline2 .highlight1 { background-color: #FBEFDE; color: #E79423; }
 h2.headline2 .highlight2 { background-color: #F9E0E5; color: #DD3256; }
