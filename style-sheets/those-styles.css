@@ -1,17 +1,52 @@
+@media (prefers-color-scheme: dark){
+  :root {
+    color-scheme: light dark;
+    --page-headline-color: #666;
+    --page-txt-color: #F7C265;
+    --page-aside-txt-color: #666;
+    --page-highlights: #fff;
+  }
+  #HTMLPageContent .look-01 { color: #333; }
+  #HTMLPageContent .look-06 { color: #EEEEEE; }
+  #art-ascii-light1 { display: none; }
+  #art-ascii-light2 { display: none; }
+  #art-ascii-dark1 { display: inline-block; }
+  #art-ascii-dark2 { display: none; }
+  #art-ascii-wall-switcher:hover #art-ascii-light1 { display: none; }
+  #art-ascii-wall-switcher:hover #art-ascii-light2 { display: none; }
+  #art-ascii-wall-switcher:hover #art-ascii-dark2 { display: inline-block; }
+  #art-ascii-wall-switcher:hover #art-ascii-dark1 { display: none; }
+}
+@media handheld {
+  .aside { display: none; }
+}
+@media tty {
+  h1 { border-bottom: 10px solid red; }
+}
+@media screen and (max-width:394px) {
+  .aside, .content { float: none; }
+  .content {
+    min-width: 140px;
+  }
+  body.html1999.themes-display #wf-themes-image { display: none; }
+    #linkedContent,
+    .aside .headline2 { display: inline-block; vertical-align: top; }
+    #linkedContent {margin-top: 6px; }
+    #q-linkedin { padding: 0;
+  }
+}
 h2.q-m-header span { visibility: hidden; }
 .quotation-marks {clear: both; background-color: #ddd; display: inline-block; }
 .quotation-marks b { color: #999; font-family: serif; }
 .business-inquiries { color: red; background-color: #eee; }
 #possibleText { white-space: }
-
 .no-javascript .headline1.element2,
 .no-javascript #origami-creature-resized { display: none; }
 .spaceless-break { margin: 0 0 18px; height: 2px; background-color: #333; z-index:1; position: relative; }
 .header-level-2 { margin-bottom: 0; }
-
 #past_page_kaivongcom {
-    clear: both;
-    border: 10px solid #FFF;
+  clear: both;
+  border: 10px solid #FFF;
 }
 #origami-creature-resized {
   float: right;
@@ -24,11 +59,11 @@ h2.q-m-header span { visibility: hidden; }
 }
 .headline1.element2 { margin: 0; padding: 16px 0 0 13px }
 .headline1.element2 a { background-color: #bbb; color: #fff;
-                        text-decoration: none; padding: 6px 4px 0; line-height:1;
-                        display: inline-block; margin-top: 4px; }
+  text-decoration: none; padding: 6px 4px 0; line-height:1;
+  display: inline-block; margin-top: 4px; }
 .text-lower-paragraph { margin: 0 0 0 13px; line-height: 1.5; }
 .page-body.look-02 .text-lower-paragraph { color: #333 }
-.content code { white-space: break-spaces; text-overflow: ellipsis; width: 320px;
+.content code { text-overflow: ellipsis; width: 320px;
 overflow: hidden; display: block; text-align: left;
 }
 #HTMLPageContent .look-01 { background-color: #FFFFFF; color: #000000; }
@@ -68,35 +103,13 @@ overflow: hidden; display: block; text-align: left;
 .img-03 { display: none; }
 #look-04,#look-05,#look-06,
 #look-00, #look-01, #look-02,#look-03 { padding-left: 26px; display: block; }
-.aside .headline2 { padding-left: 16px; margin-right: 18px;
-                    margin-left: 0;
-                    border-left: 10px solid #666666;
-                  }
+.aside .headline2 { padding-left: 16px; margin-right: 18px; margin-left: 0; 
+  border-left: 10px solid #666666; }
 #cat-wrapper-list { min-width: 510px; z-index: 2; position: relative; }
 #look-linker-list { visibility: hidden; }
 .themes-display #look-linker-list { visibility: visible; }
 #wf-themes-image { display: none; }
-@media (prefers-color-scheme: dark){
-    :root {
-        color-scheme: light dark;
-        --page-headline-color: #666;
-        --page-txt-color: #F7C265;
-        --page-aside-txt-color: #666;
-        --page-highlights: #fff;
-    }
-    #HTMLPageContent .look-01 { color: #333; }
-    #HTMLPageContent .look-06 { color: #EEEEEE; }
-    #art-ascii-light1 { display: none; }
-    #art-ascii-light2 { display: none; }
-    #art-ascii-dark1 { display: inline-block; }
-    #art-ascii-dark2 { display: none; }
-    #art-ascii-wall-switcher:hover #art-ascii-light1 { display: none; }
-    #art-ascii-wall-switcher:hover #art-ascii-light2 { display: none; }
-    #art-ascii-wall-switcher:hover #art-ascii-dark2 { display: inline-block; }
-    #art-ascii-wall-switcher:hover #art-ascii-dark1 { display: none; }
-}
-#kaivongdev-news-happenings,
-#look-linker-list-info { display: inline-block; }
+#kaivongdev-news-happenings, #look-linker-list-info { display: inline-block; }
 #look-linker-list-info #bold-headline { text-transform: uppercase; }
 #off-javascript-enable-message { color: var(--page-aside-txt-color); padding: 0 20px 0; }
 #look-linker-list-info #bold-headline, #what-is-linkedin { color: var(--page-aside-txt-color); font-weight: bold;}
@@ -106,7 +119,8 @@ overflow: hidden; display: block; text-align: left;
 .aside .look-linkers-enhanced-dynamic-styles:hover { text-decoration: underline; }
 .breaks-line { clear: both; }
 .hey-highlight { color: #3E3ECC; }
-.highlight5 { background-color: #63E7E7; color:#EEEEEE; padding-left: 5px; padding-right: 5px; text-align: center; }
+.highlight5 { background-color: #63E7E7; color:#EEEEEE; 
+  padding-left: 5px; padding-right: 5px; text-align: center; }
 .headline1 { font-size: smaller; }
 #about-kaivongdev { padding-top: 0; margin-bottom: 0; }
 .bio-name { color: #333333; display: block; font-weight: normal; }
@@ -155,30 +169,10 @@ h2.headline2 .highlight3 { background-color: #E9BDE2; color: #EA0EC6; }
 }
 .hide-content { visibility: hidden; display: none;}
 .themes-display #wf-themes-image {  display: block; margin: 20px 0 0; }
-
-@media handheld {
-    .aside { display: none; }
-}
-@media tty {
-    h1 { border-bottom: 10px solid red; }
-}
-@media screen and (max-width:394px) {
-    .aside,
-    .content { float: none; }
-    .content {
-        min-width: 140px;
-    }
-    body.html1999.themes-display #wf-themes-image { display: none; }
-    #linkedContent,
-    .aside .headline2 { display: inline-block; vertical-align: top; }
-    #linkedContent {margin-top: 6px; }
-    #q-linkedin { padding: 0;
-   }
-}
 body { min-width: 380px; }
 .content { line-height: 1; margin: -9px 200px 0 60px;
-           border-left: 2px solid #222;
+  border-left: 2px solid #222;
 }
 #waterfall-gre-style-themes { min-height: 140px; }
-.aside   { min-height: 140px; }
+.aside { min-height: 140px; }
 .content { min-height: 280px; max-width: 353px; }
