@@ -25,9 +25,12 @@ var whenHasJavascript = 'no-javascript',
     links_domain = ['news-kaivong', 'x-kaivong', 'homepage-back'],
     links_domain_count = links_domain.length,
     params_names = ['loadThisLooks'],
-    page_text = "<strong>Hey</strong>, welcome <i>to</i> my homepage; <br />this colorset generated with Greyscale filters.<br /><br />⇨ for your personal emails: <br />- Email my Public/Personal gmail<br />- google email (kaivong@) ? / facebook / <a href="http://x.com/kaivongdev">twitter</a><br /><br />business inquiries sent to that email will be
-ignored, (please consider linkedin) <br />Also, Gravatar profile. Even on Twitter
-for direct message chat",
+    page_text = "<strong>Hey</strong>, welcome <i>to</i> my homepage; <br />\
+                this colorset generated with Greyscale filters.<br><br>\
+                ⇨ for your personal emails: <br>- Email my Public/Personal gmail<br>\
+                - google email (kaivong@) ? / facebook / <a href=http://x.com/kaivongdev>twitter</a><br><br>\
+                business inquiries sent to that email will be ignored, (please consider linkedin) <br>\
+                Also, Gravatar profile. Even on Twitter for direct message chat<br></pre>",
     enhancedTextElement = 'possibleText';
 
 
