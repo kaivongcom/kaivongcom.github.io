@@ -1,4 +1,4 @@
-var givenJS == 'no-javascript',
+var givenJS = 'no-javascript',
     specific_look_integer = false,
     body_element = ' ',
     update_link = '', 
