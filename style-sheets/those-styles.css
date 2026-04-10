@@ -61,7 +61,7 @@ h2.q-m-header span { visibility: hidden; }
 .headline1.element2 a { background-color: #bbb; color: #fff;
   text-decoration: none; padding: 6px 4px 0; line-height:1;
   display: inline-block; margin-top: 4px; }
-.text-lower-paragraph { margin: 0 0 0 13px; line-height: 1.5; }
+.text-lower-paragraph { margin: 0 0 0 13px; line-height: 1.5; text-wrap-mode: wrap; }
 .page-body.look-02 .text-lower-paragraph { color: #333 }
 .content code { text-overflow: ellipsis; width: 320px;
 overflow: hidden; display: block; text-align: left;
