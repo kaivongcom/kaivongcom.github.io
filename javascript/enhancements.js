@@ -29,7 +29,6 @@ var givenJS = 'no-javascript',
 this colorset generated with Greyscale filters.<br /><br />\
 ⇨ for emails from you: <br />- Email at gmail<br>\
 - google email (kaivong@) ? / facebook / <a href=http://x.com/kaivongdev>twitter</a><br />\
-- please confirm knowledge: FILE #24981149RC in-game note true/false (thanks!)<br /><br />\
 random business inquiries sent via email will be ignored, (please consider linkedin) <br />\
 Also, Gravatar profile, alt. Twitter for direct message chat<br /></pre>",
     enhancedTextElement = 'possibleText';
