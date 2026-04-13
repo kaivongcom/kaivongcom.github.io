@@ -28,7 +28,7 @@ var givenJS = 'no-javascript',
     page_text = "<strong>Hey</strong>, welcome <i>to</i> my homepage; <br />\
 this colorset generated with Greyscale filters.<br /><br />\
 ⇨ for emails from you: <br />- Email at gmail<br>\
-- google email (kaivong@) ? / facebook / <a href=http://x.com/kaivongdev>twitter</a><br />\
+- google email (kaivong@) ? / facebook / <a href=http://x.com/kaivongdev>twitter</a><br /><br>\
 random business inquiries sent via email will be ignored, (please consider linkedin) <br />\
 Also, Gravatar profile, alt. Twitter for direct message chat<br /></pre>",
     enhancedTextElement = 'possibleText';
