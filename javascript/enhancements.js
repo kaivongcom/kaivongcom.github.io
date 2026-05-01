@@ -19,9 +19,16 @@ var givenJS = 'no-javascript',
     looks06 = 'look-06',
     looks_available = 6,
     styled_looks_arr = [looks01,looks02,looks03,looks04,looks05,looks06],
-    looksListName ='look-linker-list', 
-    javascript_info = 'off-javascript-enable-message', 
-    bodyHTML_classList = '',      
+    letters01 = 'letters-red',
+    letters02 = 'letters-green',
+    letters03 = 'letters-blue',
+    letters04 = 'letters-yellow',
+    letters05 = 'letters-k',
+    styled_letters_arr = [letters01,letters02,letters03,letters04],
+    looksListName ='look-linker-list',
+    looksListName2 ='look-letter-list',
+    javascript_info = 'off-javascript-enable-message',
+    bodyHTML_classList = '',
     links_domain = ['news-kaivong', 'x-kaivong', 'homepage-back'],
     links_domain_count = links_domain.length,
     params_names = ['loadThisLooks'],
@@ -108,24 +115,30 @@ function hideJavascriptProgressiveEnhancementMessage(){
     document.getElementById(looksListName).classList.remove('hide-content');
   } 
 }
-
+ 
 
 function loadListLooks(){
   themeButtonHTMLdisplayer();
   specific_look_integer = document.getElementById(looksListName).selectedIndex;
-  loadThisLooks(specific_look_integer);
+  specific_letter_integer = document.getElementById(looksListName2).selectedIndex;
+  specific_looks_integers = [specific_look_integer, specific_letter_integer]
+  loadThisLooks(specific_looks_integers);
   updateLinkColoursParams(String(specific_look_integer));
   return false;
 }
 
 
-function loadThisLooks(specific_look_integer){
-  for(look_integer=0; look_integer <= looks_available;look_integer){
-    bodyHTML_classList.remove(styled_looks_arr[look_integer]);
-    look_integer += 1;
-  }
-  bodyHTML_classList.add(styled_looks_arr[specific_look_integer]);
-  console.log("selected: ?loadThisLooks=" + specific_look_integer);
+function loadThisLooks(specific_looks_integers){
+  bg_integer_idx = specific_looks_integers[0]
+  letter_integer_idx = specific_looks_integers[1]
+  for(indx=0; indx <= looks_available;indx){
+    bodyHTML_classList.remove(styled_looks_arr[indx]);
+    bodyHTML_classList.remove(styled_letters_arr[indx]);
+    indx += 1;
+  } 
+  bodyHTML_classList.add(styled_looks_arr[bg_integer_idx]);
+  bodyHTML_classList.add(styled_letters_arr[letter_integer_idx]);
+//  console.log("selected: ?loadThisLooks=" + bg_integer_idx);
   return false;
 }
 
