@@ -12,12 +12,17 @@
       <div class="lets-go-then"><br />
       <h1><span class=highlite2>Homepage</span>: <span class=highlite1>kaivongdev</h1><br />
       </div>
-      <p><span class=hidden>emoticon yay: </span> <span class=large-look><span>:</span>D</span></p>
+      <p><span class=hidden>emoticon yay: </span> 
+      <span class=large-look>
+      <input type=text placeholder=":D" value=":D" id=selectBox class=javascript-emoji->
+      <span class=javascript-emoji- id=emojiTransformedInto></span>
+      </span></p>
       <div id="hold-bg-color1">
       <p><span> </span><b>page development</b> <i>on hold</i>, <b>available</b> <a href="https://github.com/kaivongcom">via</a> github pages</p>
-      <p>pictures kinda happening <a href=""instagram.com/kaivongdev>instagram app</a> <!-- span class=large-look>🐙🍡🍲</span --></p>
+      <p>pictures kinda happening <a href=""instagram.com/kaivongdev>instagram app</a> <!-- span class=large-look>🐙🍡🍲</span -->
+      <br><span class=javascript-emoji->meanwhile more emojis could happen, drop me a message should you have an idea hey.com @ kaivong
+      </p>
       </div>
-<!--      <img src="/images/pictures/photo-booth-quick-snap.jpg" width=400>-->
       <h2>emoticon/emoji imagery not including video-game example <span title="super mario wonder: bellapark emoticons">smw:mibp <span title="emoji flower; blossoms, blooms emoticon flowering plants">🌼</span></h2>
       <div class="emotes-emoticons-emojis">
         <span id="emoji-preview-osx" style="" title="from OSX mac emoji pop-up / --
@@ -53,10 +58,15 @@
       #hold-bg-color1 { background-color: #f1f1f1 }
       .hidden { display: none; }
       .large-look { font-size: xx-large; font-size: 100pt; font-family: Helvetica, arial; color: #d2d2d2;  }
-      .large-look span { font-size: xx-large; font-size: 136pt; }
+      .large-look span,
+      .large-look input{ font-size: xx-large; font-size: 136pt; } 
+      .large-look input{ width: 256px; outline: 0; border: 13px solid #eee; }
       .lets-go-then { background: #333; color: blue ; }
       .lets-go-then .highlite1 { color: pink; color: #EE5FA7;}
       .lets-go-then .highlite2 { color: orange; }
       .emotes-emoticons-emojis { line-height: 0; }
+      .no-javascript .javascript-emoji- { display: none; }
+      .enabled-javascript .javascript-emoji- { display: inline-block; }
     </style>
-</html>
+    <script src="/javascript/emoji-kaivongdev-keypress.js" type="text/javascript"></script> 
+  </html>
