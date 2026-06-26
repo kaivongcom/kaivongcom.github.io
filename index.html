@@ -16,7 +16,7 @@
       <span class=large-look>
       <span class="no-js-placeholder">No JavaScript?</span> 
       <input type=text placeholder=":D" value=":D" id=selectBox class=javascript-emoji->
-      <span class=javascript-emoji- id=emojiTransformedInto></span>
+      <span class=javascript-emoji- id=emojiTransformedInto>😀</span>
       </span></p>
       <div id="hold-bg-color1">
       <p><span> </span><b>page development</b> <i>on hold</i>, <b>available</b> <a href="https://github.com/kaivongcom">via</a> github pages</p>
@@ -49,6 +49,7 @@
       </div>
     </body>
     <style>
+      body { line-height: 1.3 }
       #emoji-preview-osx,#emoji-preview-win10h {display: inline-block; content: ' ';  } 
       #emoji-preview-win10h { background-image: url(images/emoji-windows-10-home-emoji-char-lookup.jpg); width: 512px; height: 500px; width: 100%;  } 
       #emoji-preview-osx { height: 486px; background-image: url(images/emoji-looks-sprite.jpg); 
@@ -66,7 +67,8 @@
       .lets-go-then .highlite1 { color: pink; color: #EE5FA7;}
       .lets-go-then .highlite2 { color: orange; }
       .emotes-emoticons-emojis { line-height: 0; }
-      .no-js-placeholder, 
+      emojiTransformedInto { visibility: hidden; }
+      .no-js-placeholder,
       .no-javascript .javascript-emoji- { display: none; }
       .no-javascript .no-js-placeholder,
       .enabled-javascript .javascript-emoji- { display: inline-block; }
