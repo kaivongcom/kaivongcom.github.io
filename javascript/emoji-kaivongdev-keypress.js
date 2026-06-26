@@ -2,6 +2,8 @@ function emojiKaivongdevChange(){
   length_text = textEditable.value.length 
   if (length_text > 1 && length_text < 3) { 
     window.document.getElementById('emojiTransformedInto').textContent = emoji_ascii[textEditable.value]; 
+  } else {
+    window.document.getElementById('emojiTransformedInto').textContent = '';
   }
 }
 var textEditable = window.document.getElementById('selectBox'),
