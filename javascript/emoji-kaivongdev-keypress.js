@@ -28,8 +28,7 @@ function emojiKaivongdevChange(){
 }
 var textEditable = window.document.getElementById('selectBox'),
 emoji_ascii = { ':D': {'emote': '😀'}, '=D': {'emote': '😃'}, '^D': {'emote': '😄'},
-  
-  
+  'ii': {'emote': '🥢🥡'},
   'kekeke': {'emote': 'IMG_KEEE.png', 'info':'from video-game nintendo, Game Freak, published by The Pokémon Company, Pokémon LeafGreen: Channeler trainers'}},
     length_text = 0;
 textEditable.onkeyup = emojiKaivongdevChange;
