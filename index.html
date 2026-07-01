@@ -17,12 +17,12 @@
       </div>
       <p><span class=hidden>emoticon yay: </span> 
       <span class=large-look>
-      <span class="no-js-placeholder">No JavaScript?</span>
+      <span class="no-js-placeholder" id=noJS>No JavaScript?</span>
       <input type=text placeholder=":D" value=":D" id=selectBox class=javascript-emoji- title="this is a field of auto-completers, small example of possibles in index-list">
       <span class=javascript-emoji- id=emojiTransformedInto></span>
       </span></p>
       <div id="hold-bg-color1">
-      <p title="auto-completers index-list">quick list index for text-input auto-cmpltrs/completers: <code>`:D`</code>,<code>`^D`</code>,<code>`=D`</code>,<code>`kekeke`</code>,<code>`ii`</code>,<code>`^#`</code>, <code>`lēk`</code>, <code>`--叻`</code></p>
+      <p title="auto-completers index-list">quick list index for text-input auto-cmpltrs/completers: <span id="completers-index"><code>`:D`</code>,<code>`^D`</code>,<code>`=D`</code>,<code>`kekeke`</code>,<code>`ii`</code>,<code>`^#`</code>, <code>`lēk`</code>, <code>`--叻`</code></span></p>
       <br><span class=javascript-emoji->on hey.com, how "exciting" to see you online here. 
       </p>
       </div>
@@ -88,5 +88,6 @@
       .enabled-javascript .javascript-emoji- { display: inline-block; }
       code { color: #bbb; } 
     </style>
+    <script src="/javascript/emoji-ascii--.js" type="text/javascript"></script> 
     <script src="/javascript/emoji-kaivongdev-keypress.js" type="text/javascript"></script> 
   </html>

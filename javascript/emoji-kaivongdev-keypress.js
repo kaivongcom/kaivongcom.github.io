@@ -1,4 +1,5 @@
 var idk_wtf_this_is = undefined;
+
 function emojiKaivongdevChange(){
   length_text = textEditable.value.length; 
   console.log(textEditable.value);
@@ -26,13 +27,13 @@ function emojiKaivongdevChange(){
     window.document.getElementById('emojiTransformedInto').innerHTML = '';
   }
 }
-var textEditable = window.document.getElementById('selectBox'),
-emoji_ascii = { ':D': {'emote': '😀'}, '=D': {'emote': '😃'}, '^D': {'emote': '😄'}, '^#': {'emote': '😁'}, 
-  'ii': { 'emote': '🥢🥡'}, 
-  'lēk': { 'emote': '😇📚' }, 
-  '--叻': { 'emote': '😇📚' }, 
-  'kekeke': {'emote': 'IMG_KEEE.png', 'info':'from video-game nintendo, Game Freak, published by The Pokémon Company, Pokémon LeafGreen: Channeler trainers'}},
-    length_text = 0;
-textEditable.onkeyup = emojiKaivongdevChange;
-emojiKaivongdevChange();
-window.document.getElementsByTagName('body')[0].classList.remove('no-javascript');
+
+if (typeof(emoji_ascii) == 'undefined'){
+  window.document.getElementById('noJS').textContent = 'missing JSON for auto-complete'
+} else if (typeof(emoji_ascii) == 'object'){
+  var textEditable = window.document.getElementById('selectBox'),
+      length_text = 0;
+      textEditable.onkeyup = emojiKaivongdevChange;
+      emojiKaivongdevChange();
+      window.document.getElementsByTagName('body')[0].classList.remove('no-javascript');
+} 
