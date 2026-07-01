@@ -2,6 +2,7 @@
 <html lang="en" id="HTMLPageContent" class="html1999 html">
   <head>
         <title>homepage; kaivong.com/kaivong.dev,on github pages</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="UTF-8">
         <meta name="author" content="@kaivongdev">
         <meta name="description" content="empty page on kaivong.com, kaivong.dev, kaichanvong.github.io">
@@ -51,11 +52,14 @@
     </body>
     <style>
       body { line-height: 1.3; vertical-align: bottom; }
-      #emoji-preview-osx,#emoji-preview-win10h {display: inline-block; content: ' ';  } 
-      #emoji-preview-win10h { background-image: url(images/emoji-windows-10-home-emoji-char-lookup.jpg); width: 512px; height: 500px; width: 100%;  } 
+      .emotes-emoticons-emojis { width: 100%; overflow-x: scroll; } 
+      #emoji-preview-osx,#emoji-preview-win10h {display: inline-block; content: ' ';  width: 2107.66px; } 
+      #emoji-preview-win10h { background-image: url(images/emoji-windows-10-home-emoji-char-lookup.jpg); height: 500px; width: 2093.66px; } 
       #emoji-preview-osx { height: 486px; background-image: url(images/emoji-looks-sprite.jpg); 
-                       width: 1027px; background-position-y: -496px;  width: 100%; max-width: 2107.66px; } 
+                       background-position-y: -496px;  }
+/* max-  */
       #emoji-preview-osx:hover { background-position-y: 0px; cursor: pointer; }
+      #emoji-preview-osx { overflow-x: scroll; } 
       #emoji-preview-win10h:hover {background-position-y: 520px; cursor: pointer; }
       h1,h2 { font-family: arial; text-transform: uppercase; color: #bbb }
       #hold-bg-color1 { background-color: #f1f1f1 }
@@ -63,7 +67,7 @@
       .large-look { font-size: xx-large; font-size: 100pt; font-family: Helvetica, arial; color: #d2d2d2;  }
       .large-look span,
       .large-look input{ font-size: xx-large; font-size: 136pt; } 
-      .large-look input{ width: 630px; outline: 0; border: 13px solid #eee; color: #c1c1c1; }
+      .large-look input{ width: 330px; outline: 0; border: 13px solid #eee; color: #c1c1c1; }
       .large-look span .small-txt { font-size: smaller; font-size: 18px; display: inline-block; color: #666;  }
       .image-preview .large-look span, 
       .image-preview .large-look { font-size: 18px;  }
