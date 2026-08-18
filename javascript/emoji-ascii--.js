@@ -23,5 +23,15 @@ emoji_ascii = {
   'kekeke': {'alternative_rendered': 'IMG_KEEE.png', 
              'info':'from video-game nintendo, Game Freak, published by The Pokémon Company, Pokémon LeafGreen: Channeler trainers'},
   'DIY':  {'alternative_rendered': 'Do It Yourself'}, 
-
+  'VS':  {'alternative_rendered': 'Versus (against.)'}, 
+  '...':  {'alternative_rendered': '…(-/+)'}, 
+  '--':  {'alternative_rendered': '–(emdash)'}, 
+  'ˆ--':  {'alternative_rendered': '--(double endash)'}, 
+  'WTF':  {'alternative_rendered': 'Wut teh Fudge'}, 
+  'OMG':  {'alternative_rendered': 'O-M-GEE'}, 
+  'ASAP':  {'alternative_rendered': 'SOON AS POSS.'},  
+  'jg':  {'alternative_rendered': 'justgiving.com'}, 
+  'af':  {'alternative_rendered': 'artfinder.com'}, 
+  'd++':  {'alternative_rendered': 'dressipi.com'},
+  'kvˆ':  {'alternative_rendered': 'kaivong.com'}
 }
