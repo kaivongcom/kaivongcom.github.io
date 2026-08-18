@@ -4,7 +4,7 @@ function emojiKaivongdevChange(){
   length_text = textEditable.value.length; 
   console.log(textEditable.value);
   if (emoji_ascii[textEditable.value] != idk_wtf_this_is ){
-    insert_into_html = emoji_ascii[textEditable.value]['emote']
+    insert_into_html = emoji_ascii[textEditable.value]['alternative_rendered']
     from_html_info = emoji_ascii[textEditable.value]['info']
     if (insert_into_html == idk_wtf_this_is){
       window.document.getElementById('emojiTransformedInto').textContent = '';

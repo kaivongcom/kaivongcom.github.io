@@ -12,14 +12,16 @@ emoji_ascii_values_found = [{'emote': '😀'}, {'emote': '😃'}, {'emote': '�
 
 emoji_ascii = { 
 //  ':t': { 'emote': '🐌', 'info': 'film' }, 
-  ':D': {'emote': '😀'}, 
-  '=D': {'emote': '😃'}, 
-  '^D': {'emote': '😄'}, 
-  '^#': {'emote': '😁'}, 
-  'ii': { 'emote': '🥢🥡'}, 
-  'lēk': { 'emote': '😇📚' }, 
-  '🍪': { 'emote': '🍦<span class=cookies><span>🍪🍪🍪🍪🍪<span></br><span>🍪🍪🍪🍪🍪<span></br><span>🍪🍪🍪🍪🍪<span></br><span>🍪🍪🍪🍪🍪<span></br><span>🍪🍪🍪🍪🍪<span></span>' }, 
-  '--叻': { 'emote': '😇📚' }, 
-  'kekeke': {'emote': 'IMG_KEEE.png', 
-             'info':'from video-game nintendo, Game Freak, published by The Pokémon Company, Pokémon LeafGreen: Channeler trainers'}
+  ':D': {'alternative_rendered': '😀'}, 
+  '=D': {'alternative_rendered': '😃'}, 
+  '^D': {'alternative_rendered': '😄'}, 
+  '^#': {'alternative_rendered': '😁'}, 
+  'ii': { 'alternative_rendered': '🥢🥡'}, 
+  'lēk': { 'alternative_rendered': '😇📚' }, 
+  '🍪': { 'alternative_rendered': '🍦<span class=cookies><span>🍪🍪🍪🍪🍪<span></br><span>🍪🍪🍪🍪🍪<span></br><span>🍪🍪🍪🍪🍪<span></br><span>🍪🍪🍪🍪🍪<span></br><span>🍪🍪🍪🍪🍪<span></span>' }, 
+  '--叻': { 'alternative_rendered': '😇📚' }, 
+  'kekeke': {'alternative_rendered': 'IMG_KEEE.png', 
+             'info':'from video-game nintendo, Game Freak, published by The Pokémon Company, Pokémon LeafGreen: Channeler trainers'},
+  'DIY':  {'alternative_rendered': 'Do It Yourself'}, 
+
 }
