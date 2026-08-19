@@ -33,5 +33,5 @@ emoji_ascii = {
   'jg':  {'alternative_rendered': 'justgiving.com'}, 
   'af':  {'alternative_rendered': 'artfinder.com'}, 
   'd++':  {'alternative_rendered': 'dressipi.com'},
-  'kvˆ':  {'alternative_rendered': 'kaivong.com'}
+  'kv^':  {'alternative_rendered': 'kaivong.com'}
 }
