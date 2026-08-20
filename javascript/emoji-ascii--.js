@@ -1,12 +1,12 @@
-function emoji_ascii_keys(){
-  return emoji_ascii_keys_found;
+function emoji_ascii_00(){
+  return emoji_ascii_00_found;
 }
-function emoji_ascii_values(){
-  return emoji_ascii_values_found;
+function emoji_ascii_01(){
+  return emoji_ascii_01_found;
 }
 
-emoji_ascii_keys_found = [':D', '=D', '^D', '^#', 'ii', 'lēk', '🍪', '--叻', 'kekeke'];
-emoji_ascii_values_found = [{'emote': '😀'}, {'emote': '😃'}, {'emote': '😄'}, {'emote': '😁'}, 
+emoji_ascii_00_found = [':D', '=D', '^D', '^#', 'ii', 'lēk', '🍪', '--叻', 'kekeke'];
+emoji_ascii_01_found = [{'emote': '😀'}, {'emote': '😃'}, {'emote': '😄'}, {'emote': '😁'}, 
 {'emote': '🥢🥡'}, {'emote': '😇📚'}, {'emote': '🍪'}, {'emote': '😇📚'}, 
 {'emote': 'IMG_KEEE.png', 'info': 'from video-game nintendo, Game Freak, published by The Pokémon Company, Pokémon LeafGreen: Channeler trainers'}];
 
