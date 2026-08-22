@@ -1,37 +1,8 @@
-function emoji_ascii_00(){
-  return emoji_ascii_00_found;
+`function emoji_ascii_arr_d(){
+  return emoji_ascii_2026_08_22_arr;
 }
-function emoji_ascii_01(){
-  return emoji_ascii_01_found;
+function emoji_ascii_all_d(){
+  return emoji_ascii_2026_08_22_all;
 }
-
-emoji_ascii_00_found = [':D', '=D', '^D', '^#', 'ii', 'lēk', '🍪', '--叻', 'kekeke'];
-emoji_ascii_01_found = [{'emote': '😀'}, {'emote': '😃'}, {'emote': '😄'}, {'emote': '😁'}, 
-{'emote': '🥢🥡'}, {'emote': '😇📚'}, {'emote': '🍪'}, {'emote': '😇📚'}, 
-{'emote': 'IMG_KEEE.png', 'info': 'from video-game nintendo, Game Freak, published by The Pokémon Company, Pokémon LeafGreen: Channeler trainers'}];
-
-emoji_ascii = { 
-//  ':t': { 'emote': '🐌', 'info': 'film' }, 
-  ':D': {'alternative_rendered': '😀'}, 
-  '=D': {'alternative_rendered': '😃'}, 
-  '^D': {'alternative_rendered': '😄'}, 
-  '^#': {'alternative_rendered': '😁'}, 
-  'ii': { 'alternative_rendered': '🥢🥡'}, 
-  'lēk': { 'alternative_rendered': '😇📚' }, 
-  '🍪': { 'alternative_rendered': '🍦<span class=cookies><span>🍪🍪🍪🍪🍪<span></br><span>🍪🍪🍪🍪🍪<span></br><span>🍪🍪🍪🍪🍪<span></br><span>🍪🍪🍪🍪🍪<span></br><span>🍪🍪🍪🍪🍪<span></span>' }, 
-  '--叻': { 'alternative_rendered': '😇📚' }, 
-  'kekeke': {'alternative_rendered': 'IMG_KEEE.png', 
-             'info':'from video-game nintendo, Game Freak, published by The Pokémon Company, Pokémon LeafGreen: Channeler trainers'},
-  'DIY':  {'alternative_rendered': 'Do It Yourself'}, 
-  'VS':  {'alternative_rendered': 'Versus (against.)'}, 
-  '...':  {'alternative_rendered': '…(-/+)'}, 
-  '--':  {'alternative_rendered': '–(emdash)'}, 
-  'ˆ--':  {'alternative_rendered': '--(double endash)'}, 
-  'WTF':  {'alternative_rendered': 'Wut teh Fudge'}, 
-  'OMG':  {'alternative_rendered': 'O-M-GEE'}, 
-  'ASAP':  {'alternative_rendered': 'As Soon As Possible'}, 
-  'jg':  {'alternative_rendered': 'justgiving.com'}, 
-  'af':  {'alternative_rendered': 'artfinder.com'}, 
-  'd++':  {'alternative_rendered': 'dressipi.com'},
-  'kv^':  {'alternative_rendered': 'kaivong.com'}
-}
+emoji_ascii_2026_08_22_arr = [":D", "=D", "^D", "^#", "ii", "lēk", "🍪", "--叻", "kekeke", "DIY", "VS", "...", "--", "^--", "WTF", "OMG", "ASAP", "jg", "af", "d++", "kv^", "`=D`"]
+emoji_ascii_2026_08_22_all = [ {"abbreviations":":D","alternative_rendered":"😀","further_information":""},{"abbreviations":"=D","alternative_rendered":"😃","further_information":""},{"abbreviations":"^D","alternative_rendered":"😄","further_information":""},{"abbreviations":"^#","alternative_rendered":"😁","further_information":""},{"abbreviations":"ii","alternative_rendered":"🥢🥡","further_information":""},{"abbreviations":"lēk","alternative_rendered":"😇📚","further_information":""},{"abbreviations":"🍪","alternative_rendered":"🍦<span class=cookies><span>🍪🍪🍪🍪🍪<span></br><span>🍪🍪🍪🍪🍪\r\n  <span></br><span>🍪🍪🍪🍪🍪<span></br><span>🍪🍪🍪🍪🍪<span></br>\r\n  <span>🍪🍪🍪🍪🍪<span></span>","further_information":""},{"abbreviations":"--叻","alternative_rendered":"😇📚","further_information":""},{"abbreviations":"kekeke","alternative_rendered":"IMG_KEEE.png","further_information":"from video-game nintendo, Game Freak, published\r\n   by The Pokémon Company, Pokémon LeafGreen: Channeler trainers"},{"abbreviations":"DIY","alternative_rendered":"Do It Yourself","further_information":""},{"abbreviations":"VS","alternative_rendered":"Versus (against.)","further_information":""},{"abbreviations":"...","alternative_rendered":"…(-/+)","further_information":""},{"abbreviations":"--","alternative_rendered":"–(emdash)","further_information":""},{"abbreviations":"^--","alternative_rendered":"--(double endash)","further_information":""},{"abbreviations":"WTF","alternative_rendered":"Wut teh Fudge","further_information":""},{"abbreviations":"OMG","alternative_rendered":"O-M-GEE","further_information":""},{"abbreviations":"ASAP","alternative_rendered":"SOON AS POSS.","further_information":""},{"abbreviations":"jg","alternative_rendered":"justgiving.com","further_information":""},{"abbreviations":"af","alternative_rendered":"artfinder.com","further_information":""},{"abbreviations":"d++","alternative_rendered":"dressipi.com","further_information":""},{"abbreviations":"kv^","alternative_rendered":"kaivong.com","further_information":""},{"abbreviations":"`=D`","alternative_rendered":"😃","further_information":""}]
