@@ -1,4 +1,4 @@
-`function emoji_ascii_arr_d(){
+function emoji_ascii_arr_d(){
   return emoji_ascii_2026_08_22_arr;
 }
 function emoji_ascii_all_d(){
