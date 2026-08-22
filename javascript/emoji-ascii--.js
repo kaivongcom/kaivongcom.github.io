@@ -29,7 +29,7 @@ emoji_ascii = {
   'ˆ--':  {'alternative_rendered': '--(double endash)'}, 
   'WTF':  {'alternative_rendered': 'Wut teh Fudge'}, 
   'OMG':  {'alternative_rendered': 'O-M-GEE'}, 
-  'ASAP':  {'alternative_rendered': 'As Soon As Possible'},  
+  'ASAP':  {'alternative_rendered': 'As Soon As Possible'}, 
   'jg':  {'alternative_rendered': 'justgiving.com'}, 
   'af':  {'alternative_rendered': 'artfinder.com'}, 
   'd++':  {'alternative_rendered': 'dressipi.com'},
