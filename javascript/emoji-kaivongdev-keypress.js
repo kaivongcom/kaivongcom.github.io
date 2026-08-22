@@ -5,7 +5,6 @@ var idk_wtf_this_is = -1,
 
 function emojiKaivongdevChange(){
   length_text = textEditable.value.length; 
-  console.log(textEditable.value);
     if (emoji_ascii_arr.indexOf(textEditable.value) != idk_wtf_this_is ){
         index_for_change = emoji_ascii_arr.indexOf(textEditable.value);
         insert_into_html = emoji_ascii_all[index_for_change]['alternative_rendered']
