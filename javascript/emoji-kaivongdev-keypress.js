@@ -1,11 +1,15 @@
-var idk_wtf_this_is = undefined;
+//var idk_wtf_this_is = undefined;
+var idk_wtf_this_is = -1,
+    emoji_ascii_arr = emoji_ascii_arr_d(),
+    emoji_ascii_all = emoji_ascii_all_d();
 
 function emojiKaivongdevChange(){
   length_text = textEditable.value.length; 
   console.log(textEditable.value);
-  if (emoji_ascii[textEditable.value] != idk_wtf_this_is ){
-    insert_into_html = emoji_ascii[textEditable.value]['alternative_rendered']
-    from_html_info = emoji_ascii[textEditable.value]['info']
+    if (emoji_ascii_arr.indexOf(textEditable.value) != idk_wtf_this_is ){
+        index_for_change = emoji_ascii_arr.indexOf(textEditable.value);
+        insert_into_html = emoji_ascii_all[index_for_change]['alternative_rendered']
+    from_html_info = emoji_ascii_all[index_for_change]['further_information']
     if (insert_into_html == idk_wtf_this_is){
       window.document.getElementById('emojiTransformedInto').textContent = '';
       window.document.getElementById('emojiTransformedInto').innerHTML = '';
@@ -13,7 +17,7 @@ function emojiKaivongdevChange(){
       if (length_text > 1 && length_text < 5 || insert_into_html.slice(0,3) == 'IMG') { 
         window.document.getElementsByTagName('body')[0].classList.remove('image-preview');
         if (insert_into_html.slice(0,3) == 'IMG'){
-          insert_into_html = '<img src="images//pictures/screens/' +  insert_into_html + '" alt="" width=227 height=154> <span class="small-txt">picture of ' + from_html_info + '</span>';
+          insert_into_html = '<img src="/images/pictures/screens/' +  insert_into_html + '" alt="" width=227 height=154> <span class="small-txt">picture of ' + from_html_info + '</span>';
           window.document.getElementsByTagName('body')[0].className += ' image-preview'
         }
         window.document.getElementById('emojiTransformedInto').innerHTML = insert_into_html;
@@ -28,9 +32,9 @@ function emojiKaivongdevChange(){
   }
 }
 
-if (typeof(emoji_ascii) == 'undefined'){
+if (typeof(emoji_ascii_all) == 'undefined'){
   window.document.getElementById('noJS').textContent = 'missing JSON for auto-complete'
-} else if (typeof(emoji_ascii) == 'object'){
+} else if (typeof(emoji_ascii_all) == 'object'){
   var textEditable = window.document.getElementById('selectBox'),
       length_text = 0;
       textEditable.onkeyup = emojiKaivongdevChange;
