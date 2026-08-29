@@ -32,7 +32,8 @@ function emojiKaivongdevChange(){
         window.document.getElementsByTagName('body')[0].classList.remove('image-preview');
         window.document.getElementById('emojiTransformedInto').textContent = '';
         window.document.getElementById('emojiTransformedInto').innerHTML = '';
-      }
+        i_know_right_now = '';
+        }
     }
 }
 
