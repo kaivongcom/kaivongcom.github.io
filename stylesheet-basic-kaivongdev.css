@@ -41,27 +41,14 @@ h1 a { text-decoration: none; }
 .large-look span.cookies { font-size: small; display: inline-block; vertical-align: text-top; }
 .large-look span.cookies span { font-size: small; }
 code { color: #bbb; } 
-@media (max-width:320px) {
-  background-image: url("/images/pictures/");
-}      
-@media (max-width:480px) and (orientation: $orientation){
-      .lets-go-then h1 {
-          background-image: url('/images/pictures/");
-      }
-}
-@media (max-width:480px) {
-      .lets-go-then h1 {
-          background-image: url("/images/pictures/");
-      }
-}
 @media (min-width:1978px) {      
-      h1 {
-        background-image: url("/images/pictures/kaivong-her0-picture-.jpg"); 
-        background-position: 50%; 
-        background-position-y: 100%;
-        background-size: cover;
-        height: 1175px; 
-        max-height: 2267px;
-        max-width: 2108px;
-      }
+    h1 {
+      background-image: url("/images/pictures/kaivong-her0-picture-.jpg"); 
+      background-position: 50%; 
+      background-position-y: 100%;
+      background-size: cover;
+      height: 1175px; 
+      max-height: 2267px;
+      width: 2518px;
+    }
 }    
