@@ -1,0 +1,55 @@
+/*
+# kaivongdev stylesheet basic cascading looks
+- https://kaivong.dev
+- https://kaivong.com
+- https://kaivongcom.github.io
+*/
+      body { line-height: 1.3; vertical-align: bottom; }
+      .emotes-emoticons-emojis { width: 100%; overflow-x: scroll; } 
+      #emoji-preview-osx,#emoji-preview-win10h {display: inline-block; content: ' ';  width: 2107.66px; } 
+      #emoji-preview-win10h { background-image: url(images/emoji-windows-10-home-emoji-char-lookup.jpg); height: 500px; width: 2093.66px; } 
+      #emoji-preview-osx { height: 486px; background-image: url(images/emoji-looks-sprite.jpg); 
+                       background-position-y: -496px;  }
+/* max-  */
+      #emoji-preview-osx:hover { background-position-y: 0px; cursor: pointer; }
+      #emoji-preview-osx { overflow-x: scroll; } 
+      #emoji-preview-win10h:hover {background-position-y: 520px; cursor: pointer; }
+      h1,h2 { font-family: arial; text-transform: uppercase; color: #bbb }
+      h1 a { color: orange; }
+      #hold-bg-color1 { background-color: #f1f1f1 }
+      .hidden { display: none; }
+      .large-look { font-size: xx-large; font-size: 100pt; font-family: Helvetica, arial; color: #d2d2d2;  }
+      .large-look span,
+      .large-look input{ font-size: xx-large; font-size: 136pt; } 
+      .large-look input{ width: 330px; outline: 0; border: 13px solid #eee; color: #c1c1c1; }
+      .large-look span .small-txt { font-size: smaller; font-size: 18px; display: inline-block; color: #666;  }
+      .image-preview .large-look span, 
+      .image-preview .large-look { font-size: 18px;  }
+      .image-preview {  }
+      .lets-go-then { background: #333; color: #bbb ; }
+      .lets-go-then h1 { margin-bottom: 0; }
+      .lets-go-then p  { margin-top: 0; }
+      h1 a { text-decoration: none; } 
+      .lets-go-then .highlite1 { color: pink; color: #EE5FA7;}
+      .lets-go-then .highlite2 { color: orange; }
+      .lets-go-then .highlite2 { font-size: xx-large; font-size: 136pt; }
+      .emotes-emoticons-emojis { line-height: 0; }
+      .javascript-emoji- { vertical-align: bottom; }
+      .no-js-placeholder,
+      .no-javascript .javascript-emoji- { display: none; }
+      .no-javascript .no-js-placeholder,
+      .enabled-javascript .javascript-emoji- { display: inline-block; }
+      .large-look span.cookies { font-size: small; display: inline-block; vertical-align: text-top; }
+      .large-look span.cookies span { font-size: small; }
+      code { color: #bbb; } 
+    @media (min-width:1978px) {      
+        h1 {
+          background-image: url(/images/pictures/kaivong-her0-picture-.jpg); 
+          background-position: 50%; 
+          background-position-y: 100%;
+          background-size: cover;
+          height: 1175px; 
+          max-height: 2267px;
+          max-width: 2108px;
+        }
+    }
