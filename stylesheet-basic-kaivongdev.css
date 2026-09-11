@@ -13,8 +13,8 @@ body { line-height: 1.3; vertical-align: bottom; }
 #emoji-preview-osx:hover { background-position-y: 0px; cursor: pointer; }
 #emoji-preview-osx { overflow-x: scroll; } 
 #emoji-preview-win10h:hover {background-position-y: 520px; cursor: pointer; }
-h1,h2 { font-family: arial, sans-serif; text-transform: uppercase; color: #bbb }
-h1 a { color: orange; }
+h1,h2 { font-family: arial, sans-serif; text-transform: uppercase; color: #333333; }
+h1 a { color: #0433FF; }
 #hold-bg-color1 { background-color: #f1f1f1 }
 .hidden { display: none; }
 .large-look { font-size: xx-large; font-size: 100pt; font-family: arial,sans-serif; color: #d2d2d2;  }
@@ -25,12 +25,10 @@ h1 a { color: orange; }
 .image-preview .large-look span, 
 .image-preview .large-look { font-size: 18px;  }
 .image-preview {  }
-.lets-go-then { background: #333; color: #bbb ; }
-.lets-go-then h1 { margin-bottom: 0; }
+.lets-go-then { background: #d783ff; color: #0433FF ; }
+.lets-go-then h1 { margin-top: 0; margin-bottom: 0; line-height: 0.8; padding: 0 0 18px; }
 .lets-go-then p  { margin-top: 0; }
 h1 a { text-decoration: none; } 
-.lets-go-then .highlite1 { color: pink; color: #EE5FA7;}
-.lets-go-then .highlite2 { color: orange; }
 .lets-go-then .highlite2 { font-size: xx-large; font-size: 136pt; }
 .emotes-emoticons-emojis { line-height: 0; }
 .javascript-emoji- { vertical-align: bottom; }
@@ -38,11 +36,14 @@ h1 a { text-decoration: none; }
 .no-javascript .javascript-emoji- { display: none; }
 .no-javascript .no-js-placeholder,
 .enabled-javascript .javascript-emoji- { display: inline-block; }
+.large-look span.eggplant-emoji,
 .large-look span.cookies { font-size: small; display: inline-block; vertical-align: text-top; }
+.large-look span.eggplant-emoji { font-size: xxx-large; }
 .large-look span.cookies span { font-size: small; }
 code { color: #bbb; } 
 @media (min-width:1978px) {      
     h1 {
+      background-color: #fff;
       background-image: url("/images/pictures/kaivong-her0-picture-.jpg"); 
       background-position: 50%; 
       background-position-y: 100%;
@@ -50,5 +51,7 @@ code { color: #bbb; }
       height: 1175px; 
       max-height: 2267px;
       width: 2518px;
+      z-index: 3;
     }
 }    
+html { zoom: 100%; }
