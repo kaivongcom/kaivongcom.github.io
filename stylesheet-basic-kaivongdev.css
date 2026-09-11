@@ -42,13 +42,14 @@ h1 a { text-decoration: none; }
 .large-look span.cookies span { font-size: small; }
 code { color: #bbb; } 
 @media (min-width:1978px) {      
-    h1 {
+  .lets-go-then h1 {
       background-color: #fff;
       background-image: url("/images/pictures/kaivong-her0-picture-.jpg"); 
       background-position: 50%; 
       background-position-y: 100%;
       background-size: cover;
       height: 1175px; 
+      line-height: 1.25;
       max-height: 2267px;
       width: 2518px;
       z-index: 3;
