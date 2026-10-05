@@ -31,7 +31,7 @@ h1 a { color: #0433FF; }
 h1 a { text-decoration: none; } 
 .lets-go-then .highlite2 { font-size: xx-large; font-size: 136pt; }
 .emotes-emoticons-emojis { line-height: 0; }
-.javascript-emoji- { vertical-align: bottom; }
+.javascript-emoji- { vertical-align: bottom; line-height: 1.425; }
 .no-js-placeholder,
 .no-javascript .javascript-emoji- { display: none; }
 .no-javascript .no-js-placeholder,
