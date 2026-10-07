@@ -20,7 +20,7 @@ h1 a { color: #0433FF; }
 .large-look { font-size: xx-large; font-size: 100pt; font-family: arial,sans-serif; color: #d2d2d2;  }
 .large-look span,
 .large-look input{ font-size: xx-large; font-size: 136pt; } 
-.large-look input{ width: 330px; outline: 0; border: 13px solid #eee; color: #c1c1c1; }
+.large-look input{ width: 220px; outline: 0; border: 13px solid #eee; color: #c1c1c1; }
 .large-look span .small-txt { font-size: smaller; font-size: 18px; display: inline-block; color: #666;  }
 .image-preview .large-look span, 
 .image-preview .large-look { font-size: 18px;  }
