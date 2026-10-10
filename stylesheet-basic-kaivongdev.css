@@ -4,7 +4,7 @@
 - https://kaivong.com
 - https://kaivongcom.github.io
 */
-body { line-height: 1.3; vertical-align: bottom; }
+body { line-height: 1.3; vertical-align: bottom; border-top: 22px solid rgb(22,0,0); }
 .emotes-emoticons-emojis { width: 100%; overflow-x: scroll; } 
 #emoji-preview-osx,#emoji-preview-win10h {display: inline-block; content: ' ';  width: 2107.66px; } 
 #emoji-preview-win10h { background-image: url("images/emoji-windows-10-home-emoji-char-lookup.jpg"); height: 500px; width: 2093.66px; } 
