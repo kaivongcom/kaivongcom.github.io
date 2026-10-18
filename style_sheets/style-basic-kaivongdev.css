@@ -1,6 +1,5 @@
 /*
 # kaivongdev stylesheet basic cascading looks
-- https://kaivong.dev
 - https://kaivong.com
 - https://kaivongcom.github.io
 */
@@ -26,7 +25,7 @@ h1 a { color: #0433FF; }
 .image-preview .large-look { font-size: 18px;  }
 .image-preview {  }
 .lets-go-then { background: #d783ff; color: #0433FF ; }
-.lets-go-then h1 { margin-top: 0; margin-bottom: 0; line-height: 0.8; padding: 0 0 18px; }
+.lets-go-then h1 { margin-top: 0; margin-bottom: 0; line-height: 0.8; padding: 0; }
 .lets-go-then p  { margin-top: 0; }
 h1 a { text-decoration: none; } 
 .lets-go-then .highlite2 { font-size: xx-large; font-size: 136pt; }
