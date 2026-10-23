@@ -5,8 +5,8 @@
 */
 #kinda-about-this { line-height: 1.3; } 
 #kinda-about-this,
-.lets-go-then p { padding: 0 14px; display: inline-block; }
-body { line-height: 1.3; vertical-align: bottom; border-top: 22px solid rgb(22,0,0); }
+.lets-go-then p { padding: 0 30px; display: inline-block; }
+body { line-height: 1.3; vertical-align: bottom; border-top: 22px solid rgb(22,0,0); margin: 0; }
 .emotes-emoticons-emojis { width: 100%; overflow-x: scroll; } 
 #emoji-preview-osx,#emoji-preview-win10h {display: inline-block; content: ' ';  width: 2107.66px; } 
 #emoji-preview-win10h { background-image: url("/images/emoji-windows-10-home-emoji-char-lookup.jpg"); height: 500px; width: 2093.66px; } 
@@ -15,23 +15,23 @@ body { line-height: 1.3; vertical-align: bottom; border-top: 22px solid rgb(22,0
 #emoji-preview-osx:hover { background-position-y: 0px; cursor: pointer; }
 #emoji-preview-osx { overflow-x: scroll; } 
 #emoji-preview-win10h:hover {background-position-y: 520px; cursor: pointer; }
-h1,h2 { font-family: arial, sans-serif; text-transform: uppercase; color: #333333; font-weight: 300; }
+h1,h2, h3 { font-family: arial, sans-serif; text-transform: uppercase; color: #333333; font-weight: 300; }
 h1 a { color: #0433FF; }
 #hold-bg-color1 { background-color: #f1f1f1 }
 .hidden { display: none; }
-.large-look { font-size: xx-large; font-size: 100pt; font-family: arial,sans-serif; color: #d2d2d2;  }
+.large-look { font-size: 100pt; font-family: arial,sans-serif; color: #d2d2d2;  }
 .large-look span,
-.large-look input{ font-size: xx-large; font-size: 136pt; } 
+.large-look input{ font-size: 136pt; } 
 .large-look input{ width: 220px; outline: 0; border: 13px solid #eee; color: #c1c1c1; }
 .large-look span .small-txt { font-size: smaller; font-size: 18px; display: inline-block; color: #666;  }
 .image-preview .large-look span, 
 .image-preview .large-look { font-size: 18px;  }
 .image-preview {  }
-.lets-go-then { background: #d783ff; color: #0433FF ; }
-.lets-go-then h1 { margin-top: 0; margin-bottom: 0; line-height: 0.8; padding: 0; }
-.lets-go-then p  { margin-top: 0; }
+.lets-go-then { background: #d783ff; color: #0433FF; padding: 0; border-bottom: 4px solid #eee; }
+.lets-go-then h1 { margin-top: 0; margin-bottom: 0; line-height: 0.8; padding: 0; text-overflow: ellipsis; }
+.lets-go-then p  { margin: 0 0 8px; }
 h1 a { text-decoration: none; } 
-.lets-go-then .highlite2 { font-size: xx-large; font-size: 136pt; }
+.lets-go-then .highlite2 { font-size: 136pt; margin-left: 20px; display: inline-block; }
 .emotes-emoticons-emojis { line-height: 0; }
 .javascript-emoji- { vertical-align: bottom; line-height: 1.425; }
 .no-js-placeholder,
@@ -40,7 +40,6 @@ h1 a { text-decoration: none; }
 .enabled-javascript .javascript-emoji- { display: inline-block; }
 .large-look span.eggplant-emoji,
 .large-look span.cookies { font-size: small; display: inline-block; vertical-align: text-top; }
-.large-look span.eggplant-emoji { font-size: xxx-large; }
 .large-look span.cookies span { font-size: small; }
 code { color: #bbb; } 
 @media (min-width:1978px) {      
@@ -59,7 +58,20 @@ code { color: #bbb; }
 }    
 html { zoom: 100%; }
 p { font-family: Courier Noteworthy; 
-   font-size: 120%; 
-   line-height: 1.5;
-   padding: 0 14px;
+   font-size: 140%; 
+   line-height: 1.25;
+   padding: 0 32px;
+   margin: 0 0 30px;
   }
+h2{
+    border-left: 6px solid #d783ff;
+    padding-left: 25px;
+    margin-top: 40px;
+}
+h2 strong { 
+    font-weight: 900;
+}
+h3 {
+    margin: 0 0 0 32px;
+    font-weight: 900;
+}
