@@ -94,4 +94,8 @@ h3 {
 .inhibator-zone-generators-lit {
     padding: 20px 0 20px;
 }
-
+.hey-m:hover { cusor: pointer; }
+.hey-m { display: inline-block; background-color: #F3DFFD; min-width: 440px;}
+.hey-m .hey-h { visibility: hidden; } 
+.hey-m:hover .hey-v { visibility: hidden; }
+.hey-m:hover .hey-h { visibility: visible; }
