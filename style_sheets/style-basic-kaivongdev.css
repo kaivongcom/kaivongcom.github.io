@@ -99,3 +99,5 @@ h3 {
 .hey-m .hey-h { visibility: hidden; } 
 .hey-m:hover .hey-v { visibility: hidden; }
 .hey-m:hover .hey-h { visibility: visible; }
+.slate-looks { background-color: #B6B7BD; margin: 0; padding: 20px 0px 6px 6px; 
+border-right: 20px solid #B6B7BD; border-left: 15px solid #B6B7BD; color: #fff; }
