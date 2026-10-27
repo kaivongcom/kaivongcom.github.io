@@ -96,8 +96,8 @@ h3 {
 }
 .hey-m:hover { cusor: pointer; }
 .hey-m { display: inline-block; background-color: #F3DFFD; min-width: 440px;}
-.hey-m .hey-h { visibility: hidden; } 
-.hey-m:hover .hey-v { visibility: hidden; }
-.hey-m:hover .hey-h { visibility: visible; }
+.hey-m .hey-h { color: #D5D5D5; } 
+.hey-m:hover .hey-v { color: #D5D5D5; }
+.hey-m:hover .hey-h { color: #0433FF; }
 .slate-looks { background-color: #B6B7BD; margin: 0; padding: 20px 0px 6px 6px; 
 border-right: 20px solid #B6B7BD; border-left: 15px solid #B6B7BD; color: #fff; }
