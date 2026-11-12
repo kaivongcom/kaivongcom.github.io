@@ -3,21 +3,14 @@
 - https://kaivong.com
 - https://kaivongcom.github.io
 */
-<<<<<<< HEAD
 .wip-para { background-color: #D0E0E3; color: #A2C4C9; }
-=======
->>>>>>> 5816c32 (edit for notes --text edits)
 .unicode.container-block .text-notes { font-size: 50%; }
 .unicode.container-block li span { 
   color: #EE5FA7;
   font-size: 600%;
 }
 .unicode.container-block,
-<<<<<<< HEAD
 .unicode.unicode--16-0-0 { padding: 0 10px 0; list-style-position: inside; list-style: none; }
-=======
-.unicode.unicode--16-0-0 { padding: 0 10px 0; list-style-position: inside; }
->>>>>>> 5816c32 (edit for notes --text edits)
 .unicode.unicode--16-0-0 li { font-family: arial; margin-left: 10px; padding-left: 10px; }
 #kinda-about-this { line-height: 1.3; } 
 #kinda-about-this,
