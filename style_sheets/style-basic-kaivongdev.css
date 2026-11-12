@@ -3,20 +3,23 @@
 - https://kaivong.com
 - https://kaivongcom.github.io
 */
-.wip-para { background-color: #D0E0E3; color: #A2C4C9; }
-.unicode.container-block,
-.unicode.unicode--16-0-0 { padding: 0 10px 0; list-style-position: inside; list-style: none; }
+.wip-para { background-color: #D0E0E3; color: #A2C4C9; margin: 0; }
+.unicode { background-color: #EE5FA7; color: #444; overflow: hidden; }  
+.unicode,
+.unicode.unicode--16-0-0 { padding: 0 10px 0; 
+    list-style-position: inside; list-style: none; }
 .unicode.unicode--16-0-0 li { font-family: arial; margin-left: 10px; padding-left: 10px; }
-.unicode.unicode--16-0-0 li.item-wip { font-size: 5%; }
-.unicode.container-block .text-notes { font-size: 50%; }
-.unicode.container-block li span { 
-  color: #EE5FA7;
-  font-size: 600%;
+.unicode .text-notes { font-size: 50%; }
+.unicode li span { 
+  font-size: 600%; color: #FFF2CC;
+  width:2160px; display: block;
 }
+.unicode li a { color: #521A8B; }
+ a { color: #EE5FA7; }
 #kinda-about-this { line-height: 1.3; } 
 #kinda-about-this,
 .lets-go-then p { padding: 0 20px; display: inline-block; }
-body { line-height: 1.3; vertical-align: bottom; border-top: 22px solid rgb(22,0,0); margin: 0; }
+body { line-height: 1.3; vertical-align: bottom; border-top: 22px solid rgb(22,0,0); margin: 0; background-color: #444; color: #EEE;}
 .emotes-emoticons-emojis { width: 100%; overflow-x: scroll; } 
 #emoji-preview-osx,#emoji-preview-win10h {display: inline-block; content: ' ';  width: 2107.66px; } 
 #emoji-preview-win10h { background-image: url("/images/emoji-windows-10-home-emoji-char-lookup.jpg"); height: 500px; width: 2093.66px; } 
@@ -93,7 +96,6 @@ h3 {
     margin-top: 30px;
     overflow: hidden;
 }
-
 .acceleration-zone-generators-lit {
     background-color: #4FFEB6;
 }
@@ -103,6 +105,7 @@ h3 {
 .acceleration-zone-generators-lit,
 .inhibator-zone-generators-lit {
     padding: 20px 0 20px;
+    color: #444;
 }
 .hey-m:hover { cusor: pointer; }
 .hey-m { display: inline-block; background-color: #F3DFFD; min-width: 440px;}
